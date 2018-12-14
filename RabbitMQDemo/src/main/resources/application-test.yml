@@ -1,0 +1,15 @@
+# 指定日志存储位置
+logging:
+  path: /tmp/rabbitMQDemo
+# spring配置
+spring:
+  rabbitmq:
+    addresses: 10.159.63.17
+    port: 5672
+    username: haieradmin
+    password: haieradmin
+    virtual-host: /
+    publisher-confirms: true
+    publisher-returns: true
+    template:
+      mandatory: true
