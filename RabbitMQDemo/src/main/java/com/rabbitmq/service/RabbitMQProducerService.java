@@ -49,11 +49,12 @@ public class RabbitMQProducerService implements RabbitTemplate.ConfirmCallback, 
                 JSON.toJSONString(message), replyCode, replyText, exchange, routingKey);
     }
 
-    public void sendMsg(String msg, String uniqueId, String exchangeName, String routingKey) {
+    public String sendMsg(String msg, String uniqueId, String exchangeName, String routingKey) {
         LOGGER.info("开始向exchange:{},发送消息msg:{},并携带routingKey:{},唯一标示uniqueId:{}",
                 exchangeName, msg, routingKey, uniqueId);
         CorrelationData correlationData = new CorrelationData(uniqueId);
         String response = rabbitTemplate.convertSendAndReceive(exchangeName, routingKey, msg, correlationData).toString();
         LOGGER.info("消费者响应response:{},唯一标示uniqueId:{}", response, uniqueId);
+        return response;
     }
 }
