@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/api/RabbitMQDemoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ESDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/ZookeeperDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/target/classes/com/rabbitmq/config/RabbitMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/target/classes/com/rabbitmq/config/RabbitMQConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOG_PATH_IS_UNDEFINED/catalina.log" beforeDir="false" afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/target/classes/com/rabbitmq/service/RabbitMQProducerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/target/classes/com/rabbitmq/service/RabbitMQProducerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/target/test-classes/com/rabbitmq/RabbitMQDemoAppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/target/test-classes/com/rabbitmq/RabbitMQDemoAppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/druidDemo/target/" />
     <ignored path="$PROJECT_DIR$/RabbitMQDemo/target/" />
+    <ignored path="$PROJECT_DIR$/ESDemo/target/" />
+    <ignored path="$PROJECT_DIR$/ZookeeperDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +59,30 @@
     <session id="709027807">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="34" />
+          <entry key="CLASS" value="11" />
+          <entry key="JAVA" value="51" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="10" />
-          <entry key="YAML" value="10" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="18" />
+          <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2869" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="XML" value="256" />
-          <entry key="YAML" value="227" />
+          <entry key="JAVA" value="3898" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="XML" value="324" />
+          <entry key="YAML" value="265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -77,21 +90,23 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="class" value="11" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="34" />
-          <entry key="xml" value="9" />
+          <entry key="java" value="51" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="16" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="10" />
+          <entry key="yml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="java" value="2869" />
-          <entry key="txt" value="28" />
-          <entry key="xml" value="256" />
-          <entry key="yml" value="227" />
+          <entry key="dummy" value="10" />
+          <entry key="java" value="3898" />
+          <entry key="txt" value="45" />
+          <entry key="xml" value="324" />
+          <entry key="yml" value="265" />
         </counts>
       </usages-collector>
     </session>
@@ -99,20 +114,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="332">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,22 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/test/java/com/rabbitmq/RabbitMQDemoAppTest.java">
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/api/RabbitMQDemoApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="309">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,10 +138,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java">
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,35 +150,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.21.RELEASE/spring-core-4.3.21.RELEASE.jar!/org/springframework/util/StringUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-              <folding>
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiImplicitParam.class">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/ZooDefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/ZooKeeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="1497" column="24" selection-start-line="1497" selection-start-column="24" selection-end-line="1497" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-local.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="564" column="11" selection-start-line="564" selection-start-column="11" selection-end-line="564" selection-end-column="11" />
+              <folding>
+                <element signature="e#20727#20728#0" expanded="true" />
+                <element signature="e#20771#20772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -217,7 +243,6 @@
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/RabbitMQDemoApp.java" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-local.yml" />
@@ -226,12 +251,23 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/RabbitMQConfig.java" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/api/RabbitMQDemoApi.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java" />
         <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/ZookeeperDemo.java" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" />
       </list>
     </option>
   </component>
@@ -264,11 +300,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="62" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="45" />
+    <option name="y" value="33" />
     <option name="width" value="1680" />
-    <option name="height" value="1012" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,7 +312,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,16 +364,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="RabbitMQDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,26 +376,6 @@
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="RabbitMQDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="RabbitMQDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -402,12 +409,88 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ZookeeperDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,14 +502,18 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544953493418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546870546004" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zookeeper" />
       <recent name="com.rabbitmq" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -445,7 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitMQDemoApp">
+  <component name="RunManager" selected="JUnit.ZookeeperDemoAppTest.zkDemo">
     <configuration name="RabbitMQDemoAppTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RabbitMQDemo" />
       <extension name="coverage">
@@ -457,6 +544,22 @@
       <option name="PACKAGE_NAME" value="com.rabbitmq" />
       <option name="MAIN_CLASS_NAME" value="com.rabbitmq.RabbitMQDemoAppTest" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperDemoAppTest.zkDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.zookeeper.ZookeeperDemoAppTest" />
+      <option name="METHOD_NAME" value="zkDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -475,12 +578,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZookeeperDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zookeeper.ZookeeperDemoApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.RabbitMQDemoAppTest.contextLoads" />
       <item itemvalue="Spring Boot.RabbitMQDemoApp" />
+      <item itemvalue="Spring Boot.ZookeeperDemoApp" />
+      <item itemvalue="JUnit.ZookeeperDemoAppTest.zkDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZookeeperDemoAppTest.zkDemo" />
+        <item itemvalue="Spring Boot.ZookeeperDemoApp" />
         <item itemvalue="Spring Boot.RabbitMQDemoApp" />
         <item itemvalue="JUnit.RabbitMQDemoAppTest.contextLoads" />
       </list>
@@ -503,8 +623,19 @@
       <workItem from="1542095440953" duration="1872000" />
       <workItem from="1544613031494" duration="462000" />
       <workItem from="1544690983984" duration="3583000" />
-      <workItem from="1544702426662" duration="18280000" />
+      <workItem from="1544702426662" duration="19521000" />
+      <workItem from="1545022762365" duration="861000" />
+      <workItem from="1545731173754" duration="1165000" />
+      <workItem from="1546863309077" duration="6658000" />
     </task>
+    <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
+      <created>1544953634440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544953634440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,15 +651,21 @@
     <history-entry file="RabbitMQDemoAppTest_contextLoads - 2018.12.14 at 17h 21m 15s.xml">
       <configuration name="RabbitMQDemoAppTest.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.07 at 22h 00m 20s.xml">
+      <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.07 at 22h 01m 40s.xml">
+      <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24550000" />
+    <option name="totallyTimeSpent" value="34475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="45" y="33" width="1680" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.25335777" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" weight="0.21855922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,9 +674,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3646813" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,7 +687,6 @@
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,9 +697,10 @@
       <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.25091577" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.1892552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.21855922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,9 +709,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32887402" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5820272" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24492234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,17 +722,17 @@
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32967034" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.25091577" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.25091577" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,126 +777,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/druidDemo/pom.xml" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="740" column="6" selection-start-line="740" selection-start-column="6" selection-end-line="740" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.11.RELEASE/spring-rabbit-1.7.11.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitManagementTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.11.RELEASE/spring-rabbit-1.7.11.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitManagementTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE.jar!/org/springframework/amqp/core/AmqpManagementOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE-sources.jar!/org/springframework/amqp/core/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE-sources.jar!/org/springframework/amqp/core/BindingBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="194" column="45" selection-start-line="194" selection-start-column="35" selection-end-line="194" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.BUILD-SNAPSHOT/spring-boot-autoconfigure-1.5.19.BUILD-20181207.151455-3.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="423" column="23" selection-start-line="423" selection-start-column="23" selection-end-line="423" selection-end-column="23" />
-          <folding>
-            <element signature="e#12555#12556#0" expanded="true" />
-            <element signature="e#12615#12616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/services.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -792,10 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-          <folding>
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="514" column="49" selection-start-line="514" selection-start-column="49" selection-end-line="514" selection-end-column="49" />
-          <folding>
-            <element signature="e#12384#12392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,38 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/RabbitMQDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,9 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,65 +916,1270 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ESDemo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/RabbitMQDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/test/java/com/rabbitmq/RabbitMQDemoAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/api/RabbitMQDemoApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="19" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.BUILD-SNAPSHOT/spring-web-4.3.22.BUILD-20181212.120909-5.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/ZookeeperDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="1897.4797554477523" y="1239.0">com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT</node>
+            <node x="1626.9797554477523" y="1140.0">org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="1468.763239327682" y="307.0">org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="1513.9797554477523" y="1021.0">org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="1518.889176857515" y="902.0">org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17</node>
+            <node x="1726.9797554477523" y="1021.0">org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
+            <node x="1808.9797554477523" y="1021.0">org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
+            <node x="1642.9797554477523" y="1021.0">org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="3995.7922554477523" y="1140.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="4155.229755447752" y="1021.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="3466.920484584586" y="813.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="3369.7297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="4102.375" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="4344.979755447752" y="813.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="4385.479755447752" y="734.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="4107.479755447752" y="486.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="3990.4797554477523" y="486.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="4237.479755447752" y="486.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="4541.0" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="3708.889176857515" y="1021.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="3861.4797554477523" y="813.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37</node>
+            <node x="3849.4797554477523" y="734.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37/org.apache.tomcat:tomcat-annotations-api:jar:8.5.37</node>
+            <node x="3588.7297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.37</node>
+            <node x="3788.2297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.37</node>
+            <node x="3153.5132393276817" y="1021.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
+            <node x="3101.7297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="2964.7297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="3369.5549059943487" y="1021.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3</node>
+            <node x="2000.888239327682" y="813.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="3237.7297554477523" y="902.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.8.11</node>
+            <node x="4622.0" y="486.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="4564.979755447752" y="208.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="4564.329755447752" y="119.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="3896.8715726610153" y="307.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="4793.479755447752" y="575.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="4685.979755447752" y="208.0">org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-expression:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="3309.6255887810858" y="1140.0">com.alibaba:fastjson:jar:1.2.9</node>
+            <node x="862.1011840191809" y="1140.0">io.springfox:springfox-swagger2:jar:2.8.0</node>
+            <node x="1238.4797554477523" y="813.0">io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-annotations:jar:1.5.14</node>
+            <node x="1345.9797554477523" y="902.0">io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14</node>
+            <node x="740.763239327682" y="813.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0</node>
+            <node x="595.7632393276815" y="734.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0</node>
+            <node x="547.2" y="575.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0/net.bytebuddy:byte-buddy:jar:1.7.9</node>
+            <node x="814.263239327682" y="902.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0</node>
+            <node x="1044.013239327682" y="1021.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0</node>
+            <node x="440.464532203634" y="902.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0</node>
+            <node x="386.70000000000005" y="813.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="419.20000000000005" y="734.0">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="365.125" y="575.0">io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0</node>
+            <node x="889.0106054289436" y="575.0">io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="1008.013239327682" y="486.0">io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="1002.0106054289436" y="575.0">io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="245.5" y="1021.0">io.springfox:springfox-swagger2:jar:2.8.0/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="59.5" y="1021.0">io.springfox:springfox-swagger-ui:jar:2.8.0</node>
+            <node x="4199.792255447752" y="1140.0">commons-fileupload:commons-fileupload:jar:1.3.3</node>
+            <node x="1909.4797554477523" y="1140.0">commons-io:commons-io:jar:2.6</node>
+            <node x="0.0" y="1140.0">org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="2288.1047554477523" y="1140.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="2662.2632393276817" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="2904.5132393276817" y="1021.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6</node>
+            <node x="2358.139176857515" y="1021.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="2383.7846614421005" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="2365.7846614421005" y="813.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="2404.7846614421005" y="734.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="1953.7846614421007" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/junit:junit:jar:4.12</node>
+            <node x="2579.7846614421005" y="1021.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="2179.5346614421005" y="1021.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="2163.7846614421005" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="2216.639176857515" y="813.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="2502.7846614421005" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="2040.2846614421007" y="1021.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="2032.7846614421007" y="902.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="4448.434072661015" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5</node>
+            <node x="1885.9797554477523" y="119.0">org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-test:jar:4.3.22.BUILD-20181212.120909-5</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-expression:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="46.5" y="-14.5" />
+              <point x="4005.3715726610153" y="287.0" />
+              <point x="4721.979755447752" y="287.0" />
+              <point x="-36.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-58.875" y="-14.5" />
+              <point x="881.7261840191809" y="1110.0" />
+              <point x="351.0" y="1110.0" />
+              <point x="351.0" y="386.0" />
+              <point x="1471.6918107562535" y="386.0" />
+              <point x="-38.07142857142844" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16">
+              <point x="19.200000000000045" y="-14.5" />
+              <point x="1694.1797554477523" y="1110.0" />
+              <point x="1757.9797554477523" y="1110.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37/org.apache.tomcat:tomcat-annotations-api:jar:8.5.37">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0">
+              <point x="-32.708333333333485" y="-14.5" />
+              <point x="907.8928506858474" y="1090.0" />
+              <point x="523.964532203634" y="1090.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11">
+              <point x="76.875" y="-14.5" />
+              <point x="4281.75" y="882.0" />
+              <point x="4408.479755447752" y="882.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="2569.2846614421005" y="882.0" />
+              <point x="2323.389176857515" y="882.0" />
+              <point x="45.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final" target="io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4">
+              <point x="-49.666666666666515" y="-14.5" />
+              <point x="3178.3465726610157" y="991.0" />
+              <point x="2954.2297554477523" y="991.0" />
+              <point x="2954.2297554477523" y="624.0" />
+              <point x="972.7106054289434" y="624.0" />
+              <point x="37.19999999999982" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="71.95833333333348" y="-14.5" />
+              <point x="1012.5595173525144" y="1120.0" />
+              <point x="1501.4797554477523" y="1120.0" />
+              <point x="1501.4797554477523" y="535.0" />
+              <point x="1141.2132393276818" y="535.0" />
+              <point x="59.19999999999982" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="46.0" y="-14.5" />
+              <point x="4133.792255447752" y="1110.0" />
+              <point x="4647.5" y="1110.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="25.0" y="-14.5" />
+              <point x="4639.979755447752" y="188.0" />
+              <point x="4702.529755447752" y="188.0" />
+              <point x="4702.529755447752" y="79.0" />
+              <point x="4516.034072661016" y="79.0" />
+              <point x="15.599999999999909" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="31.75" y="-14.5" />
+              <point x="4888.729755447752" y="555.0" />
+              <point x="4873.479755447752" y="555.0" />
+              <point x="4873.479755447752" y="168.0" />
+              <point x="4666.9297554477525" y="168.0" />
+              <point x="45.59999999999991" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="58.875" y="-14.5" />
+              <point x="999.4761840191809" y="1110.0" />
+              <point x="1490.4797554477523" y="1110.0" />
+              <point x="1490.4797554477523" y="714.0" />
+              <point x="1157.7606054289436" y="714.0" />
+              <point x="66.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-38.25" y="-14.5" />
+              <point x="4634.75" y="366.0" />
+              <point x="4005.3715726610153" y="366.0" />
+              <point x="46.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="0.0" y="-14.5" />
+              <point x="3469.2297554477523" y="882.0" />
+              <point x="3519.920484584586" y="882.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="66.54545454545456" y="-14.5" />
+              <point x="2446.1502099932068" y="1110.0" />
+              <point x="2696.2846614421005" y="1110.0" />
+              <point x="-34.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0">
+              <point x="-19.625" y="-14.5" />
+              <point x="920.9761840191809" y="1080.0" />
+              <point x="792.763239327682" y="1080.0" />
+              <point x="792.763239327682" y="882.0" />
+              <point x="783.888239327682" y="882.0" />
+              <point x="-14.375" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0">
+              <point x="-31.199999999999818" y="-14.5" />
+              <point x="1116.8132393276821" y="971.0" />
+              <point x="1081.9538179179194" y="971.0" />
+              <point x="1081.9538179179194" y="644.0" />
+              <point x="427.22500000000036" y="644.0" />
+              <point x="27.600000000000364" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0">
+              <point x="-51.666666666666515" y="-14.5" />
+              <point x="606.096572661015" y="674.0" />
+              <point x="413.4250000000002" y="674.0" />
+              <point x="13.800000000000182" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0">
+              <point x="-71.5714285714289" y="-14.5" />
+              <point x="452.3931036322051" y="882.0" />
+              <point x="376.1999999999998" y="882.0" />
+              <point x="376.1999999999998" y="714.0" />
+              <point x="385.8249999999998" y="714.0" />
+              <point x="-13.800000000000182" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA">
+              <point x="24.25" y="-14.5" />
+              <point x="459.45000000000005" y="793.0" />
+              <point x="461.70000000000005" y="793.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="-57.25" y="-14.5" />
+              <point x="2961.7632393276817" y="1001.0" />
+              <point x="2764.2632393276817" y="1001.0" />
+              <point x="34.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-15.5" y="-14.5" />
+              <point x="3943.3715726610153" y="257.0" />
+              <point x="3933.3715726610153" y="257.0" />
+              <point x="3933.3715726610153" y="178.0" />
+              <point x="4598.529755447752" y="178.0" />
+              <point x="-22.800000000000182" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:log4j-over-slf4j:jar:1.7.25">
+              <point x="25.625" y="-14.5" />
+              <point x="4230.5" y="872.0" />
+              <point x="4300.979755447752" y="872.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
+              <point x="0.0" y="-14.5" />
+              <point x="3228.0132393276817" y="981.0" />
+              <point x="3023.2297554477523" y="981.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-83.18181818181813" y="-14.5" />
+              <point x="2296.4229372659343" y="1120.0" />
+              <point x="1875.4797554477523" y="1120.0" />
+              <point x="1875.4797554477523" y="69.0" />
+              <point x="4453.634072661015" y="69.0" />
+              <point x="-46.80000000000018" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4">
+              <point x="31.0" y="-14.5" />
+              <point x="688.7632393276815" y="694.0" />
+              <point x="916.9106054289437" y="694.0" />
+              <point x="-18.59999999999991" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0">
+              <point x="-34.75" y="-14.5" />
+              <point x="3404.3049059943487" y="961.0" />
+              <point x="3227.2297554477523" y="961.0" />
+              <point x="3227.2297554477523" y="862.0" />
+              <point x="2120.1382393276817" y="862.0" />
+              <point x="39.75" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-31.0" y="-14.5" />
+              <point x="626.7632393276815" y="664.0" />
+              <point x="536.7" y="664.0" />
+              <point x="536.7" y="406.0" />
+              <point x="1483.4060964705393" y="406.0" />
+              <point x="-26.357142857142662" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.37" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37">
+              <point x="0.0" y="-14.5" />
+              <point x="3885.2297554477523" y="882.0" />
+              <point x="3900.2297554477523" y="882.0" />
+              <point x="-38.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="-15.333333333333485" y="-14.5" />
+              <point x="4072.458922114419" y="1100.0" />
+              <point x="3809.889176857515" y="1100.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-12.75" y="-14.5" />
+              <point x="4660.25" y="356.0" />
+              <point x="4627.479755447752" y="356.0" />
+              <point x="12.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.assertj:assertj-core:jar:2.6.0">
+              <point x="49.909090909090935" y="-14.5" />
+              <point x="2429.5138463568433" y="1100.0" />
+              <point x="2632.7846614421005" y="1100.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11">
+              <point x="31.75" y="-14.5" />
+              <point x="4440.229755447752" y="793.0" />
+              <point x="4441.979755447752" y="793.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="26.5" y="-14.5" />
+              <point x="3546.420484584586" y="793.0" />
+              <point x="3550.420484584586" y="793.0" />
+              <point x="3550.420484584586" y="466.0" />
+              <point x="3943.3715726610153" y="466.0" />
+              <point x="-15.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-23.857142857143117" y="-14.5" />
+              <point x="500.1073893464909" y="882.0" />
+              <point x="514.7" y="882.0" />
+              <point x="514.7" y="396.0" />
+              <point x="1477.5489536133962" y="396.0" />
+              <point x="-32.21428571428578" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.9">
+              <point x="29.555555555555657" y="-14.5" />
+              <point x="1993.535311003308" y="1199.0" />
+              <point x="3350.6255887810858" y="1199.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.5">
+              <point x="-59.11111111111131" y="-14.5" />
+              <point x="1904.868644336641" y="1219.0" />
+              <point x="66.0" y="1219.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-52.916666666666515" y="-14.5" />
+              <point x="4804.063088781086" y="555.0" />
+              <point x="4418.979755447752" y="555.0" />
+              <point x="4418.979755447752" y="376.0" />
+              <point x="3974.3715726610153" y="376.0" />
+              <point x="15.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-46.5" y="-14.5" />
+              <point x="3912.3715726610153" y="257.0" />
+              <point x="3922.3715726610153" y="257.0" />
+              <point x="3922.3715726610153" y="99.0" />
+              <point x="4484.834072661015" y="99.0" />
+              <point x="-15.599999999999909" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="51.666666666666515" y="-14.5" />
+              <point x="709.429905994348" y="704.0" />
+              <point x="1024.2606054289436" y="704.0" />
+              <point x="-66.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.skyscreamer:jsonassert:jar:1.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger-ui:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0">
+              <point x="0.0" y="-14.5" />
+              <point x="142.5" y="1001.0" />
+              <point x="468.2978655369675" y="1001.0" />
+              <point x="-55.666666666666515" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="-61.200000000000045" y="-14.5" />
+              <point x="4170.529755447752" y="981.0" />
+              <point x="3518.9797554477523" y="981.0" />
+              <point x="49.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="12.75" y="-14.5" />
+              <point x="4685.75" y="466.0" />
+              <point x="4675.479755447752" y="466.0" />
+              <point x="4675.479755447752" y="178.0" />
+              <point x="4644.129755447752" y="178.0" />
+              <point x="22.800000000000182" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-expression:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="10.583333333333485" y="-14.5" />
+              <point x="4867.563088781086" y="555.0" />
+              <point x="4862.479755447752" y="555.0" />
+              <point x="4862.479755447752" y="267.0" />
+              <point x="4793.979755447752" y="267.0" />
+              <point x="36.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0">
+              <point x="0.0" y="-14.5" />
+              <point x="798.263239327682" y="793.0" />
+              <point x="626.7632393276815" y="793.0" />
+              <point x="-31.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-23.0" y="-14.5" />
+              <point x="2381.139176857515" y="1001.0" />
+              <point x="2355.2846614421005" y="1001.0" />
+              <point x="2355.2846614421005" y="426.0" />
+              <point x="1524.4060964705393" y="426.0" />
+              <point x="14.642857142857338" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-annotations:jar:1.5.14">
+              <point x="72.80000000000018" y="-14.5" />
+              <point x="1220.8132393276821" y="991.0" />
+              <point x="1272.2750000000003" y="991.0" />
+              <point x="1272.2750000000003" y="882.0" />
+              <point x="1265.8130887810858" y="882.0" />
+              <point x="-54.666666666666515" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-test:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-66.5454545454545" y="-14.5" />
+              <point x="2313.0593009022978" y="1110.0" />
+              <point x="1936.4797554477523" y="1110.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="83.18181818181819" y="-14.5" />
+              <point x="2462.7865736295703" y="1120.0" />
+              <point x="3019.0132393276817" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="-4.547473508864641E-13" y="-14.5" />
+              <point x="523.9645322036336" y="882.0" />
+              <point x="525.7" y="882.0" />
+              <point x="525.7" y="535.0" />
+              <point x="1022.8132393276821" y="535.0" />
+              <point x="-59.19999999999982" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="-14.777777777777828" y="-14.5" />
+              <point x="1949.2019776699744" y="1189.0" />
+              <point x="1674.9797554477523" y="1189.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-25.0" y="-14.5" />
+              <point x="4589.979755447752" y="188.0" />
+              <point x="4621.329755447752" y="188.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-annotations:jar:1.5.14">
+              <point x="32.708333333333485" y="-14.5" />
+              <point x="973.3095173525144" y="1090.0" />
+              <point x="1320.1797554477523" y="1090.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4">
+              <point x="23.857142857142208" y="-14.5" />
+              <point x="547.8216750607762" y="862.0" />
+              <point x="585.2632393276815" y="862.0" />
+              <point x="585.2632393276815" y="684.0" />
+              <point x="898.3106054289437" y="684.0" />
+              <point x="-37.19999999999982" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3">
+              <point x="-46.0" y="-14.5" />
+              <point x="4041.7922554477523" y="1110.0" />
+              <point x="3439.0549059943487" y="1110.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.8.0">
+              <point x="-29.555555555555657" y="-14.5" />
+              <point x="1934.4241998921966" y="1199.0" />
+              <point x="940.6011840191809" y="1199.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.37">
+              <point x="67.33333333333348" y="-14.5" />
+              <point x="3877.2225101908484" y="1001.0" />
+              <point x="3992.7297554477523" y="1001.0" />
+              <point x="3992.7297554477523" y="882.0" />
+              <point x="3977.7297554477523" y="882.0" />
+              <point x="38.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-test:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="0.0" y="-14.5" />
+              <point x="1936.4797554477523" y="79.0" />
+              <point x="4464.034072661016" y="79.0" />
+              <point x="-36.40000000000009" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="0.0" y="-14.5" />
+              <point x="4231.729755447752" y="961.0" />
+              <point x="4204.875" y="961.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="47.71428571428487" y="-14.5" />
+              <point x="571.6788179179189" y="872.0" />
+              <point x="730.2632393276817" y="872.0" />
+              <point x="730.2632393276817" y="714.0" />
+              <point x="1068.7606054289436" y="714.0" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:log4j-over-slf4j:jar:1.7.25" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="4300.979755447752" y="396.0" />
+              <point x="1541.9775250419677" y="396.0" />
+              <point x="32.21428571428578" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94">
+              <point x="38.40000000000009" y="-14.5" />
+              <point x="1713.3797554477524" y="1120.0" />
+              <point x="1836.9797554477523" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0">
+              <point x="71.57142857142799" y="-14.5" />
+              <point x="595.535960775062" y="882.0" />
+              <point x="755.138239327682" y="882.0" />
+              <point x="-43.125" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0">
+              <point x="-45.791666666666515" y="-14.5" />
+              <point x="894.8095173525144" y="1100.0" />
+              <point x="365.1999999999998" y="1100.0" />
+              <point x="365.1999999999998" y="704.0" />
+              <point x="372.02499999999964" y="704.0" />
+              <point x="-27.600000000000364" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-10.583333333333485" y="-14.5" />
+              <point x="4846.396422114419" y="555.0" />
+              <point x="4851.479755447752" y="555.0" />
+              <point x="4851.479755447752" y="277.0" />
+              <point x="4652.479755447752" y="277.0" />
+              <point x="37.5" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="44.333333333333485" y="-14.5" />
+              <point x="2008.3130887810858" y="1209.0" />
+              <point x="4087.7922554477523" y="1209.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/junit:junit:jar:4.12">
+              <point x="-49.90909090909088" y="-14.5" />
+              <point x="2329.6956645386613" y="1100.0" />
+              <point x="1998.0346614421007" y="1100.0" />
+              <point x="14.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="52.916666666666515" y="-14.5" />
+              <point x="4909.896422114419" y="545.0" />
+              <point x="4884.479755447752" y="545.0" />
+              <point x="4884.479755447752" y="49.0" />
+              <point x="4547.2340726610155" y="49.0" />
+              <point x="46.80000000000018" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jul-to-slf4j:jar:1.7.25">
+              <point x="-76.875" y="-14.5" />
+              <point x="4128.0" y="882.0" />
+              <point x="4038.9797554477523" y="882.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.mapstruct:mapstruct:jar:1.2.0.Final">
+              <point x="-71.95833333333348" y="-14.5" />
+              <point x="868.6428506858474" y="1120.0" />
+              <point x="293.0" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14" target="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-annotations:jar:1.5.14">
+              <point x="-44.666666666666515" y="-14.5" />
+              <point x="1368.3130887810858" y="882.0" />
+              <point x="1375.1464221144188" y="882.0" />
+              <point x="54.666666666666515" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-31.75" y="-14.5" />
+              <point x="4825.229755447752" y="545.0" />
+              <point x="4698.5" y="545.0" />
+              <point x="25.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0">
+              <point x="-36.0" y="-14.5" />
+              <point x="850.263239327682" y="882.0" />
+              <point x="841.388239327682" y="882.0" />
+              <point x="43.125" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.8.0">
+              <point x="-44.333333333333485" y="-14.5" />
+              <point x="1919.6464221144188" y="1209.0" />
+              <point x="142.5" y="1209.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="-25.625" y="-14.5" />
+              <point x="4179.25" y="882.0" />
+              <point x="4162.479755447752" y="882.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="27.0" y="-14.5" />
+              <point x="1594.9797554477523" y="1001.0" />
+              <point x="1591.389176857515" y="1001.0" />
+              <point x="1591.389176857515" y="446.0" />
+              <point x="1512.6918107562535" y="446.0" />
+              <point x="2.9285714285715585" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0">
+              <point x="44.666666666666515" y="-14.5" />
+              <point x="1457.6464221144188" y="872.0" />
+              <point x="2040.638239327682" y="872.0" />
+              <point x="-39.75" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17">
+              <point x="-27.0" y="-14.5" />
+              <point x="1540.9797554477523" y="1001.0" />
+              <point x="1549.889176857515" y="1001.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.3">
+              <point x="59.11111111111131" y="-14.5" />
+              <point x="2023.0908665588636" y="1219.0" />
+              <point x="4278.792255447752" y="1219.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jcl-over-slf4j:jar:1.7.25" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="4162.479755447752" y="406.0" />
+              <point x="1536.1203821848246" y="406.0" />
+              <point x="26.357142857142662" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-26.5" y="-14.5" />
+              <point x="3493.420484584586" y="89.0" />
+              <point x="4474.434072661015" y="89.0" />
+              <point x="-26.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/org.slf4j:jul-to-slf4j:jar:1.7.25" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="4038.9797554477523" y="416.0" />
+              <point x="1530.263239327682" y="416.0" />
+              <point x="20.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11">
+              <point x="-47.714285714286234" y="-14.5" />
+              <point x="476.2502464893478" y="872.0" />
+              <point x="435.20000000000005" y="872.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.37">
+              <point x="-67.33333333333348" y="-14.5" />
+              <point x="3742.5558435241815" y="1001.0" />
+              <point x="3657.7297554477523" y="1001.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="57.25" y="-14.5" />
+              <point x="3076.2632393276817" y="1001.0" />
+              <point x="3419.4797554477523" y="1001.0" />
+              <point x="-49.75" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14">
+              <point x="45.791666666666515" y="-14.5" />
+              <point x="986.3928506858474" y="1100.0" />
+              <point x="1446.4797554477523" y="1100.0" />
+              <point x="33.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="28.5" y="-14.5" />
+              <point x="2264.2846614421005" y="882.0" />
+              <point x="2262.389176857515" y="882.0" />
+              <point x="-15.25" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0">
+              <point x="36.0" y="-14.5" />
+              <point x="922.263239327682" y="783.0" />
+              <point x="688.7632393276815" y="783.0" />
+              <point x="31.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-expression:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="0.0" y="-14.5" />
+              <point x="4757.979755447752" y="69.0" />
+              <point x="4526.434072661015" y="69.0" />
+              <point x="26.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1">
+              <point x="23.0" y="-14.5" />
+              <point x="2427.139176857515" y="1001.0" />
+              <point x="2433.2846614421005" y="1001.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="2379.6047554477523" y="1070.0" />
+              <point x="2304.0346614421005" y="1070.0" />
+              <point x="2304.0346614421005" y="882.0" />
+              <point x="2292.889176857515" y="882.0" />
+              <point x="15.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19">
+              <point x="-16.636363636363626" y="-14.5" />
+              <point x="2362.9683918113888" y="1080.0" />
+              <point x="2236.5346614421005" y="1080.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="0.0" y="-14.5" />
+              <point x="2730.2632393276817" y="872.0" />
+              <point x="3484.587151251253" y="872.0" />
+              <point x="-35.33333333333326" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="0.0" y="-14.5" />
+              <point x="4621.329755447752" y="89.0" />
+              <point x="4505.634072661015" y="89.0" />
+              <point x="5.199999999999818" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.7.25">
+              <point x="-38.40000000000009" y="-14.5" />
+              <point x="1636.5797554477522" y="1120.0" />
+              <point x="1567.9797554477523" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/junit:junit:jar:4.12">
+              <point x="0.0" y="-14.5" />
+              <point x="1836.9797554477523" y="1001.0" />
+              <point x="1968.5346614421007" y="1001.0" />
+              <point x="-14.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="15.333333333333485" y="-14.5" />
+              <point x="4103.125588781086" y="1100.0" />
+              <point x="4231.729755447752" y="1100.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11" target="io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0">
+              <point x="-24.25" y="-14.5" />
+              <point x="410.95000000000005" y="793.0" />
+              <point x="408.70000000000005" y="793.0" />
+              <point x="408.70000000000005" y="714.0" />
+              <point x="399.625" y="714.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="10.400000000000091" y="-14.5" />
+              <point x="1158.413239327682" y="1001.0" />
+              <point x="1146.513239327682" y="1001.0" />
+              <point x="1146.513239327682" y="714.0" />
+              <point x="1113.2606054289436" y="714.0" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.yaml:snakeyaml:jar:1.17">
+              <point x="61.200000000000045" y="-14.5" />
+              <point x="4292.9297554477525" y="1001.0" />
+              <point x="4589.0" y="1001.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="30.59999999999991" y="-14.5" />
+              <point x="4262.329755447752" y="991.0" />
+              <point x="4508.979755447752" y="991.0" />
+              <point x="4508.979755447752" y="99.0" />
+              <point x="4495.2340726610155" y="99.0" />
+              <point x="-5.199999999999818" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="31.199999999999818" y="-14.5" />
+              <point x="1179.2132393276818" y="971.0" />
+              <point x="1216.9583333333335" y="971.0" />
+              <point x="1216.9583333333335" y="545.0" />
+              <point x="1111.6132393276823" y="545.0" />
+              <point x="29.600000000000364" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final">
+              <point x="-76.66666666666652" y="-14.5" />
+              <point x="4011.1255887810858" y="1120.0" />
+              <point x="3228.0132393276817" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.6">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.19.BUILD-20181220.104456-6/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.37">
+              <point x="0.0" y="-14.5" />
+              <point x="3809.889176857515" y="991.0" />
+              <point x="3885.2297554477523" y="991.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0/net.bytebuddy:byte-buddy:jar:1.7.9">
+              <point x="-10.333333333333485" y="-14.5" />
+              <point x="647.429905994348" y="654.0" />
+              <point x="599.2" y="654.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="18.5" y="-14.5" />
+              <point x="1100.513239327682" y="416.0" />
+              <point x="1489.263239327682" y="416.0" />
+              <point x="-20.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="10.333333333333485" y="-14.5" />
+              <point x="668.096572661015" y="674.0" />
+              <point x="661.7" y="674.0" />
+              <point x="661.7" y="545.0" />
+              <point x="1052.4132393276816" y="545.0" />
+              <point x="-29.600000000000364" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter-logging:jar:1.5.19.BUILD-20181220.104456-6/ch.qos.logback:logback-classic:jar:1.1.11" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-31.75" y="-14.5" />
+              <point x="4376.729755447752" y="793.0" />
+              <point x="4374.979755447752" y="793.0" />
+              <point x="4374.979755447752" y="386.0" />
+              <point x="1547.8346678991104" y="386.0" />
+              <point x="38.07142857142844" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="52.0" y="-14.5" />
+              <point x="1200.013239327682" y="981.0" />
+              <point x="1227.9797554477523" y="981.0" />
+              <point x="1227.9797554477523" y="436.0" />
+              <point x="1500.9775250419677" y="436.0" />
+              <point x="-8.78571428571422" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="1983.2846614421007" y="882.0" />
+              <point x="2231.889176857515" y="882.0" />
+              <point x="-45.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-webmvc:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="76.66666666666652" y="-14.5" />
+              <point x="4164.458922114419" y="1120.0" />
+              <point x="4856.979755447752" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.skyscreamer:jsonassert:jar:1.4.0">
+              <point x="-33.27272727272725" y="-14.5" />
+              <point x="2346.332028175025" y="1090.0" />
+              <point x="2088.2846614421005" y="1090.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-18.5" y="-14.5" />
+              <point x="1063.513239327682" y="376.0" />
+              <point x="1050.513239327682" y="376.0" />
+              <point x="1050.513239327682" y="267.0" />
+              <point x="4577.479755447752" y="267.0" />
+              <point x="-37.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.8.11">
+              <point x="34.75" y="-14.5" />
+              <point x="3473.8049059943487" y="951.0" />
+              <point x="3293.7297554477523" y="951.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0">
+              <point x="-6.541666666666515" y="-14.5" />
+              <point x="934.0595173525144" y="1070.0" />
+              <point x="850.263239327682" y="1070.0" />
+              <point x="-36.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot-starter:jar:1.5.19.BUILD-20181220.104456-6/org.springframework.boot:spring-boot:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="-30.59999999999991" y="-14.5" />
+              <point x="4201.129755447752" y="971.0" />
+              <point x="3737.2297554477523" y="971.0" />
+              <point x="3737.2297554477523" y="882.0" />
+              <point x="3555.253817917919" y="882.0" />
+              <point x="35.33333333333326" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/com.jayway.jsonpath:json-path:jar:2.2.0">
+              <point x="16.636363636363626" y="-14.5" />
+              <point x="2396.241119084116" y="1120.0" />
+              <point x="2404.139176857515" y="1120.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4">
+              <point x="-10.400000000000091" y="-14.5" />
+              <point x="1137.6132393276819" y="961.0" />
+              <point x="1099.288239327682" y="961.0" />
+              <point x="1099.288239327682" y="634.0" />
+              <point x="954.1106054289435" y="634.0" />
+              <point x="18.59999999999991" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-core:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="38.25" y="-14.5" />
+              <point x="4711.25" y="466.0" />
+              <point x="4840.479755447752" y="466.0" />
+              <point x="4840.479755447752" y="59.0" />
+              <point x="4536.834072661015" y="59.0" />
+              <point x="36.40000000000009" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="33.27272727272725" y="-14.5" />
+              <point x="2412.8774827204797" y="1090.0" />
+              <point x="2569.2846614421005" y="1090.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.springboot.demo:ZookeeperDemo:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6">
+              <point x="14.777777777777828" y="-14.5" />
+              <point x="1978.75753322553" y="1189.0" />
+              <point x="2379.6047554477523" y="1189.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final">
+              <point x="49.666666666666515" y="-14.5" />
+              <point x="3277.6799059943487" y="971.0" />
+              <point x="3159.2297554477523" y="971.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.3.4">
+              <point x="6.541666666666515" y="-14.5" />
+              <point x="947.1428506858474" y="1070.0" />
+              <point x="968.763239327682" y="1070.0" />
+              <point x="968.763239327682" y="694.0" />
+              <point x="935.5106054289436" y="694.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="1412.9797554477523" y="446.0" />
+              <point x="1506.8346678991104" y="446.0" />
+              <point x="-2.9285714285715585" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-beans:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="-55.5" y="-14.5" />
+              <point x="1026.513239327682" y="376.0" />
+              <point x="1039.513239327682" y="376.0" />
+              <point x="1039.513239327682" y="168.0" />
+              <point x="4575.729755447752" y="168.0" />
+              <point x="-45.59999999999991" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14">
+              <point x="93.59999999999991" y="-14.5" />
+              <point x="1241.6132393276819" y="1001.0" />
+              <point x="1379.4797554477523" y="1001.0" />
+              <point x="-33.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="55.5" y="-14.5" />
+              <point x="1137.513239327682" y="456.0" />
+              <point x="3912.3715726610153" y="456.0" />
+              <point x="-46.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.5.19.BUILD-20181220.104456-6/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1">
+              <point x="-28.5" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0">
+              <point x="19.625" y="-14.5" />
+              <point x="960.2261840191809" y="1080.0" />
+              <point x="1148.013239327682" y="1080.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-19.200000000000045" y="-14.5" />
+              <point x="1655.7797554477522" y="1110.0" />
+              <point x="1632.4797554477523" y="1110.0" />
+              <point x="1632.4797554477523" y="436.0" />
+              <point x="1518.5489536133962" y="436.0" />
+              <point x="8.78571428571422" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0">
+              <point x="-52.0" y="-14.5" />
+              <point x="1096.013239327682" y="981.0" />
+              <point x="922.263239327682" y="981.0" />
+              <point x="36.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-context:jar:4.3.22.BUILD-20181212.120909-5" target="org.springframework.boot:spring-boot-starter-web:jar:1.5.19.BUILD-20181220.104456-6/org.springframework:spring-web:jar:4.3.22.BUILD-20181212.120909-5/org.springframework:spring-aop:jar:4.3.22.BUILD-20181212.120909-5">
+              <point x="15.5" y="-14.5" />
+              <point x="3974.3715726610153" y="277.0" />
+              <point x="4602.479755447752" y="277.0" />
+              <point x="-12.5" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="-44.5" y="-14.5" />
+              <point x="1046.5106054289436" y="555.0" />
+              <point x="1082.013239327682" y="555.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0">
+              <point x="-93.59999999999991" y="-14.5" />
+              <point x="1054.413239327682" y="1001.0" />
+              <point x="579.6311988703005" y="1001.0" />
+              <point x="55.666666666666515" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="44.5" y="-14.5" />
+              <point x="1135.5106054289436" y="555.0" />
+              <point x="1166.513239327682" y="555.0" />
+              <point x="1166.513239327682" y="426.0" />
+              <point x="1495.1203821848246" y="426.0" />
+              <point x="-14.642857142857338" y="14.5" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0" target="io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0">
+              <point x="-72.80000000000018" y="-14.5" />
+              <point x="1075.2132393276818" y="991.0" />
+              <point x="803.763239327682" y="991.0" />
+              <point x="803.763239327682" y="882.0" />
+              <point x="812.638239327682" y="882.0" />
+              <point x="14.375" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5752515747175858" x="771.806905574763" y="974.7544576930154" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        <state relative-caret-position="-31">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/test/java/com/rabbitmq/RabbitMQDemoAppTest.java">
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="271">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java">
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="332">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/api/RabbitMQDemoApi.java">
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-local.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="46">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/ZooKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1497" column="24" selection-start-line="1497" selection-start-column="24" selection-end-line="1497" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar!/org/apache/zookeeper/ZooDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="564" column="11" selection-start-line="564" selection-start-column="11" selection-end-line="564" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20727#20728#0" expanded="true" />
+            <element signature="e#20771#20772#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java">
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1000,9 +2189,83 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>RabbitMQDemo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ZookeeperDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

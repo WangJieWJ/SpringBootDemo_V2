@@ -1,0 +1,4 @@
+# 指定日志存储位置
+logging:
+  path: /tmp/zookeeperDemo
+
