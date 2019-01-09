@@ -7,3 +7,6 @@ server:
 spring:
   profiles:
     active: local
+
+logging:
+  config: classpath:RabbitMQ-logback.xml

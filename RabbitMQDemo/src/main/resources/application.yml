@@ -7,3 +7,7 @@ server:
 spring:
   profiles:
     active: local
+
+# 手动指定logback的配置文件的位置。避免logback.xml比yml先加载导致LOG_PATH文件路径找不到
+logging:
+  config: classpath:RabbitMQ-logback.xml
