@@ -43,7 +43,7 @@ public class ZookeeperDemoAppTest {
             // 监听所有被触发的事件
             @Override
             public void process(WatchedEvent event) {
-                LOGGER.info("EVENT,path:{},state:{},type:{},wrapper:{}", event.getPath(), event.getState(), event.getType(), event.getWrapper());
+                LOGGER.info("监听事件，EVENT,path:{},state:{},type:{},wrapper:{}", event.getPath(), event.getState(), event.getType(), event.getWrapper());
             }
         });
 
