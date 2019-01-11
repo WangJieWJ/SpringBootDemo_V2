@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ESDemo" />
+        <module name="KafkaDemo" />
         <module name="RabbitMQDemo" />
         <module name="ZookeeperDemo" />
       </profile>

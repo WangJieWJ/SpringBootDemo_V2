@@ -26,6 +26,7 @@
         <module>RabbitMQDemo</module>
         <module>ESDemo</module>
         <module>ZookeeperDemo</module>
+        <module>KafkaDemo</module>
     </modules>
 
     <repositories>
