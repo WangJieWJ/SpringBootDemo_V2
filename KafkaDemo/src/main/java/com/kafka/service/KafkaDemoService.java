@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
 
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -40,6 +41,18 @@ public class KafkaDemoService {
         messageData.setMsg(msg);
         messageData.setSendTime(new Date());
         return kafkaTemplate.send(topicName, partition, key, JSON.toJSONString(messageData));
+    }
+
+    public void producerBatchMsg(Integer msgNum) {
+        MessageData messageData = new MessageData();
+        String id;
+        for (int i = 0; i < msgNum; i++) {
+            id = UUID.randomUUID().toString();
+            messageData.setId(id);
+            messageData.setMsg("Kafka Msg");
+            messageData.setSendTime(new Date());
+            kafkaTemplate.send(KafkaConfig.BATCH_TOPIC_NAME, JSON.toJSONString(messageData));
+        }
     }
 
     @KafkaListener(topics = {KafkaConfig.TOPIC_1_NAME}, clientIdPrefix = "consumerDefaultGroupMsg")
@@ -77,6 +90,17 @@ public class KafkaDemoService {
                 KafkaConfig.GROUP_SECOND, record.topic(), record.key(), record.value(), record.offset(), record.partition(),
                 record.serializedKeySize(), record.serializedValueSize(),
                 record.timestamp(), record.timestampType());
+    }
+
+    @KafkaListener(id = "batch", topics = {KafkaConfig.BATCH_TOPIC_NAME}, clientIdPrefix = "batchConsumerMsg", containerFactory = "batchContainerFactory")
+    public void batchConsumerMsg(List<String> data) {
+        // 可能因为生产者导致的发送 问题
+        int batchSize = data.size();
+        String uniqueId = UUID.randomUUID().toString();
+        LOGGER.info("\nuniqueId:{},group:{}成功获取到批量数据，batchSize:{}", uniqueId, KafkaConfig.BATCH_TOPIC_NAME, batchSize);
+        for (int i = 0; i < batchSize; i++) {
+            LOGGER.info("uniqueId:{},value:{}", uniqueId, data.get(i));
+        }
     }
 
 }

@@ -63,4 +63,15 @@ public class KafkaDemoController implements KafkaDemoApi {
         }
         return resultData;
     }
+
+    @Override
+    @PostMapping(value = "/producerBatchMsg")
+    public JSONObject producerBatchMsg(Integer msgNum) {
+        JSONObject resultData = new JSONObject();
+
+        kafkaDemoService.producerBatchMsg(msgNum);
+
+        resultData.put("returnMsg", "消息发送成功！");
+        return resultData;
+    }
 }

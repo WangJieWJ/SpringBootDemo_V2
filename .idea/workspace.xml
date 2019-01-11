@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/pojo/MessageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQDemo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQDemo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="26" />
-          <entry key="JAVA" value="132" />
+          <entry key="JAVA" value="138" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="1" />
           <entry key="XML" value="26" />
@@ -80,8 +67,8 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6385" />
-          <entry key="PLAIN_TEXT" value="167" />
+          <entry key="JAVA" value="7523" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="XML" value="374" />
           <entry key="YAML" value="777" />
         </counts>
@@ -94,7 +81,7 @@
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="class" value="26" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="132" />
+          <entry key="java" value="138" />
           <entry key="log" value="2" />
           <entry key="pom" value="1" />
           <entry key="xml" value="24" />
@@ -105,8 +92,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="6385" />
-          <entry key="txt" value="157" />
+          <entry key="java" value="7523" />
+          <entry key="txt" value="180" />
           <entry key="xml" value="374" />
           <entry key="yml" value="777" />
         </counts>
@@ -116,22 +103,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+            <state relative-caret-position="919">
+              <caret line="109" column="54" lean-forward="true" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,28 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/annotation/KafkaListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-875">
-              <caret line="138" column="31" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="368">
+              <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,15 +127,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="447">
+              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="31" column="108" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -211,6 +187,9 @@
       <find>asdsad</find>
       <find>topic_2</find>
       <find>partitions assigned</find>
+      <find>BATCH_TOPIC</find>
+      <find>batch_topic成功获取到批量数据</find>
+      <find>成功获取到批量数据</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,13 +235,13 @@
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/pojo/MessageData.java" />
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" />
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/TopicDeclareConfig.java" />
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" />
         <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" />
       </list>
     </option>
   </component>
@@ -510,7 +489,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547190962707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547196985144" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -518,6 +497,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -652,7 +632,7 @@
       <workItem from="1544702426662" duration="19521000" />
       <workItem from="1545022762365" duration="861000" />
       <workItem from="1545731173754" duration="1165000" />
-      <workItem from="1546863309077" duration="42729000" />
+      <workItem from="1546863309077" duration="47954000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -689,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547023261645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring集成Kafka并测试发送与消费">
+      <created>1547191041858</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547191041858</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -725,12 +712,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70546000" />
+    <option name="totallyTimeSpent" value="75771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.22283272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" weight="0.114774115" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -741,7 +729,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3124347" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.63740855" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1954023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -765,7 +753,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.22283272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.114774115" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -776,7 +764,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3124347" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3876698" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37931034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -846,7 +834,8 @@
     <MESSAGE value="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html" />
     <MESSAGE value="Zookeeper集群使用" />
     <MESSAGE value="解决logback.xml中LOG_PATH找不到的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决logback.xml中LOG_PATH找不到的文件" />
+    <MESSAGE value="Spring集成Kafka并测试发送与消费" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring集成Kafka并测试发送与消费" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -877,23 +866,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.22.BUILD-SNAPSHOT/spring-messaging-4.3.22.BUILD-20190108.201831-8.jar!/org/springframework/messaging/support/MessageHeaderAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.22.BUILD-SNAPSHOT/spring-core-4.3.22.BUILD-20190108.201831-8.jar!/org/springframework/util/concurrent/ListenableFuture.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1107,16 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1258,10 +1220,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/annotation/KafkaListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="103" column="91" selection-start-line="103" selection-start-column="91" selection-end-line="103" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/config/KafkaListenerContainerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="31" column="108" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+        <state relative-caret-position="447">
+          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,35 +1270,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="919">
+          <caret line="109" column="54" lean-forward="true" selection-start-line="109" selection-start-column="54" selection-end-line="109" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/annotation/KafkaListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="138" column="31" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+        <state relative-caret-position="368">
+          <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
         </state>
       </provider>
     </entry>

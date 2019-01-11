@@ -40,6 +40,11 @@ public class KafkaConfig {
     public static final Integer TOPIC_2_NUM_PARTITIONS = 4;
     public static final short TOPIC_2_REPLICATION_FACTOR = 1;
 
+    public static final String BATCH_TOPIC_NAME = "batch_topic";
+    public static final Integer BATCH_TOPIC_NUM_PARTITIONS = 8;
+    public static final short BATCH_TOPIC_REPLICATION_FACTOR = 1;
+
+
     public static final String GROUP_ONE = "groupOne";
 
     public static final String GROUP_SECOND = "groupSecond";
@@ -48,6 +53,17 @@ public class KafkaConfig {
     public ConcurrentKafkaListenerContainerFactory<String, String> kafkaListenerContainerFactory() {
         ConcurrentKafkaListenerContainerFactory<String, String> factory = new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
+        return factory;
+    }
+
+    @Bean("batchContainerFactory")
+    public ConcurrentKafkaListenerContainerFactory<String, String> kafkaBatchListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, String> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(new DefaultKafkaConsumerFactory<>(batchConsumerProps()));
+        //设置并发量，小于或等于Topic的分区数，此处分区数为8
+        factory.setConcurrency(5);
+        //设置为批量监听
+        factory.setBatchListener(true);
         return factory;
     }
 
@@ -90,6 +106,14 @@ public class KafkaConfig {
         return props;
     }
 
+    //批量消费者配置参数
+    private Map<String, Object> batchConsumerProps() {
+        Map<String, Object> props = consumerProps();
+        //一次拉取消息数量 因为并发量为5，所以此处可以一次获取5条数据
+        props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, "5");
+        return props;
+    }
+
     //生产者配置
     private Map<String, Object> senderProps() {
         Map<String, Object> props = new HashMap<>();
@@ -111,7 +135,7 @@ public class KafkaConfig {
     }
 
     @Bean
-    public KafkaAdmin kafkaAdmin(){
+    public KafkaAdmin kafkaAdmin() {
         //自动生成Topic
         return new KafkaAdmin(senderProps());
     }
@@ -124,5 +148,10 @@ public class KafkaConfig {
     @Bean
     public NewTopic createTopic_2() {
         return new NewTopic(TOPIC_2_NAME, TOPIC_2_NUM_PARTITIONS, TOPIC_2_REPLICATION_FACTOR);
+    }
+
+    @Bean
+    public NewTopic createBatchTopic() {
+        return new NewTopic(BATCH_TOPIC_NAME, BATCH_TOPIC_NUM_PARTITIONS, BATCH_TOPIC_REPLICATION_FACTOR);
     }
 }
