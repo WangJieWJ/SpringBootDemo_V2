@@ -1,0 +1,9 @@
+# 指定应用端口、应用名
+server:
+  port: 8085
+  context-path: /DruidDemo
+
+# 指定应用的运行环境
+spring:
+  profiles:
+    active: local
