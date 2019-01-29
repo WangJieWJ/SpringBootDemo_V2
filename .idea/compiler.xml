@@ -9,6 +9,7 @@
         <module name="DruidDemo" />
         <module name="ESDemo" />
         <module name="KafkaDemo" />
+        <module name="PayDemo" />
         <module name="RabbitMQDemo" />
         <module name="ZookeeperDemo" />
       </profile>

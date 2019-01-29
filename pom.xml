@@ -28,6 +28,8 @@
         <module>ZookeeperDemo</module>
         <module>KafkaDemo</module>
         <module>DruidDemo</module>
+        <module>PayDemo</module>
+        <module>MachineLearningDemo</module>
     </modules>
 
     <dependencies>
