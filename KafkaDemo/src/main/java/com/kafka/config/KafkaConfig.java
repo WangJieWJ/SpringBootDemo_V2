@@ -3,8 +3,6 @@ package com.kafka.config;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.common.serialization.IntegerDeserializer;
-import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -90,7 +88,7 @@ public class KafkaConfig {
     private Map<String, Object> consumerProps() {
         Map<String, Object> props = new HashMap<>();
         //连接地址
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "10.159.62.35:9092");
         //GroupID
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "bootKafka");
         //是否自动提交
@@ -118,7 +116,7 @@ public class KafkaConfig {
     private Map<String, Object> senderProps() {
         Map<String, Object> props = new HashMap<>();
         //连接地址
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "10.159.62.35:9092");
         //重试，0为不启用重试机制
         props.put(ProducerConfig.RETRIES_CONFIG, 1);
         //控制批处理大小，单位为字节

@@ -1,0 +1,13 @@
+# 指定应用端口、应用名
+server:
+  port: 8081
+  context-path: /MachineLearning
+
+# 指定应用的运行环境
+spring:
+  profiles:
+    active: local
+
+# 手动指定logback的配置文件的位置。避免logback.xml比yml先加载导致LOG_PATH文件路径找不到
+logging:
+  config: classpath:MachineLearning-logback.xml

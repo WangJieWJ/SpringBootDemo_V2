@@ -30,6 +30,8 @@
         <module>DruidDemo</module>
         <module>PayDemo</module>
         <module>MachineLearningDemo</module>
+        <module>Java8Demo</module>
+        <module>ConcurrentDemo</module>
     </modules>
 
     <dependencies>

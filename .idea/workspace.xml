@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PayDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PayDemo/src/main/java/com/pay/PayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/ConcurrentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/Java8APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/MachineLearningApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncogClassificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncogClusteringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncogRegressionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/weka/service/WekaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/MachineLearning-logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/MachineLearningAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/encog/EncogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/weka/WekaAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/weka/WekaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearningDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +40,17 @@
     <ignored path="$PROJECT_DIR$/ZookeeperDemo/target/" />
     <ignored path="$PROJECT_DIR$/KafkaDemo/target/" />
     <ignored path="$PROJECT_DIR$/PayDemo/target/" />
+    <ignored path="$PROJECT_DIR$/MachineLearningDemo/target/" />
+    <ignored path="$PROJECT_DIR$/Java8Demo/target/" />
+    <ignored path="$PROJECT_DIR$/ConcurrentDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SpringBootDemo$RabbitMQDemoApp.ic" NAME="RabbitMQDemoApp Coverage Results" MODIFIED="1544947206621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -50,36 +78,45 @@
     <session id="709027807">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="14" />
+          <entry key="project.closed" value="49" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="30" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="36" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="184" />
+          <entry key="CLASS" value="47" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="310" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="41" />
-          <entry key="YAML" value="66" />
+          <entry key="XML" value="55" />
+          <entry key="YAML" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9101" />
-          <entry key="PLAIN_TEXT" value="266" />
+          <entry key="JAVA" value="16034" />
+          <entry key="Markdown" value="692" />
+          <entry key="PLAIN_TEXT" value="275" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="439" />
-          <entry key="YAML" value="1280" />
+          <entry key="XML" value="501" />
+          <entry key="YAML" value="1329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -88,28 +125,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
-          <entry key="class" value="36" />
+          <entry key="arff" value="1" />
+          <entry key="class" value="47" />
+          <entry key="gif" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="http" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="184" />
+          <entry key="icns" value="1" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="310" />
+          <entry key="jpg" value="1" />
           <entry key="json" value="1" />
           <entry key="log" value="2" />
-          <entry key="pom" value="4" />
-          <entry key="xml" value="35" />
+          <entry key="md" value="2" />
+          <entry key="png" value="4" />
+          <entry key="pom" value="5" />
+          <entry key="properties" value="1" />
+          <entry key="props" value="1" />
+          <entry key="xml" value="48" />
           <entry key="xsd" value="2" />
-          <entry key="yml" value="66" />
+          <entry key="yml" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="13" />
+          <entry key="dummy" value="14" />
           <entry key="gitignore" value="6" />
           <entry key="http" value="1" />
-          <entry key="java" value="9101" />
-          <entry key="txt" value="247" />
-          <entry key="xml" value="439" />
-          <entry key="yml" value="1280" />
+          <entry key="java" value="16034" />
+          <entry key="md" value="692" />
+          <entry key="txt" value="255" />
+          <entry key="xml" value="501" />
+          <entry key="yml" value="1329" />
         </counts>
       </usages-collector>
     </session>
@@ -117,101 +163,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PayDemo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="368">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PayDemo/src/main/java/com/pay/PayApp.java">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="552">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MachineLearningDemo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="30" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/config/DruidConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/controller/DruidController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -219,8 +240,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -247,6 +268,16 @@
       <find>fastjson</find>
       <find>成功获取到批量数据</find>
       <find>dbc:mysql</find>
+      <find>SpringApplicationBuilder</find>
+      <find>增量加载数据</find>
+      <find>do-not-check-capabilities</find>
+      <find>distributionForInstance</find>
+      <find>virginica</find>
+      <find>false</find>
+      <find>ApiImplicitParams</find>
+      <find>Supplier</find>
+      <find>运气不好</find>
+      <find>localhost</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,34 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ZookeeperDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java" />
-        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java" />
-        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java" />
-        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/RabbitMQ-logback.xml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaProducerConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/pojo/MessageData.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/TopicDeclareConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/ESDemo/src/main/java/com/es/ESApp.java" />
-        <option value="$PROJECT_DIR$/ESDemo/src/main/java/com/es/controller/api/ESApi.java" />
-        <option value="$PROJECT_DIR$/ESDemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ESDemo/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/ESDemo/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/ESDemo/src/main/resources/application-local.yml" />
@@ -303,9 +306,37 @@
         <option value="$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/controller/DruidController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
         <option value="$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/config/DruidConfig.java" />
-        <option value="$PROJECT_DIR$/DruidDemo/src/main/resources/application-local.yml" />
         <option value="$PROJECT_DIR$/DruidDemo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/MachineLearningApp.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/resources/MachineLearning-logback.xml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/weka/service/WekaService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/MachineLearningAppTest.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/weka/WekaTest.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/README.md" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/weka/WekaAlgorithm.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/encog/EncogRegressionTest.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongClusterService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongRegressionService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongClusteringService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongClassificationService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncongClassificationService.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/encog/EncogTest.java" />
+        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncogClassificationService.java" />
+        <option value="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/Java8APP.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/ConcurrentApp.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java" />
+        <option value="$PROJECT_DIR$/DruidDemo/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" />
       </list>
     </option>
   </component>
@@ -324,34 +355,132 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DruidDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DruidDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ESDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ESDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="23" />
-    <option name="width" value="1477" />
-    <option name="height" value="969" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Data flowGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>YAML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UNUSED_IMPORT</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -366,13 +495,103 @@
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,18 +603,20 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548728321718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553840198144" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.machineLearning" />
       <recent name="com.zookeeper" />
       <recent name="com.rabbitmq" />
     </key>
@@ -407,6 +628,8 @@
       <recent name="com.kafka.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MachineLearningDemo/src/test/resources/weka" />
+      <recent name="$PROJECT_DIR$/MachineLearningDemo/src/main/resources" />
       <recent name="$PROJECT_DIR$/DruidDemo/src/main/resources" />
     </key>
   </component>
@@ -422,18 +645,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DruidApp">
-    <configuration name="RabbitMQDemoAppTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RabbitMQDemo" />
+  <component name="RunManager" selected="Spring Boot.KafkaDemoApp">
+    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.service.AtomicDemo" />
+      <module name="ConcurrentDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rabbitmq.*" />
+          <option name="PATTERN" value="com.concurrent.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.RabbitMQDemoAppTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureDemoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.service.FutureDemoService" />
+      <module name="Java8Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.service.SemaphoreService" />
+      <module name="ConcurrentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperDemoAppTest.testRemoteDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.zookeeper.ZookeeperDemoAppTest" />
+      <option name="METHOD_NAME" value="testRemoteDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -455,6 +717,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConcurrentApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConcurrentDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.concurrent.ConcurrentApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DruidApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DruidDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.druid.DruidApp" />
@@ -469,40 +738,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Java8APP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Java8Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java8.Java8APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="KafkaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafka.KafkaDemoApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMQDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MachineLearningApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MachineLearningDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.machineLearning.MachineLearningApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RabbitMQDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.RabbitMQDemoApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZookeeperDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ZookeeperDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ZookeeperDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zookeeper.ZookeeperDemoApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -511,19 +776,25 @@
     <list>
       <item itemvalue="Spring Boot.ESApp" />
       <item itemvalue="Spring Boot.DruidApp" />
-      <item itemvalue="JUnit.RabbitMQDemoAppTest.contextLoads" />
+      <item itemvalue="Spring Boot.MachineLearningApp" />
+      <item itemvalue="Spring Boot.KafkaDemoApp" />
       <item itemvalue="Spring Boot.RabbitMQDemoApp" />
       <item itemvalue="Spring Boot.ZookeeperDemoApp" />
+      <item itemvalue="Spring Boot.Java8APP" />
+      <item itemvalue="Spring Boot.ConcurrentApp" />
+      <item itemvalue="Application.FutureDemoService" />
+      <item itemvalue="Application.SemaphoreService" />
+      <item itemvalue="Application.AtomicDemo" />
       <item itemvalue="JUnit.ZookeeperDemoAppTest.zkDemo" />
-      <item itemvalue="Spring Boot.KafkaDemoApp" />
+      <item itemvalue="JUnit.ZookeeperDemoAppTest.testRemoteDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KafkaDemoApp" />
-        <item itemvalue="Spring Boot.RabbitMQDemoApp" />
-        <item itemvalue="Spring Boot.ZookeeperDemoApp" />
+        <item itemvalue="JUnit.ZookeeperDemoAppTest.testRemoteDemo" />
         <item itemvalue="JUnit.ZookeeperDemoAppTest.zkDemo" />
-        <item itemvalue="JUnit.RabbitMQDemoAppTest.contextLoads" />
+        <item itemvalue="Application.FutureDemoService" />
+        <item itemvalue="Application.AtomicDemo" />
+        <item itemvalue="Application.SemaphoreService" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +828,38 @@
       <workItem from="1548238269366" duration="477000" />
       <workItem from="1548668855526" duration="835000" />
       <workItem from="1548669759684" duration="392000" />
-      <workItem from="1548670215920" duration="1383000" />
+      <workItem from="1548670215920" duration="5531000" />
+      <workItem from="1548742592068" duration="13508000" />
+      <workItem from="1548827508636" duration="11835000" />
+      <workItem from="1548897138885" duration="6275000" />
+      <workItem from="1548905204344" duration="1130000" />
+      <workItem from="1548914259492" duration="8251000" />
+      <workItem from="1550040795357" duration="411000" />
+      <workItem from="1550043569031" duration="1366000" />
+      <workItem from="1550048862655" duration="528000" />
+      <workItem from="1550051060420" duration="8000" />
+      <workItem from="1550193793931" duration="379000" />
+      <workItem from="1550197781453" duration="1569000" />
+      <workItem from="1550318573289" duration="1106000" />
+      <workItem from="1550329667208" duration="60000" />
+      <workItem from="1550470240059" duration="2335000" />
+      <workItem from="1550473646984" duration="1191000" />
+      <workItem from="1550547377967" duration="28000" />
+      <workItem from="1550741147927" duration="337000" />
+      <workItem from="1551410582815" duration="11702000" />
+      <workItem from="1551862064764" duration="124000" />
+      <workItem from="1551876570257" duration="241000" />
+      <workItem from="1552976550361" duration="1024000" />
+      <workItem from="1552993480868" duration="4000" />
+      <workItem from="1553045486716" duration="3102000" />
+      <workItem from="1553060178387" duration="19000" />
+      <workItem from="1553071250040" duration="1332000" />
+      <workItem from="1553564903224" duration="3784000" />
+      <workItem from="1553765937413" duration="1345000" />
+      <workItem from="1553822744399" duration="3490000" />
+      <workItem from="1553853534160" duration="242000" />
+      <workItem from="1554081840747" duration="23000" />
+      <workItem from="1554368209338" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -622,59 +924,67 @@
       <option name="project" value="LOCAL" />
       <updated>1548040856643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="机器学习模块添加">
+      <created>1548733093765</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548733093765</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RabbitMQDemoAppTest_contextLoads - 2018.12.14 at 17h 21m 15s.xml">
-      <configuration name="RabbitMQDemoAppTest.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.07 at 22h 00m 20s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 41m 20s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.07 at 22h 01m 40s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 41m 42s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 08m 05s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 43m 07s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 08m 29s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 53m 35s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 09m 48s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 58m 56s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 09m 58s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 10h 59m 23s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 13m 07s.xml">
+    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.03.26 at 11h 00m 26s.xml">
       <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 13m 40s.xml">
-      <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
+    <history-entry file="ZookeeperDemoAppTest_testRemoteDemo - 2019.03.28 at 17h 41m 01s.xml">
+      <configuration name="ZookeeperDemoAppTest.testRemoteDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZookeeperDemoAppTest_zkDemo - 2019.01.09 at 16h 15m 18s.xml">
-      <configuration name="ZookeeperDemoAppTest.zkDemo" configurationId="JUnit" />
+    <history-entry file="ZookeeperDemoAppTest_testRemoteDemo - 2019.03.28 at 17h 41m 36s.xml">
+      <configuration name="ZookeeperDemoAppTest.testRemoteDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZookeeperDemoAppTest_testRemoteDemo - 2019.03.28 at 18h 06m 39s.xml">
+      <configuration name="ZookeeperDemoAppTest.testRemoteDemo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103284000" />
+    <option name="totallyTimeSpent" value="184494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="23" width="1477" height="969" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.2599303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.21978022" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
-      <window_info id="Structure" order="7" weight="0.25296167" />
+      <window_info id="Structure" order="7" weight="0.25269842" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3124347" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36533958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1891327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -684,8 +994,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282636" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32810867" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.382763" />
+      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.31138977" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,24 +1004,25 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.25056604" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32961673" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24952741" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.25296167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.21245421" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
-      <window_info id="Structure" order="7" weight="0.25296167" />
+      <window_info id="Structure" order="7" weight="0.25269842" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3124347" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5551331" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3678161" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -720,7 +1032,9 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282636" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32810867" />
+      <window_info anchor="bottom" id="REST Client" order="14" weight="0.382763" />
+      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.2631579" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -728,10 +1042,11 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.25056604" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32961673" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24952741" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,352 +1099,129 @@
     <MESSAGE value="kafka批量消费" />
     <MESSAGE value="升级fastJson的版本" />
     <MESSAGE value="es" />
-    <option name="LAST_COMMIT_MESSAGE" value="es" />
+    <MESSAGE value="机器学习模块添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器学习模块添加" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
+          <line>713</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
+          <line>721</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
+          <line>705</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ESDemo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/util/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESDemo/src/main/java/com/es/controller/ESController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.19.BUILD-SNAPSHOT/spring-boot-starter-web-1.5.19.BUILD-SNAPSHOT.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ESDemo/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.12.RELEASE/spring-rabbit-1.7.12.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="295">
+          <caret line="712" column="18" selection-start-line="712" selection-start-column="18" selection-end-line="712" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application-test.yml">
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="782">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ESDemo/src/main/java/com/es/ESApp.java">
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.BUILD-SNAPSHOT/spring-boot-autoconfigure-1.5.19.BUILD-20190111.142020-12.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="3876" column="65" selection-start-line="3876" selection-start-column="65" selection-end-line="3876" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.BUILD-SNAPSHOT/spring-boot-autoconfigure-1.5.19.BUILD-20190111.142020-12-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.BUILD-SNAPSHOT/spring-boot-autoconfigure-1.5.19.BUILD-20190111.142020-12.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="740" column="6" selection-start-line="740" selection-start-column="6" selection-end-line="740" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/stat/DruidStatManagerFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/stat/DruidStatManagerFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="437">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiModelProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/vo/UserVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21114">
-          <caret line="939" column="32" selection-start-line="939" selection-start-column="32" selection-end-line="939" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/CallableStatementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/StatementCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/simple/SimpleJdbcInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2162">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/core/simple/SimpleJdbcCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiImplicitParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.22.RELEASE/spring-jdbc-4.3.22.RELEASE-sources.jar!/org/springframework/jdbc/datasource/SimpleConnectionHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/controller/api/DruidApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-end-column="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/dto/UserAddDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/DruidApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PayDemo/PayDemo.iml" />
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/config/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="575">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/controller/DruidController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/vo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-          </folding>
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/config/RabbitMQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="575">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PayDemo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Java8Demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="207">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1137,14 +1229,253 @@
     <entry file="file://$PROJECT_DIR$/PayDemo/src/main/java/com/pay/PayApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MachineLearningDemo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/Java8APP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/gui/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="749" column="13" selection-start-line="749" selection-start-column="13" selection-end-line="749" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/LongConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="183" column="31" selection-start-line="183" selection-start-column="31" selection-end-line="183" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="1981" column="12" selection-start-line="1981" selection-start-column="12" selection-end-line="1981" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/ConcurrentApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="50" column="5" selection-start-line="41" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DruidDemo/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/test/java/com/rabbitmq/RabbitMQDemoAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="181" column="46" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6049">
+          <caret line="311" column="25" selection-start-line="311" selection-start-column="25" selection-end-line="311" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28635">
+          <caret line="1300" column="23" selection-start-line="1300" selection-start-column="23" selection-end-line="1300" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1179,6 +1510,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -25,7 +25,7 @@ import java.io.IOException;
 public class ZookeeperDemoAppTest {
 
 
-    private static final String connectStr = "10.159.63.17:2181,10.159.63.3:2181,10.159.63.16:2181";
+    private static final String connectStr = "127.0.0.1:2181";
 
     /**
      * 超时事件
@@ -49,43 +49,68 @@ public class ZookeeperDemoAppTest {
 
         // 查看根节点
         LOGGER.info("ls / => {}", zooKeeper.getChildren("/", true));
+        LOGGER.info("brokers / => {}", zooKeeper.getChildren("/brokers", true));
+        LOGGER.info("consumers / => {}", zooKeeper.getChildren("/consumers", true));
+        LOGGER.info("config / => {}", zooKeeper.getChildren("/config", true));
+        LOGGER.info("consumers/grouptest / => {}", zooKeeper.getChildren("/consumers/grouptest", true));
+        LOGGER.info("consumers/grouptest/offsets / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets", true));
+        LOGGER.info("consumers/grouptest/offsets/test / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets/test", true));
+        LOGGER.info("consumers/grouptest/offsets/test/0 / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets/test/0", true));
+        LOGGER.info("get /consumers/grouptest/offsets/test/0 => {}", new String(zooKeeper.getData("/consumers/grouptest/offsets/test/0", false, null), "utf-8"));
 
-        // 创建一个目录节点
-        if (zooKeeper.exists("/node", true) == null) {
-            zooKeeper.create("/node", "conan".getBytes("utf-8"),
-                    ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-            LOGGER.info("create /node conan");
-            // 查看/node节点的数据
-            LOGGER.info("get /node:{}", new String(zooKeeper.getData("/node", false, null), "utf-8"));
-            //查看根节点
-            LOGGER.info("ls / => {}", zooKeeper.getChildren("/", true));
-        }
 
-        // 创建一个子目录节点
-        if (zooKeeper.exists("/node/sub1", true) == null) {
-            zooKeeper.create("/node/sub1", "sub1".getBytes("utf-8"), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-            LOGGER.info("create /node/sub1 sub1");
-            // 查看node节点
-            LOGGER.info("ls /node => ", zooKeeper.getChildren("/node", true));
-        }
-
-        // 修改节点数据
-        if (zooKeeper.exists("/node", true) != null) {
-            zooKeeper.setData("/node", "changed".getBytes(), -1);
-            // 查看/node节点数据
-            LOGGER.info("get /node => {}", new String(zooKeeper.getData("/node", false, null), "utf-8"));
-        }
-
-        // 删除节点
-        if (zooKeeper.exists("/node/sub1", true) != null) {
-            zooKeeper.delete("/node/sub1", -1);
-            zooKeeper.delete("/node", -1);
-            // 查看根节点
-            LOGGER.info("ls / => ", zooKeeper.getChildren("/", true));
-        }
+//        // 创建一个目录节点
+//        if (zooKeeper.exists("/node", true) == null) {
+//            zooKeeper.create("/node", "conan".getBytes("utf-8"),
+//                    ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+//            LOGGER.info("create /node conan");
+//            // 查看/node节点的数据
+//            LOGGER.info("get /node:{}", new String(zooKeeper.getData("/node", false, null), "utf-8"));
+//            //查看根节点
+//            LOGGER.info("ls / => {}", zooKeeper.getChildren("/", true));
+//        }
+//
+//        // 创建一个子目录节点
+//        if (zooKeeper.exists("/node/sub1", true) == null) {
+//            zooKeeper.create("/node/sub1", "sub1".getBytes("utf-8"), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+//            LOGGER.info("create /node/sub1 sub1");
+//            // 查看node节点
+//            LOGGER.info("ls /node => ", zooKeeper.getChildren("/node", true));
+//        }
+//
+//        // 修改节点数据
+//        if (zooKeeper.exists("/node", true) != null) {
+//            zooKeeper.setData("/node", "changed".getBytes(), -1);
+//            // 查看/node节点数据
+//            LOGGER.info("get /node => {}", new String(zooKeeper.getData("/node", false, null), "utf-8"));
+//        }
+//
+//        // 删除节点
+//        if (zooKeeper.exists("/node/sub1", true) != null) {
+//            zooKeeper.delete("/node/sub1", -1);
+//            zooKeeper.delete("/node", -1);
+//            // 查看根节点
+//            LOGGER.info("ls / => ", zooKeeper.getChildren("/", true));
+//        }
 
         // 关闭连接
         zooKeeper.close();
+    }
+
+
+    @Test
+    public void testRemoteDemo() throws Exception {
+        // 创建一个与服务器的连接
+        ZooKeeper zooKeeper = new ZooKeeper("10.159.62.35:2181", SESSION_TIME_OUT, new Watcher() {
+
+            // 监听所有被触发的事件
+            @Override
+            public void process(WatchedEvent event) {
+                LOGGER.info("监听事件，EVENT,path:{},state:{},type:{},wrapper:{}", event.getPath(), event.getState(), event.getType(), event.getWrapper());
+            }
+        });
+
+        LOGGER.info("ls / => {}", zooKeeper.getChildren("/", true));
     }
 
 }
