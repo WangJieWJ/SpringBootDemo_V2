@@ -17,7 +17,7 @@ public enum TechnologyStack {
     SPRING("2013", "Spring"),
     SPRING_BOOT("2014", "SpringBoot"),
     SPRING_CLOUD("2015", "SpringCloud"),
-    DOUBLE("2016", "Double");
+    DUBBO("2016", "Dubbo");
 
     private final String year;
     private final String name;
