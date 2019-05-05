@@ -26,4 +26,12 @@ public enum TechnologyStack {
         this.year = year;
         this.name = name;
     }
+
+    public String getYear() {
+        return year;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
