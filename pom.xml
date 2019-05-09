@@ -32,6 +32,7 @@
         <module>MachineLearningDemo</module>
         <module>Java8Demo</module>
         <module>ConcurrentDemo</module>
+        <module>DesignPattern</module>
     </modules>
 
     <dependencies>

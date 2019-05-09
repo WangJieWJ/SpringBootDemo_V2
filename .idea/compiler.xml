@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConcurrentDemo" />
+        <module name="DesignPattern" />
         <module name="DruidDemo" />
         <module name="ESDemo" />
         <module name="Java8Demo" />
