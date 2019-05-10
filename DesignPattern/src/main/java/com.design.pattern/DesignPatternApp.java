@@ -1,5 +1,8 @@
 package com.design.pattern;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+
 /**
  * Title:
  * Description:
@@ -9,6 +12,7 @@ package com.design.pattern;
  * Author: 王杰
  * Create Time:2019/5/9 14:14
  */
+@SpringBootApplication
 public class DesignPatternApp {
 
     /**
@@ -16,4 +20,8 @@ public class DesignPatternApp {
      * 2、责任链
      * 3、观察者
      */
+
+    public static void main(String[] args) {
+        new SpringApplicationBuilder(DesignPatternApp.class).web(true).run(args);
+    }
 }
