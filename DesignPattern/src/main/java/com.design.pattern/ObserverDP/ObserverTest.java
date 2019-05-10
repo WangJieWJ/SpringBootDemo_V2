@@ -57,7 +57,7 @@ public class ObserverTest implements CommandLineRunner, ApplicationContextAware 
         this.applicationContext = applicationContext;
     }
 
-    public void init() {
+    private void init() {
         LOGGER.info("开始获取所有的行为监听者");
         actionListeners = new LinkedList<>(this.applicationContext.getBeansOfType(IActionListener.class).values());
 
@@ -71,7 +71,7 @@ public class ObserverTest implements CommandLineRunner, ApplicationContextAware 
     /**
      * 通知所有的行为监听者
      */
-    public void notifyAllAction(BaseActionInfo baseActionInfo) {
+    private void notifyAllAction(BaseActionInfo baseActionInfo) {
         for (IActionListener actionListener : actionListeners) {
             actionListener.actionNotify(baseActionInfo);
         }
@@ -80,7 +80,7 @@ public class ObserverTest implements CommandLineRunner, ApplicationContextAware 
     /**
      * 通知所有的用户行为监听者
      */
-    public void notifyAllUserAction(BaseActionInfo baseActionInfo) {
+    private void notifyAllUserAction(BaseActionInfo baseActionInfo) {
         for (IUserActionListener userActionListener : userActionListeners) {
             userActionListener.actionNotify(baseActionInfo);
         }
@@ -89,7 +89,7 @@ public class ObserverTest implements CommandLineRunner, ApplicationContextAware 
     /**
      * 通知所有的超级管理员行为监听者
      */
-    public void notifyAllAdminAction(BaseActionInfo baseActionInfo) {
+    private void notifyAllAdminAction(BaseActionInfo baseActionInfo) {
         for (IAdminActionListener adminActionListener : adminActionListeners) {
             adminActionListener.actionNotify(baseActionInfo);
         }
