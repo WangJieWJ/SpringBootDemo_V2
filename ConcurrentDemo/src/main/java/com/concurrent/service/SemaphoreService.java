@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * Title:
- * Description:
+ * Description: Semaphore当前在多线程环境下被扩放使用，操作系统的信号量是个很重要的概念，在进程控制方面都有应用
  * Copyright: 2019 北京拓尔思信息技术股份有限公司 版权所有.保留所有权
  * Company:北京拓尔思信息技术股份有限公司(TRS)
  * Project: SpringBootDemo

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/AdminReviewActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IAdminActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IUserActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserPostActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserSignInActionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/MyThreadFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ChainOfResponsibilityDP/ChainOfResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ChainOfResponsibilityDP/ChainOfResponsibilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/DesignPatternApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/DesignPatternApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/SimpleFactoryDP/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/SimpleFactoryDP/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,9 +57,9 @@
     <session id="709027807">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="57" />
+          <entry key="project.closed" value="60" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="36" />
+          <entry key="project.open.time.1" value="38" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -76,17 +67,17 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="59" />
+          <entry key="project.opened" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="47" />
+          <entry key="CLASS" value="48" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="8" />
-          <entry key="JAVA" value="378" />
+          <entry key="JAVA" value="405" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -100,9 +91,9 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19721" />
+          <entry key="JAVA" value="20986" />
           <entry key="Markdown" value="692" />
-          <entry key="PLAIN_TEXT" value="369" />
+          <entry key="PLAIN_TEXT" value="384" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="501" />
           <entry key="YAML" value="1344" />
@@ -115,13 +106,13 @@
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="arff" value="1" />
-          <entry key="class" value="47" />
+          <entry key="class" value="48" />
           <entry key="gif" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="http" value="1" />
           <entry key="icns" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="378" />
+          <entry key="java" value="405" />
           <entry key="jpg" value="1" />
           <entry key="json" value="1" />
           <entry key="log" value="2" />
@@ -137,12 +128,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="38" />
+          <entry key="dummy" value="44" />
           <entry key="gitignore" value="6" />
           <entry key="http" value="1" />
-          <entry key="java" value="19721" />
+          <entry key="java" value="20986" />
           <entry key="md" value="692" />
-          <entry key="txt" value="325" />
+          <entry key="txt" value="334" />
           <entry key="xml" value="501" />
           <entry key="yml" value="1344" />
         </counts>
@@ -151,118 +142,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/DesignPatternApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserSignInActionListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ServiceLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9821">
-              <caret line="464" column="19" selection-start-line="464" selection-start-column="11" selection-end-line="464" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/AdminReviewActionListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IActionListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IUserActionListener.java">
+        <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorServiceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserPostActionListener.java">
+        <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/MyThreadFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="389">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+              <folding>
+                <element signature="e#17619#17620#0" expanded="true" />
+                <element signature="e#17660#17661#0" expanded="true" />
+                <element signature="e#18578#18579#0" expanded="true" />
+                <element signature="e#18620#18621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ThreadGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="300" column="37" selection-start-line="300" selection-start-column="37" selection-end-line="300" selection-end-column="37" />
+              <folding>
+                <element signature="e#15215#15216#0" expanded="true" />
+                <element signature="e#15264#15265#0" expanded="true" />
+                <element signature="e#29802#29803#0" expanded="true" />
+                <element signature="e#29841#29842#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="809" column="26" lean-forward="true" selection-start-line="809" selection-start-column="26" selection-end-line="809" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+              <folding>
+                <element signature="e#34990#34991#0" expanded="true" />
+                <element signature="e#35017#35018#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="1230" column="11" selection-start-line="1230" selection-start-column="11" selection-end-line="1230" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -280,9 +269,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LOG_PATH</find>
-      <find>active</find>
-      <find>BOOTSTRAP_SERVERS_CONFIG</find>
       <find>linger</find>
       <find>GROUP_ID_CONFIG</find>
       <find>11</find>
@@ -310,6 +296,9 @@
       <find>localhost</find>
       <find>enum</find>
       <find>BaseActionDealResult</find>
+      <find>add</find>
+      <find>toS</find>
+      <find>CachedThread</find>
     </findStrings>
     <replaceStrings>
       <replace>void</replace>
@@ -321,16 +310,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongClusteringService.java" />
-        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encong/service/EncongClassificationService.java" />
-        <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncongClassificationService.java" />
-        <option value="$PROJECT_DIR$/MachineLearningDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MachineLearningDemo/src/test/java/com/machineLearning/encog/EncogTest.java" />
         <option value="$PROJECT_DIR$/MachineLearningDemo/src/main/java/com/machineLearning/encog/service/EncogClassificationService.java" />
         <option value="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/Java8APP.java" />
         <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/ConcurrentApp.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java" />
         <option value="$PROJECT_DIR$/DruidDemo/src/main/resources/application-local.yml" />
         <option value="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java" />
         <option value="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" />
@@ -372,6 +355,12 @@
         <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/AdminReviewActionListener.java" />
         <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java" />
         <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorService.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/FixedThreadFactory.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/MyThreadFactory.java" />
+        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorServiceDemo.java" />
       </list>
     </option>
   </component>
@@ -394,11 +383,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="45" />
-    <option name="y" value="23" />
-    <option name="width" value="1635" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="834" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -525,6 +512,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,100 +523,25 @@
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.design.pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.design.pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ObserverDP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.design.pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ObserverDP" type="462c0819:PsiDirectoryNode" />
-              <item name="DO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.design.pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ObserverDP" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -636,16 +549,26 @@
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -660,7 +583,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557469750559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558938720866" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -702,13 +625,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DesignPatternApp">
+  <component name="RunManager" selected="Application.ExecutorServiceDemo">
+    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.service.AtomicDemo" />
+      <module name="ConcurrentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChainOfResponsibilityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.design.pattern.ChainOfResponsibilityDP.ChainOfResponsibilityTest" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.design.pattern.ChainOfResponsibilityDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.service.ExecutorServiceDemo" />
+      <module name="ConcurrentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -725,35 +674,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.design.pattern.SimpleFactoryDP.SimpleFactoryTest" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.design.pattern.SimpleFactoryDP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperDemoAppTest.testRemoteDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ZookeeperDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.zookeeper.ZookeeperDemoAppTest" />
-      <option name="METHOD_NAME" value="testRemoteDemo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -836,19 +756,19 @@
       <item itemvalue="Spring Boot.ZookeeperDemoApp" />
       <item itemvalue="Spring Boot.Java8APP" />
       <item itemvalue="Spring Boot.ConcurrentApp" />
-      <item itemvalue="JUnit.ZookeeperDemoAppTest.testRemoteDemo" />
-      <item itemvalue="Application.SimpleFactoryTest" />
       <item itemvalue="Application.ChainOfResponsibilityTest" />
       <item itemvalue="Application.ObserverTest" />
       <item itemvalue="Spring Boot.DesignPatternApp" />
+      <item itemvalue="Application.AtomicDemo" />
+      <item itemvalue="Application.ExecutorServiceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceDemo" />
+        <item itemvalue="Application.AtomicDemo" />
         <item itemvalue="Spring Boot.DesignPatternApp" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.ChainOfResponsibilityTest" />
-        <item itemvalue="Application.SimpleFactoryTest" />
-        <item itemvalue="JUnit.ZookeeperDemoAppTest.testRemoteDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -923,7 +843,10 @@
       <workItem from="1557382207129" duration="10170000" />
       <workItem from="1557451952193" duration="7634000" />
       <workItem from="1557470549166" duration="3000" />
-      <workItem from="1557470884068" duration="882000" />
+      <workItem from="1557470884068" duration="1460000" />
+      <workItem from="1557540689980" duration="52000" />
+      <workItem from="1558919210625" duration="497000" />
+      <workItem from="1558923505975" duration="6211000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -1030,7 +953,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557392274360</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="观察者设计模式回顾">
+      <created>1557471838406</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557471838407</updated>
+    </task>
+    <task id="LOCAL-00017" summary="观察者设计模式回顾">
+      <created>1557472039150</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557472039150</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1066,13 +1003,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210240000" />
+    <option name="totallyTimeSpent" value="217578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.25518927" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.12332112" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1083,7 +1020,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19435737" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" weight="0.19331244" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" visible="true" weight="0.23406479" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1110,7 +1047,7 @@
       <window_info anchor="right" id="SciView" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.25213677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.17582418" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1120,8 +1057,8 @@
       <window_info id="Structure" order="7" weight="0.25519848" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19435737" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" weight="0.23824452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19435737" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" weight="0.34273773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1202,7 +1139,8 @@
     <MESSAGE value="并发工具类" />
     <MESSAGE value="枚举类" />
     <MESSAGE value="工厂设计模式、责任链设计模式回顾" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂设计模式、责任链设计模式回顾" />
+    <MESSAGE value="观察者设计模式回顾" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者设计模式回顾" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1233,163 +1171,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/ZookeeperDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/api/ZookeeperDemoApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="86" column="92" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/TechnologyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21160">
-          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/StringJoiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="127" column="51" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/Java8APP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/SimpleFactoryDP/Orange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/SimpleFactoryDP/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/SimpleFactoryDP/FruitFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1493,27 +1274,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/DesignPatternApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85882">
+          <caret line="3805" column="49" selection-start-line="3805" selection-start-column="49" selection-end-line="3805" selection-end-column="49" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+            <element signature="e#177457#177458#0" expanded="true" />
+            <element signature="e#177496#177497#0" expanded="true" />
+            <element signature="e#178082#178083#0" expanded="true" />
+            <element signature="e#178121#178122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2806">
+          <caret line="147" column="47" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="47" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5047#5048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserSignInActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ServiceLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9821">
+        <state relative-caret-position="9729">
           <caret line="464" column="19" selection-start-line="464" selection-start-column="11" selection-end-line="464" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/AdminReviewActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="506">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1537,7 +1369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserPostActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="368">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1545,39 +1377,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserSignInActionListener.java">
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="163">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6.jar!/org/elasticsearch/common/util/concurrent/EsThreadPoolExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6-sources.jar!/org/elasticsearch/common/util/concurrent/EsExecutors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6-sources.jar!/org/elasticsearch/common/util/concurrent/PrioritizedEsThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6-sources.jar!/org/elasticsearch/common/util/concurrent/EsThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6-sources.jar!/org/elasticsearch/common/util/concurrent/EsAbortPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="136" column="49" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1912" column="11" selection-start-line="1912" selection-start-column="11" selection-end-line="1912" selection-end-column="11" />
+          <folding>
+            <element signature="e#81177#81178#0" expanded="true" />
+            <element signature="e#81261#81262#0" expanded="true" />
+            <element signature="e#101735#101736#0" expanded="true" />
+            <element signature="e#101781#101782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="2939" column="25" lean-forward="true" selection-start-line="2939" selection-start-column="25" selection-end-line="2939" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+          <folding>
+            <element signature="e#17619#17620#0" expanded="true" />
+            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="e#18578#18579#0" expanded="true" />
+            <element signature="e#18620#18621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1230" column="11" selection-start-line="1230" selection-start-column="11" selection-end-line="1230" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <element signature="e#34990#34991#0" expanded="true" />
+            <element signature="e#35017#35018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="300" column="37" selection-start-line="300" selection-start-column="37" selection-end-line="300" selection-end-column="37" />
+          <folding>
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15264#15265#0" expanded="true" />
+            <element signature="e#29802#29803#0" expanded="true" />
+            <element signature="e#29841#29842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="809" column="26" lean-forward="true" selection-start-line="809" selection-start-column="26" selection-end-line="809" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/MyThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java">
+    <entry file="file://$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="253">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
