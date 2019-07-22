@@ -15,6 +15,7 @@
         <module name="MachineLearningDemo" />
         <module name="PayDemo" />
         <module name="RabbitMQDemo" />
+        <module name="RedisDemo" />
         <module name="ZookeeperDemo" />
       </profile>
     </annotationProcessing>

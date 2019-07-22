@@ -4,10 +4,9 @@ logging:
 # spring配置
 spring:
   rabbitmq:
-    addresses: 10.159.63.17
-    port: 5672
-    username: haieradmin
-    password: haieradmin
+    addresses: 127.0.0.1:5672,127.0.0.1:5673,127.0.0.1:5674
+    username: oldadmin
+    password: oldadmin
     virtual-host: /
     publisher-confirms: true # ack
     publisher-returns: true  # ack

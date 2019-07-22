@@ -33,6 +33,7 @@
         <module>Java8Demo</module>
         <module>ConcurrentDemo</module>
         <module>DesignPattern</module>
+        <module>RedisDemo</module>
     </modules>
 
     <dependencies>

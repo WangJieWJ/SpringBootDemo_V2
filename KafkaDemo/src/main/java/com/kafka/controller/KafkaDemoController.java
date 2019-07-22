@@ -38,11 +38,7 @@ public class KafkaDemoController implements KafkaDemoApi {
         JSONObject resultData = new JSONObject();
         try {
             ListenableFuture<SendResult> listenableFuture = kafkaDemoService.producerMsg(topicName, partition, key, msg);
-            listenableFuture.addCallback(success -> {
-                LOGGER.info("消息发送成功！");
-            }, fail -> {
-                LOGGER.error("消息发送失败！");
-            });
+            listenableFuture.addCallback(success -> LOGGER.info("消息发送成功！"), fail -> LOGGER.error("消息发送失败！"));
             SendResult sendResult = listenableFuture.get();
             ProducerRecord producerRecord = sendResult.getProducerRecord();
             RecordMetadata recordMetadata = sendResult.getRecordMetadata();
