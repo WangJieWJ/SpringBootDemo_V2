@@ -1,18 +1,24 @@
 package com.kafka.config;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
-import org.springframework.kafka.core.*;
-
-import java.util.HashMap;
-import java.util.Map;
+import org.springframework.kafka.core.ConsumerFactory;
+import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
+import org.springframework.kafka.core.DefaultKafkaProducerFactory;
+import org.springframework.kafka.core.KafkaAdmin;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.kafka.core.ProducerFactory;
 
 /**
  * Title:
@@ -30,7 +36,7 @@ public class KafkaConfig {
     // 定义topic的名称
     public static final String TOPIC_1_NAME = "topic_1";
     // 定义topic的分区大小
-    public static final Integer TOPIC_1_NUM_PARTITIONS = 2;
+    public static final Integer TOPIC_1_NUM_PARTITIONS = 1;
     // 定义topic的备份数量(复制因子)
     public static final short TOPIC_1_REPLICATION_FACTOR = 1;
 
@@ -88,7 +94,7 @@ public class KafkaConfig {
     private Map<String, Object> consumerProps() {
         Map<String, Object> props = new HashMap<>();
         //连接地址
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "10.159.62.35:9092");
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9091,127.0.0.1:9092,127.0.0.1:9093");
         //GroupID
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "bootKafka");
         //是否自动提交
@@ -116,7 +122,7 @@ public class KafkaConfig {
     private Map<String, Object> senderProps() {
         Map<String, Object> props = new HashMap<>();
         //连接地址
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "10.159.62.35:9092");
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9091");
         //重试，0为不启用重试机制
         props.put(ProducerConfig.RETRIES_CONFIG, 1);
         //控制批处理大小，单位为字节

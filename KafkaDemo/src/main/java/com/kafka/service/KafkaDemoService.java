@@ -1,21 +1,26 @@
 package com.kafka.service;
 
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
 import com.alibaba.fastjson.JSON;
 import com.kafka.config.KafkaConfig;
 import com.kafka.pojo.MessageData;
+import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.common.TopicPartition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
-
-import java.util.Date;
-import java.util.List;
-import java.util.UUID;
 
 /**
  * Title:
@@ -34,6 +39,8 @@ public class KafkaDemoService {
 
     @Autowired
     private KafkaTemplate kafkaTemplate;
+    @Autowired
+    private ConsumerFactory consumerFactory;
 
     public ListenableFuture<SendResult> producerMsg(String topicName, Integer partition, String key, String msg) {
         MessageData messageData = new MessageData();
@@ -41,6 +48,11 @@ public class KafkaDemoService {
         messageData.setMsg(msg);
         messageData.setSendTime(new Date());
         return kafkaTemplate.send(topicName, partition, key, JSON.toJSONString(messageData));
+    }
+
+    public void resetTopicOffset(String topicName) {
+        Consumer consumer = consumerFactory.createConsumer("","");
+        consumer.seekToBeginning(Arrays.asList(new TopicPartition(topicName, 0)));
     }
 
     public void producerBatchMsg(Integer msgNum) {
@@ -94,6 +106,11 @@ public class KafkaDemoService {
 
     @KafkaListener(id = "batch", topics = {KafkaConfig.BATCH_TOPIC_NAME}, clientIdPrefix = "batchConsumerMsg", containerFactory = "batchContainerFactory")
     public void batchConsumerMsg(List<String> data) {
+        try {
+            Thread.sleep(1000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         // 可能因为生产者导致的发送 问题
         int batchSize = data.size();
         String uniqueId = UUID.randomUUID().toString();

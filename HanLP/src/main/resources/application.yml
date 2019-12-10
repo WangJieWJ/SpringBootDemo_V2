@@ -1,0 +1,8 @@
+# 指定应用端口、应用名
+server:
+  port: 8086
+  context-path: /HanLP
+
+spring:
+  profiles:
+    active: local

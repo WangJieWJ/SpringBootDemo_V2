@@ -27,6 +27,7 @@ public interface KafkaDemoApi {
     })
     JSONObject producerMsg(String topicName, Integer partition, String key, String msg);
 
+
     @ApiOperation(value = "批量发送消息")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "msgNum", value = "批量发送消息的数量", required = true, dataTypeClass = Integer.class),

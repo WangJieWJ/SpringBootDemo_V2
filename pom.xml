@@ -34,7 +34,9 @@
         <module>ConcurrentDemo</module>
         <module>DesignPattern</module>
         <module>RedisDemo</module>
-    </modules>
+		<module>HanLP</module>
+		<module>ShiroDemo</module>
+	</modules>
 
     <dependencies>
         <dependency>

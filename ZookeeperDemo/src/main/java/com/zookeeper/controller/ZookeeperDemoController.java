@@ -21,4 +21,13 @@ public class ZookeeperDemoController implements ZookeeperDemoApi {
     public void getzkData() {
 
     }
+
+    public static void main(String[] args) {
+        int[] arrayNum = new int[]{5, 8, 6, 3, 9, 2, 1, 7};
+        for (int i = 0; i < arrayNum.length - 1; i++) {
+            for (int j = 0; j < arrayNum.length - 1 - i; j++) {
+
+            }
+        }
+    }
 }

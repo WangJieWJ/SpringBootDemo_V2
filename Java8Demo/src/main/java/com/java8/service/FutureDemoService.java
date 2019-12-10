@@ -101,6 +101,9 @@ public class FutureDemoService {
         String classpath = "";
         String logtime = "";
         String requestIp = "";
+
+        int a = 2222;
+
         String requestService = "";
         JSONObject jsonObject = JSONObject.parseObject("{\"fileName\":\"SqlReporter.java\",\"logLine\":55,\"@timestamp\":\"2019-03-18T15:59:54.699Z\",\"msgContent\":\"\\nSQL：SELECT * from productneedupdate where `status`=1  ORDER BY CrTime desc\\nParams：null\\n--------------------------------------------------------------------------------\",\"path\":\"/Users/wangjie/Development/ELK/datacenter/dataCenterTest.log\",\"host\":\"wangjiedeMacBook-Pro.local\",\"classpath\":\"com.season.core.db.SqlReporter\",\"logtime\":\"2019-03-18 23:59:54.699\"}");
         if (jsonObject != null) {

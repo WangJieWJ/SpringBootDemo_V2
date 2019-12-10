@@ -1,7 +1,10 @@
 package com.zookeeper;
 
 
-import org.apache.zookeeper.*;
+import org.apache.zookeeper.KeeperException;
+import org.apache.zookeeper.WatchedEvent;
+import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.ZooKeeper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -10,6 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Title:
@@ -25,12 +29,12 @@ import java.io.IOException;
 public class ZookeeperDemoAppTest {
 
 
-    private static final String connectStr = "127.0.0.1:2181";
+    private static final String connectStr = "10.199.98.67:2181";
 
     /**
      * 超时事件
      */
-    private static final int SESSION_TIME_OUT = 60000;
+    private static final int SESSION_TIME_OUT = 6000;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ZookeeperDemoAppTest.class);
 
@@ -49,14 +53,32 @@ public class ZookeeperDemoAppTest {
 
         // 查看根节点
         LOGGER.info("ls / => {}", zooKeeper.getChildren("/", true));
-        LOGGER.info("brokers / => {}", zooKeeper.getChildren("/brokers", true));
-        LOGGER.info("consumers / => {}", zooKeeper.getChildren("/consumers", true));
-        LOGGER.info("config / => {}", zooKeeper.getChildren("/config", true));
-        LOGGER.info("consumers/grouptest / => {}", zooKeeper.getChildren("/consumers/grouptest", true));
-        LOGGER.info("consumers/grouptest/offsets / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets", true));
-        LOGGER.info("consumers/grouptest/offsets/test / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets/test", true));
-        LOGGER.info("consumers/grouptest/offsets/test/0 / => {}", zooKeeper.getChildren("/consumers/grouptest/offsets/test/0", true));
-        LOGGER.info("get /consumers/grouptest/offsets/test/0 => {}", new String(zooKeeper.getData("/consumers/grouptest/offsets/test/0", false, null), "utf-8"));
+//        LOGGER.info("dubbo / => {}", zooKeeper.getChildren("/dubbo", true));
+//        LOGGER.info("dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider / => {}", zooKeeper.getChildren("/dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider", true));
+//        LOGGER.info("dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider data / => {}", zooKeeper.getChildren("/dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider/configurators", false, null));
+//        LOGGER.info("dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider data / => {}", zooKeeper.getChildren("/dubbo/com.haier.other.provider.interfaces.IProductSmsInfoProvider/providers", false, null));
+//        LOGGER.info("dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider / => {}", zooKeeper.getChildren("/dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider", true));
+//        LOGGER.info("dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider data / => {}", new String(zooKeeper.getData("/dubbo/dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider/configurators", false, null)));
+//        LOGGER.info("dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider data / => {}", new String(zooKeeper.getData("/dubbo/dubbo/com.haier.vipUser.provider.interfaces.IAppActionProvider/providers", false, null)));
+//        LOGGER.info("dubbo/com.haier.bbs.privider.interfaces.IBbsTreadServiceProvider / => {}", zooKeeper.getChildren("/dubbo/com.haier.bbs.privider.interfaces.IBbsTreadServiceProvider", true));
+//        LOGGER.info("services / => {}", zooKeeper.getChildren("/services", true));
+//        LOGGER.info("services data / => {}", new String(zooKeeper.getData("/services", false, null)));
+//        LOGGER.info("zookeeper / => {}", zooKeeper.getChildren("/zookeeper", true));
+        int a = 0;
+        while (a < 10) {
+            LOGGER.info("zookeeper data / => {}", new String(zooKeeper.getData("/data-center/consumers/log_record_group_kettle/offsets/log_record_topic_prod/0", false, null)));
+            Thread.sleep(1000L);
+            a++;
+        }
+//        LOGGER.info("services / => {}", zooKeeper.getChildren("/services", true));
+//
+//        LOGGER.info("zookeeper / => {}", zooKeeper.getChildren("/zookeeper", true));
+//        LOGGER.info("data-center / => {}", zooKeeper.getChildren("/data-center", true));
+//        deletePath(zooKeeper, "/data-center");
+//
+//        LOGGER.info("data-center/cluster/id / => {}", new String(zooKeeper.getData("/data-center/cluster/id", false, null)));
+//        LOGGER.info("data-center/brokers / => {}", zooKeeper.getChildren("/data-center/brokers", false));
+//        LOGGER.info("data-center/brokers/ids / => {}", zooKeeper.getChildren("/data-center/brokers/ids", false));
 
 
 //        // 创建一个目录节点
@@ -95,6 +117,17 @@ public class ZookeeperDemoAppTest {
 
         // 关闭连接
         zooKeeper.close();
+    }
+
+    public static void deletePath(ZooKeeper zooKeeper, String path) throws KeeperException, InterruptedException {
+        List<String> childList = zooKeeper.getChildren(path, false);
+        if (childList.isEmpty()) {
+            zooKeeper.delete(path, -1);
+            return;
+        }
+        for (String item : childList) {
+            deletePath(zooKeeper, path + "/" + item);
+        }
     }
 
 

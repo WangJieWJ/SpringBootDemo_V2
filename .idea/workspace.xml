@@ -2,31 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="Redis中的Geohash">
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/AppEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/BlogEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/UserEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/ApplicationEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/publisher/UserEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/HanLPAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/config/EnableHanLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/config/HanLPConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/dto/AutoCatData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/hanlp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/condition/LinuxCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/condition/MacCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/condition/WindowsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/ConditionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/DataTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/Allocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/AtomicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/CompletableFutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/CountDownLatchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ExecutorsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/GuardedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/GuardedSuspensionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/GuavaRateLimiterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/HappensBeforeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/LinuxListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/LockAndConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/MacListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ReadWriteLockCachedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ReadWriteLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/StackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ThreadInterruptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/TimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/WindowsListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiroDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/ShiroDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/FutureDemoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/config/ZookeeperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/zookeeper/controller/ZookeeperDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZookeeperDemo/src/test/java/com/zookeeper/ZookeeperDemoAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/druidDemo/target/" />
-    <ignored path="$PROJECT_DIR$/RabbitMQDemo/target/" />
-    <ignored path="$PROJECT_DIR$/ESDemo/target/" />
-    <ignored path="$PROJECT_DIR$/ZookeeperDemo/target/" />
-    <ignored path="$PROJECT_DIR$/KafkaDemo/target/" />
-    <ignored path="$PROJECT_DIR$/PayDemo/target/" />
-    <ignored path="$PROJECT_DIR$/MachineLearningDemo/target/" />
-    <ignored path="$PROJECT_DIR$/Java8Demo/target/" />
-    <ignored path="$PROJECT_DIR$/ConcurrentDemo/target/" />
-    <ignored path="$PROJECT_DIR$/DesignPattern/target/" />
-    <ignored path="$PROJECT_DIR$/RedisDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +63,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SpringBootDemo$DesignPatternApp.ic" NAME="DesignPatternApp Coverage Results" MODIFIED="1557469270629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -64,683 +95,40 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="709027807">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="74" />
-          <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.1" value="42" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="76" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="66" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="Image" value="8" />
-          <entry key="JAVA" value="512" />
-          <entry key="JSON" value="2" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="1" />
-          <entry key="Scratch" value="1" />
-          <entry key="UML" value="6" />
-          <entry key="XML" value="67" />
-          <entry key="YAML" value="105" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="25804" />
-          <entry key="Markdown" value="692" />
-          <entry key="PLAIN_TEXT" value="446" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="522" />
-          <entry key="YAML" value="1460" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="0-SNAPSHOT" value="2" />
-          <entry key="ApplicationEventPublisherAware" value="1" />
-          <entry key="Aware" value="1" />
-          <entry key="BeanClassLoaderAware" value="1" />
-          <entry key="ConcurrentHashMap" value="1" />
-          <entry key="arff" value="1" />
-          <entry key="class" value="66" />
-          <entry key="gif" value="2" />
-          <entry key="gitignore" value="3" />
-          <entry key="http" value="1" />
-          <entry key="icns" value="1" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="512" />
-          <entry key="jpg" value="1" />
-          <entry key="json" value="2" />
-          <entry key="log" value="2" />
-          <entry key="md" value="2" />
-          <entry key="png" value="4" />
-          <entry key="pom" value="5" />
-          <entry key="properties" value="1" />
-          <entry key="props" value="1" />
-          <entry key="xml" value="60" />
-          <entry key="xsd" value="2" />
-          <entry key="yml" value="105" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="69" />
-          <entry key="gitignore" value="6" />
-          <entry key="http" value="1" />
-          <entry key="java" value="25804" />
-          <entry key="md" value="692" />
-          <entry key="txt" value="371" />
-          <entry key="xml" value="522" />
-          <entry key="yml" value="1460" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="SpringBootDemo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/publisher/UserEventPublisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KafkaDemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>partition</find>
-      <find>asdsad</find>
-      <find>topic_2</find>
-      <find>partitions assigned</find>
-      <find>BATCH_TOPIC</find>
-      <find>batch_topic成功获取到批量数据</find>
-      <find>fastjson</find>
-      <find>成功获取到批量数据</find>
-      <find>dbc:mysql</find>
-      <find>SpringApplicationBuilder</find>
-      <find>增量加载数据</find>
-      <find>do-not-check-capabilities</find>
-      <find>distributionForInstance</find>
-      <find>virginica</find>
-      <find>false</find>
-      <find>ApiImplicitParams</find>
-      <find>Supplier</find>
-      <find>运气不好</find>
-      <find>localhost</find>
-      <find>enum</find>
-      <find>BaseActionDealResult</find>
-      <find>add</find>
-      <find>toS</find>
-      <find>CachedThread</find>
-      <find>Instant</find>
-      <find>39.9031</find>
-      <find>32.43771256110575</find>
-      <find>channel</find>
-      <find>publisherConfirmChannels</find>
-      <find>applicationEventPublisher</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>void</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/AdminReviewActionDealResult.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionDealResult.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/UserSignInActionDealResult.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/UserPostActionDealResult.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/IActionListener.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/DesignPatternApp.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserSignInActionListener.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/UserPostActionListener.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/listener/AdminReviewActionListener.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/DO/BaseActionInfo.java" />
-        <option value="$PROJECT_DIR$/DesignPattern/src/main/java/com.design.pattern/ObserverDP/ObserverTest.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/AtomicDemo.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/SemaphoreService.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorService.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/FixedThreadFactory.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/MyThreadFactory.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/ExecutorServiceDemo.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/java/com/concurrent/service/InstantDemo.java" />
-        <option value="$PROJECT_DIR$/ConcurrentDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/RedisDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/RedisDemoApp.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/config/JedisClient.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/resources/Redis-logback.xml" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/TestMain.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" />
-        <option value="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/RedisGeoServiceTest.java" />
-        <option value="$PROJECT_DIR$/DruidDemo/src/main/java/com/druid/pojo/User.java" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQConsumerService.java" />
-        <option value="$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/service/RabbitMQProducerService.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/ApplicationEventApi.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/ApplicationEventController.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/UserAddEvent.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/UserAddEventListener.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/UserEventListener.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/EventListener.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/AppEvent.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/UserEvent.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/BlogEvent.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/ApplicationEventListener.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/publisher/UserEventPublisher.java" />
-        <option value="$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Development/Maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/Development/Maven/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="55" />
-    <option name="y" value="23" />
-    <option name="width" value="1625" />
-    <option name="height" value="1027" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>CoffeeScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>Cucumber</id>
-          </State>
-          <State>
-            <id>Data flowGroovy</id>
-          </State>
-          <State>
-            <id>Declaration redundancyGroovy</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>Error handlingGroovy</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>GSPGrailsGroovy</id>
-          </State>
-          <State>
-            <id>GeneralCoffeeScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>ImportsJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>MessagesCorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>PerformanceJava</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>Redundant constructsKotlin</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-          <State>
-            <id>YAML</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>UNUSED_IMPORT</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
+  <component name="ProjectId" id="1P32bhPTdxKhVIeVlR6nX6kWIoY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="publisher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.22.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.22.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -748,20 +136,28 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="SmartApplicationListener&#9;PSI&#9;JAVA://org.springframework.context.event.SmartApplicationListener&#10;ApplicationEventPublisherAware&#9;FILE&#9;jar:///Users/wangjie/.m2/repository/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisherAware.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
+    <property name="SearchEverywhereHistoryKey" value="DefaultPartit&#9;PSI&#9;JAVA://org.apache.kafka.clients.producer.internals.DefaultPartitioner&#10;AbstractConfig&#9;FILE&#9;jar:///Users/wangjie/.m2/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/config/AbstractConfig.java&#10;commitSync&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.Consumer#commitSync&#10;SmartApplicationListener&#9;PSI&#9;JAVA://org.springframework.context.event.SmartApplicationListener&#10;ApplicationEventPublisherAware&#9;FILE&#9;jar:///Users/wangjie/.m2/repository/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisherAware.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564650507713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564741740527" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HanLP/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -769,6 +165,9 @@
       <recent name="com.machineLearning" />
       <recent name="com.zookeeper" />
       <recent name="com.rabbitmq" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hanlp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.druid.config" />
@@ -778,11 +177,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HanLP/src/main/resources" />
       <recent name="$PROJECT_DIR$/RedisDemo/src/test/resources" />
       <recent name="$PROJECT_DIR$/RedisDemo/src/main/resources" />
       <recent name="$PROJECT_DIR$/MachineLearningDemo/src/test/resources/weka" />
       <recent name="$PROJECT_DIR$/MachineLearningDemo/src/main/resources" />
-      <recent name="$PROJECT_DIR$/DruidDemo/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -797,13 +196,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaDemoApp">
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.druid.pojo.User" />
-      <module name="DruidDemo" />
+  <component name="RunManager" selected="Application.HanLPDemo">
+    <configuration name="CompletableFutureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.service.CompletableFutureService" />
+      <module name="Java8Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.druid.pojo.*" />
+          <option name="PATTERN" value="com.java8.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -811,66 +210,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisGeoServiceTest.geoAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RedisDemo" />
+    <configuration name="DataTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.config.DataTransform" />
+      <module name="Java8Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.service.*" />
+          <option name="PATTERN" value="com.java8.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
-      <option name="METHOD_NAME" value="geoAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisGeoServiceTest.geoBatchAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RedisDemo" />
+    <configuration name="FutureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.service.FutureService" />
+      <module name="Java8Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.service.*" />
+          <option name="PATTERN" value="com.java8.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
-      <option name="METHOD_NAME" value="geoBatchAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisGeoServiceTest.geoDist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RedisDemo" />
+    <configuration name="HanLPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.HanLPDemo" />
+      <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.service.*" />
+          <option name="PATTERN" value="com.hanlp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
-      <option name="METHOD_NAME" value="geoDist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisGeoServiceTest.geoPos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RedisDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.redis.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.redis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
-      <option name="METHOD_NAME" value="geoPos" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -878,6 +252,13 @@
     <configuration name="ConcurrentApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ConcurrentDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.concurrent.ConcurrentApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignPatternApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DesignPattern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.design.pattern.DesignPatternApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -892,6 +273,19 @@
     <configuration name="ESApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ESDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.es.ESApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HanLPAPP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="HanLP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hanlp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanlp.HanLPAPP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -924,6 +318,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RedisDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.redis.RedisDemoApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZookeeperDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ZookeeperDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zookeeper.ZookeeperDemoApp" />
@@ -932,6 +333,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FutureService" />
+      <item itemvalue="Application.CompletableFutureService" />
+      <item itemvalue="Application.DataTransform" />
+      <item itemvalue="Application.HanLPDemo" />
       <item itemvalue="Spring Boot.ESApp" />
       <item itemvalue="Spring Boot.DruidApp" />
       <item itemvalue="Spring Boot.MachineLearningApp" />
@@ -940,19 +345,17 @@
       <item itemvalue="Spring Boot.ZookeeperDemoApp" />
       <item itemvalue="Spring Boot.Java8APP" />
       <item itemvalue="Spring Boot.ConcurrentApp" />
-      <item itemvalue="JUnit.RedisGeoServiceTest.geoAdd" />
-      <item itemvalue="JUnit.RedisGeoServiceTest.geoBatchAdd" />
-      <item itemvalue="JUnit.RedisGeoServiceTest.geoPos" />
-      <item itemvalue="JUnit.RedisGeoServiceTest.geoDist" />
-      <item itemvalue="Application.User" />
+      <item itemvalue="Spring Boot.RedisDemoApp" />
+      <item itemvalue="Spring Boot.DesignPatternApp" />
+      <item itemvalue="Spring Boot.HanLPAPP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.User" />
-        <item itemvalue="JUnit.RedisGeoServiceTest.geoDist" />
-        <item itemvalue="JUnit.RedisGeoServiceTest.geoPos" />
-        <item itemvalue="JUnit.RedisGeoServiceTest.geoAdd" />
-        <item itemvalue="JUnit.RedisGeoServiceTest.geoBatchAdd" />
+        <item itemvalue="Application.HanLPDemo" />
+        <item itemvalue="Spring Boot.HanLPAPP" />
+        <item itemvalue="Application.DataTransform" />
+        <item itemvalue="Application.FutureService" />
+        <item itemvalue="Application.CompletableFutureService" />
       </list>
     </recent_temporary>
   </component>
@@ -1045,6 +448,68 @@
       <workItem from="1564067760890" duration="417000" />
       <workItem from="1564362166490" duration="468000" />
       <workItem from="1564644474178" duration="4791000" />
+      <workItem from="1564708231930" duration="1777000" />
+      <workItem from="1564712009583" duration="4556000" />
+      <workItem from="1564735043165" duration="2238000" />
+      <workItem from="1564910674670" duration="1896000" />
+      <workItem from="1565088535104" duration="4635000" />
+      <workItem from="1565188599588" duration="349000" />
+      <workItem from="1565233982508" duration="1596000" />
+      <workItem from="1565256549098" duration="1269000" />
+      <workItem from="1565311145561" duration="6843000" />
+      <workItem from="1565550214341" duration="530000" />
+      <workItem from="1565590234995" duration="20000" />
+      <workItem from="1565590278827" duration="5621000" />
+      <workItem from="1565770765016" duration="2210000" />
+      <workItem from="1565791194011" duration="2035000" />
+      <workItem from="1565875020815" duration="1255000" />
+      <workItem from="1567348916970" duration="1015000" />
+      <workItem from="1567434643366" duration="978000" />
+      <workItem from="1567665678739" duration="4164000" />
+      <workItem from="1567735485634" duration="722000" />
+      <workItem from="1567737489118" duration="149000" />
+      <workItem from="1567741213268" duration="607000" />
+      <workItem from="1567759409115" duration="782000" />
+      <workItem from="1567780974924" duration="3456000" />
+      <workItem from="1567929695846" duration="1932000" />
+      <workItem from="1568554237143" duration="924000" />
+      <workItem from="1568773878337" duration="239000" />
+      <workItem from="1568774622647" duration="9733000" />
+      <workItem from="1568870922745" duration="2307000" />
+      <workItem from="1568945333236" duration="1795000" />
+      <workItem from="1568958297146" duration="10063000" />
+      <workItem from="1569159445090" duration="4255000" />
+      <workItem from="1569242405199" duration="4073000" />
+      <workItem from="1569304238722" duration="8716000" />
+      <workItem from="1569332655814" duration="13991000" />
+      <workItem from="1569581930699" duration="337000" />
+      <workItem from="1569634389851" duration="16000" />
+      <workItem from="1569726596933" duration="4790000" />
+      <workItem from="1571726233145" duration="3134000" />
+      <workItem from="1571886031058" duration="335000" />
+      <workItem from="1572492296263" duration="1602000" />
+      <workItem from="1572501212331" duration="8895000" />
+      <workItem from="1572833272381" duration="327000" />
+      <workItem from="1572924218029" duration="14000" />
+      <workItem from="1572939943700" duration="4074000" />
+      <workItem from="1573441462997" duration="7000" />
+      <workItem from="1573441474429" duration="2014000" />
+      <workItem from="1573635026069" duration="337000" />
+      <workItem from="1573742440724" duration="2602000" />
+      <workItem from="1573799693782" duration="35000" />
+      <workItem from="1574084305720" duration="49000" />
+      <workItem from="1574251745052" duration="2515000" />
+      <workItem from="1574338882470" duration="520000" />
+      <workItem from="1574339858582" duration="4331000" />
+      <workItem from="1574409206811" duration="2340000" />
+      <workItem from="1574661955840" duration="1593000" />
+      <workItem from="1574904852548" duration="5459000" />
+      <workItem from="1575206509009" duration="2547000" />
+      <workItem from="1575280040914" duration="4648000" />
+      <workItem from="1575427148952" duration="653000" />
+      <workItem from="1575461975086" duration="348000" />
+      <workItem from="1575527817896" duration="1687000" />
+      <workItem from="1575957773813" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -1189,120 +654,6 @@
     <option name="localTasksCounter" value="21" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="RedisGeoServiceTest_geoPos - 2019.05.30 at 18h 33m 03s.xml">
-      <configuration name="RedisGeoServiceTest.geoPos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoBatchAdd - 2019.05.30 at 18h 35m 30s.xml">
-      <configuration name="RedisGeoServiceTest.geoBatchAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoAdd - 2019.05.30 at 18h 38m 38s.xml">
-      <configuration name="RedisGeoServiceTest.geoAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoPos - 2019.05.30 at 18h 38m 59s.xml">
-      <configuration name="RedisGeoServiceTest.geoPos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoAdd - 2019.05.30 at 18h 44m 03s.xml">
-      <configuration name="RedisGeoServiceTest.geoAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoAdd - 2019.05.30 at 18h 44m 55s.xml">
-      <configuration name="RedisGeoServiceTest.geoAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoPos - 2019.05.30 at 18h 45m 06s.xml">
-      <configuration name="RedisGeoServiceTest.geoPos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoDist - 2019.05.30 at 19h 53m 54s.xml">
-      <configuration name="RedisGeoServiceTest.geoDist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoPos - 2019.05.30 at 19h 55m 52s.xml">
-      <configuration name="RedisGeoServiceTest.geoPos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RedisGeoServiceTest_geoDist - 2019.05.30 at 20h 00m 48s.xml">
-      <configuration name="RedisGeoServiceTest.geoDist" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246302000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.24969475" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5005225" side_tool="true" weight="0.21184371" />
-      <window_info id="Web" order="6" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
-      <window_info id="Structure" order="7" sideWeight="0.49947754" weight="0.21184371" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2998955" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" visible="true" weight="0.4649948" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22560203" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006297" side_tool="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282636" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32706374" />
-      <window_info anchor="bottom" id="REST Client" order="14" weight="0.382763" />
-      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.31138977" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32905984" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24908425" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.32967034" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.16605617" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" sideWeight="0.50076336" side_tool="true" weight="0.24664225" />
-      <window_info id="Structure" order="7" weight="0.20940171" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2998955" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49937028" weight="0.42842215" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22560203" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006297" side_tool="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3282636" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32706374" />
-      <window_info anchor="bottom" id="REST Client" order="14" weight="0.382763" />
-      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.31138977" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32961673" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24952741" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32967034" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="SciView" order="11" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -1322,28 +673,12 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html" />
@@ -1369,26 +704,27 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>713</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>721</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>705</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/DataTransform.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1396,552 +732,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.12.RELEASE/spring-rabbit-1.7.12.RELEASE-sources.jar!/org/springframework/amqp/rabbit/support/PublisherCallbackChannelImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8694">
-          <caret line="460" column="20" selection-start-line="460" selection-start-column="20" selection-end-line="460" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/Partitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7268">
-          <caret line="371" column="19" selection-start-line="371" selection-start-column="19" selection-end-line="371" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/ProducerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16468">
-          <caret line="799" column="36" selection-start-line="799" selection-start-column="36" selection-end-line="799" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/core/DefaultKafkaProducerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8257">
-          <caret line="432" column="35" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.12.RELEASE/spring-amqp-1.7.12.RELEASE.jar!/org/springframework/amqp/core/MessageProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQDemo/src/main/java/com/rabbitmq/controller/RabbitMQDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="1415" column="33" selection-start-line="1415" selection-start-column="33" selection-end-line="1415" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/Api.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.ApplicationEventPublisherAware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.ApplicationEventPublisherAware</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.context.ApplicationEventPublisherAware</node>
-            <node x="" y="">org.springframework.beans.factory.Aware</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="123.5" y="54.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.ConcurrentHashMap">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.ConcurrentHashMap</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.AbstractMap</node>
-            <node x="" y="">java.util.Map</node>
-            <node x="" y="">java.util.concurrent.ConcurrentHashMap</node>
-            <node x="" y="">java.io.Serializable</node>
-            <node x="" y="">java.util.concurrent.ConcurrentMap</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="213.5" y="93.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.BeanClassLoaderAware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.BeanClassLoaderAware</OriginalElement>
-          <nodes>
-            <node x="-5.0" y="-275.0">org.springframework.beans.factory.Aware</node>
-            <node x="-332.0" y="-28.0">org.springframework.beans.factory.BeanClassLoaderAware</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.beans.factory.BeanClassLoaderAware" target="org.springframework.beans.factory.Aware">
-              <point x="0.0" y="0.0" />
-              <point x="275.0" y="14.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-201.11538461538464" y="-253.99999999999994" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.Aware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.Aware</OriginalElement>
-          <nodes>
-            <node x="-245.0" y="-236.0">org.springframework.beans.factory.Aware</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-335.0" y="-186.5" />
-          <SelectedNodes>
-            <node>org.springframework.beans.factory.Aware</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/Aware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE-sources.jar!/org/springframework/beans/factory/Aware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#1499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE-sources.jar!/org/springframework/beans/factory/config/AbstractFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-          <folding>
-            <element signature="e#3268#3269#0" expanded="true" />
-            <element signature="e#3309#3310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE-sources.jar!/org/springframework/beans/factory/BeanClassLoaderAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisherAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/config/ConcurrentKafkaListenerContainerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="81" column="73" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/config/AbstractKafkaListenerContainerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="56" column="87" selection-start-line="56" selection-start-column="87" selection-end-line="56" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE-sources.jar!/org/springframework/kafka/listener/AbstractMessageListenerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.19.BUILD-SNAPSHOT/spring-boot-1.5.19.BUILD-20190111.142020-12.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="53" />
-          <folding>
-            <element signature="e#3998#3999#0" expanded="true" />
-            <element signature="e#4025#4026#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.3.22.RELEASE/spring-messaging-4.3.22.RELEASE.jar!/org/springframework/messaging/simp/user/MultiServerUserRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="58" column="100" lean-forward="true" selection-start-line="58" selection-start-column="100" selection-end-line="58" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/event/SmartApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/event/GenericApplicationListenerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/UserEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/BlogEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/ApplicationEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/ApplicationEventApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/listener/ApplicationEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/pojo/MessageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/event/AppEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/KafkaDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/service/KafkaDemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/config/KafkaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/controller/api/KafkaDemoApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/Kafka-logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/publisher/UserEventPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaDemo/src/main/java/com/kafka/KafkaDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>RabbitMQDemo:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Python 3.7 interpreter library</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>PayDemo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
