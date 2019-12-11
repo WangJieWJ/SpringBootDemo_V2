@@ -1,5 +1,7 @@
 package com.shiro.entity;
 
+import java.io.Serializable;
+
 /**
  * Title: 
  * Description: 
@@ -9,7 +11,7 @@ package com.shiro.entity;
  * Author: 王杰
  * Create Time:2019-12-10 16:16
  */
-public class ShiroUser {
+public class ShiroUser implements Serializable {
 
 	/**
 	 * 用户名

@@ -6,6 +6,7 @@ import com.shiro.shiro.token.UserAuthenticationToken;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +46,9 @@ public class ShiroDemoController {
 
 		LOGGER.info("当前登录用户是否存在:{},权限字符串:{}",
 				subject.isPermitted(permissionStr), permissionStr);
+
+		Session session = subject.getSession();
+		LOGGER.info("session Id:{}", session.getId());
 
 	}
 }

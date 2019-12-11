@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/readme.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/controller/ShiroDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/entity/ShiroUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/service/ShiroDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/credential/UserPassWordCredentialMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/manager/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/manager/RedisCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/realm/UserRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/token/UserAuthenticationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/utils/HashUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/resources/shiro-logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/manager/RedisCacheSessionDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShiroDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/ShiroDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/ShiroDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/controller/ShiroDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/controller/ShiroDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/entity/ShiroUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/entity/ShiroUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/manager/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/manager/RedisCache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -479,7 +464,7 @@
       <workItem from="1575461975086" duration="348000" />
       <workItem from="1575527817896" duration="1687000" />
       <workItem from="1575957773813" duration="15685000" />
-      <workItem from="1575983336390" duration="6067000" />
+      <workItem from="1575983336390" duration="11104000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -628,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575958087082</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="自定义Realm、CacheManager、自定义Token、自定义Credential">
+      <created>1576027218689</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576027218689</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +666,8 @@
     <MESSAGE value="Java8时间API" />
     <MESSAGE value="Redis中的Geohash" />
     <MESSAGE value="代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码提交" />
+    <MESSAGE value="自定义Realm、CacheManager、自定义Token、自定义Credential" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义Realm、CacheManager、自定义Token、自定义Credential" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,6 +696,11 @@
           <url>file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/DataTransform.java</url>
           <line>24</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/controller/ShiroDemoController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -26,7 +26,7 @@ public class RedisCache<K, V> implements Cache<K, V> {
 	/**
 	 * 缓存Key的前缀
 	 */
-	private static final String cachePrefix = "shiro:cache:";
+	private static final String cachePrefix = "shiro:cache";
 
 	/**
 	 * 缓存30分钟
@@ -35,9 +35,9 @@ public class RedisCache<K, V> implements Cache<K, V> {
 
 	private String cacheName;
 
-	private RedisTemplate<String,Object> redisTemplate;
+	private RedisTemplate<String, Object> redisTemplate;
 
-	public RedisCache(String cacheName, RedisTemplate<String,Object> redisTemplate) {
+	public RedisCache(String cacheName, RedisTemplate<String, Object> redisTemplate) {
 		this.cacheName = cacheName;
 		this.redisTemplate = redisTemplate;
 	}
@@ -97,6 +97,13 @@ public class RedisCache<K, V> implements Cache<K, V> {
 	@Override
 	public String toString() {
 		return String.format("RedisCache，cacheName:%s，cacheSize:%s", this.cacheName, size());
+	}
+
+	/**
+	 * 获取超时间时间
+	 */
+	public static int getTimeout() {
+		return timeout;
 	}
 
 	/**
