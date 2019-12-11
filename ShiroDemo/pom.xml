@@ -12,4 +12,22 @@
 	<artifactId>ShiroDemo</artifactId>
 
 
+	<dependencies>
+		<!-- redis 依赖 start-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<!-- redis 依赖 end-->
+
+		<!-- shiro 依赖 start-->
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-spring</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<!-- shiro 依赖 end-->
+
+	</dependencies>
+
 </project>

@@ -1,0 +1,10 @@
+server:
+  context-path: /shiroDemo
+  port: 8089
+
+spring:
+  profiles:
+    active: local
+
+logging:
+  config: classpath:shiro-logback.xml

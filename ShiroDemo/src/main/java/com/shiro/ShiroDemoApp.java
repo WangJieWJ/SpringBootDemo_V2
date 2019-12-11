@@ -1,5 +1,8 @@
 package com.shiro;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+
 /**
  * Title: 
  * Description: 
@@ -9,5 +12,11 @@ package com.shiro;
  * Author: 王杰
  * Create Time:2019-12-10 14:06
  */
+@SpringBootApplication
 public class ShiroDemoApp {
+
+	public static void main(String[] args) {
+		new SpringApplicationBuilder(ShiroDemoApp.class).web(true).run(args);
+	}
+
 }
