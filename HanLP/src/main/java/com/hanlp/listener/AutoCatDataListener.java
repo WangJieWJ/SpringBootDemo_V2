@@ -1,6 +1,8 @@
 package com.hanlp.listener;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +10,7 @@ import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.event.AnalysisEventListener;
 import com.alibaba.fastjson.JSON;
 import com.hanlp.dto.AutoCatData;
+import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -36,12 +39,20 @@ public class AutoCatDataListener extends AnalysisEventListener<AutoCatData> {
 	public void doAfterAllAnalysed(AnalysisContext analysisContext) {
 		LOGGER.info("所有数据解析完毕");
 		String filePath = "/Users/wangjie/Development/iso/share/ckm/autoCat";
+		int fileNum = 1;
 		for (AutoCatData autoCatData : autoCatDataList) {
-			if (checkAndCreatePath(String.format("%s%s%s%s%s", filePath, File.separator,
-					autoCatData.getPrimaryClass(), File.separator, autoCatData.getSecondClass()))) {
+			String fileStr = String.format("%s%s%s", filePath, File.separator, autoCatData.getPrimaryClass());
+			if (checkAndCreatePath(fileStr)) {
 				// 文件生成
-
+				try {
+					FileWriter writer = new FileWriter(String.format("%s%s%s.txt", fileStr, File.separator, fileNum));
+					IOUtils.write(autoCatData.getDetail().getBytes("UTF-8"), writer, Charset.forName("GBK"));
+					writer.flush();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
+			fileNum++;
 		}
 	}
 

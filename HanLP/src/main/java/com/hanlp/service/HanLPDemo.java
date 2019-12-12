@@ -139,8 +139,8 @@ public class HanLPDemo {
 	/**
 	 * CKM 自动分类
 	 */
-	private static void autoCat() {
-		String authCatFileName = "/Users/wangjie/Development/项目/海关/自动分类训练.xlsx";
+	private static void createAutoCatFile() {
+		String authCatFileName = "/Users/wangjie/Development/项目/海关/CKM/自动分类训练.xlsx";
 		EasyExcel.read(authCatFileName, AutoCatData.class, new AutoCatDataListener()).sheet().doRead();
 	}
 
@@ -204,8 +204,8 @@ public class HanLPDemo {
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
 //		textClassificationDemo();
-		emotionAnalysisDemo();
-//		ckmDemo();
+//		emotionAnalysisDemo();
+		createAutoCatFile();
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
 
 	}
