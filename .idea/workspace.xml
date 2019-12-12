@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/tokenizers/SelfTokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" afterDir="false" />
     </list>
@@ -460,7 +461,7 @@
       <workItem from="1575461975086" duration="348000" />
       <workItem from="1575527817896" duration="1687000" />
       <workItem from="1575957773813" duration="15685000" />
-      <workItem from="1575983336390" duration="21575000" />
+      <workItem from="1575983336390" duration="24784000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -637,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576137174745</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="HanLP自动分类测试">
+      <created>1576137812596</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576137812596</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +695,9 @@
     <MESSAGE value="自定义RedisSessionManager基于Redis实现session共享" />
     <MESSAGE value="HanLP的文本分类，情感分析操作" />
     <MESSAGE value="基于海关数据生成自动分类数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于海关数据生成自动分类数据" />
+    <MESSAGE value="自动分类设置" />
+    <MESSAGE value="HanLP自动分类测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="HanLP自动分类测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

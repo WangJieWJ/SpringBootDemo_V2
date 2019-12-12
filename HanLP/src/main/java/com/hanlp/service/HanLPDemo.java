@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import com.alibaba.excel.EasyExcel;
+import com.alibaba.fastjson.JSON;
 import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.classification.classifiers.IClassifier;
 import com.hankcs.hanlp.classification.classifiers.NaiveBayesClassifier;
@@ -20,10 +21,13 @@ import com.hankcs.hanlp.classification.tokenizers.HanLPTokenizer;
 import com.hankcs.hanlp.classification.tokenizers.ITokenizer;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import com.hankcs.hanlp.model.crf.CRFLexicalAnalyzer;
+import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 import com.hanlp.classifiers.LinearSVMClassifier;
 import com.hanlp.dto.AutoCatData;
 import com.hanlp.listener.AutoCatDataListener;
+import com.hanlp.tokenizers.SelfTokenizer;
 import com.trs.ckm.soap.CATModelInfo;
 import com.trs.ckm.soap.CATRevDetail;
 import com.trs.ckm.soap.CkmSoapException;
@@ -82,12 +86,14 @@ public class HanLPDemo {
 	 */
 	private static void textClassificationDemo() throws IOException {
 		String folderPath = "/Users/wangjie/Development/ELK/hanlp/语料库/搜狗文本分类语料库迷你版";
-		folderPath = "/Users/wangjie/Development/iso/share/ckm/autoCat";
-		String charsetName = "GBK";
-		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new HanLPTokenizer());
-		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new BigramTokenizer());
-		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new HanLPTokenizer());
+//		folderPath = "/Users/wangjie/Development/iso/share/ckm/autoCat";
+		String charsetName = "UTF-8";
+//		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new BigramTokenizer());
+//		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new HanLPTokenizer());
 		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new BigramTokenizer());
+		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new HanLPTokenizer());
+		// 使用自定义的Tokenizer
+		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new SelfTokenizer());
 	}
 
 	/**
@@ -110,6 +116,31 @@ public class HanLPDemo {
 		FMeasure result = Evaluator.evaluate(classifier, testingCorpus);
 		System.out.println(classifier.getClass().getSimpleName() + "+" + tokenizer.getClass().getSimpleName());
 		System.out.println(result);
+	}
+
+	/**
+	 * 使用CRF条件随机场进行分词
+	 * @throws IOException
+	 */
+	public static void testSelfTokenizer() throws IOException {
+		// 使用自定的Tokenizer
+		String folderPath = "/Users/wangjie/Development/ELK/hanlp/语料库/搜狗文本分类语料库迷你版";
+		String charsetName = "UTF-8";
+		SelfTokenizer selfTokenizer = new SelfTokenizer();
+		Segment selfSegment = new CRFLexicalAnalyzer();
+		selfSegment.enableAllNamedEntityRecognize(true);
+		// 配置具体的分词算法
+		selfTokenizer.setSegment(selfSegment);
+		IDataSet trainingCorpus = new FileDataSet()
+				.setTokenizer(selfTokenizer)
+				.load(folderPath, charsetName, 1);
+		LinearSVMClassifier linearSVMClassifier = new LinearSVMClassifier();
+		linearSVMClassifier.train(trainingCorpus);
+
+		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("虽说冯小刚的奔驰车性能特别好,但他从不超速开车。“按规定速度行车,遇到突然的情况,就能够及时处理。否则,就没把握了。“开车上路不要随意超车，尽量少变更车道。超速、超车其实快不了哪儿去，就是你玩儿命超，也就是早个十分钟。前几天在五环路上，唰的一声，一辆车从我车旁飞过，他是从望京的出口出来，在路上正赶上红灯。我跟在他前后脚停住了，但他冒的风险很大。这就是年轻气盛，安全意识不强。要知道，生命是爹妈给的，而生命是非常脆弱的，要保护好。对自己负责，也要对亲人负责。要想想，你还有那么多事要做，还有那么多好日子要过，只是为了把车开快一点，而什么都没有了，太不值了吧！”说起上路感受，冯小刚滔滔不绝。　　几乎每年都要推出一部贺岁片的冯小刚，前几年每年也要“推出”一部汽车。")));
+		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("先是拉达吉普，后又换了一辆夏利、富康、大宇、三凌轿车。现在，他开的是一辆红色奔驰轿车，原因是听别人说红颜色的车发生事故的机率特别低。")));
+		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("汽车之家为汽车消费者提供选车、买车、用车、换车等所有环节的全面、准确、快捷的一站式服务。汽车之家致力于通过产品服务、数据技术、生态规则和资源为用户和")));
+		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("我认为，在开车时与前车保持必要的距离也是至关重要的。我曾经吃过一次亏。那天，在北京双安桥上，我紧跟着前车顺行，忽然前车来了一个急刹车，我来不及停就撞在他后面了。当时车速是30迈，可我觉得震动是很大的。试想，如果是高速行车追尾，那后果一定不堪设想。有人想从中间加进来，我也绝不跟他们斗气，避免事故才是最重要的。”　　")));
 	}
 
 	/**
@@ -206,7 +237,8 @@ public class HanLPDemo {
 
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
-		textClassificationDemo();
+//		textClassificationDemo();
+		testSelfTokenizer();
 //		emotionAnalysisDemo();
 //		createAutoCatFile();
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
