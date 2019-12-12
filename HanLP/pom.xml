@@ -20,6 +20,14 @@
 		</dependency>
 		<!-- hanlp 自然语言处理 end -->
 
+		<!-- 引入支持向量机(SVM)来是实现分词 start -->
+		<dependency>
+			<groupId>de.bwaldvogel</groupId>
+			<artifactId>liblinear</artifactId>
+			<version>1.95</version>
+		</dependency>
+		<!-- 引入支持向量机(SVM)来是实现分词 end -->
+
 		<!--easyexcel start-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -29,7 +37,7 @@
 		<!--easyexcel end-->
 
 		<!---->
-			<!-- ckm通过jar依赖包 -->
+		<!-- ckm通过jar依赖包 -->
 		<!---->
 	</dependencies>
 

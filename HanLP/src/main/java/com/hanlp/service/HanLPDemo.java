@@ -8,9 +8,20 @@ import java.util.TreeMap;
 
 import com.alibaba.excel.EasyExcel;
 import com.hankcs.hanlp.HanLP;
+import com.hankcs.hanlp.classification.classifiers.IClassifier;
+import com.hankcs.hanlp.classification.classifiers.NaiveBayesClassifier;
+import com.hankcs.hanlp.classification.corpus.FileDataSet;
+import com.hankcs.hanlp.classification.corpus.IDataSet;
+import com.hankcs.hanlp.classification.corpus.MemoryDataSet;
+import com.hankcs.hanlp.classification.statistics.evaluations.Evaluator;
+import com.hankcs.hanlp.classification.statistics.evaluations.FMeasure;
+import com.hankcs.hanlp.classification.tokenizers.BigramTokenizer;
+import com.hankcs.hanlp.classification.tokenizers.HanLPTokenizer;
+import com.hankcs.hanlp.classification.tokenizers.ITokenizer;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
 import com.hankcs.hanlp.seg.common.Term;
+import com.hanlp.classifiers.LinearSVMClassifier;
 import com.hanlp.dto.AutoCatData;
 import com.hanlp.listener.AutoCatDataListener;
 import com.trs.ckm.soap.CATModelInfo;
@@ -64,6 +75,66 @@ public class HanLPDemo {
 			System.out.println(keyWord);
 		}
 	}
+
+	/**
+	 * HANLP 两种分词器、两种分类器，相互组合
+	 * @throws IOException
+	 */
+	private static void textClassificationDemo() throws IOException {
+		String folderPath = "/Users/wangjie/Development/ELK/hanlp/语料库/搜狗文本分类语料库迷你版";
+		textClassificationDemo1(folderPath, new NaiveBayesClassifier(), new HanLPTokenizer());
+		textClassificationDemo1(folderPath, new NaiveBayesClassifier(), new BigramTokenizer());
+		textClassificationDemo1(folderPath, new LinearSVMClassifier(), new HanLPTokenizer());
+		textClassificationDemo1(folderPath, new LinearSVMClassifier(), new BigramTokenizer());
+	}
+
+	/**
+	 * HANLP 文本分类
+	 * @param folderPath 待分类的文件路径
+	 * @param classifier 分类器
+	 * @param tokenizer 分词器
+	 */
+	private static void textClassificationDemo1(String folderPath, IClassifier classifier, ITokenizer tokenizer) throws IOException {
+		// 前90%作为训练集
+		IDataSet trainingCorpus = new FileDataSet()
+				.setTokenizer(tokenizer)
+				.load(folderPath, "UTF-8", 0.9);
+		classifier.train(trainingCorpus);
+		// 后10%作为测试集
+		IDataSet testingCorpus = new MemoryDataSet(classifier.getModel()).
+				load(folderPath, "UTF-8", -0.1);
+		// 计算准确率
+		FMeasure result = Evaluator.evaluate(classifier, testingCorpus);
+		System.out.println(classifier.getClass().getSimpleName() + "+" + tokenizer.getClass().getSimpleName());
+		System.out.println(result);
+	}
+
+	/**
+	 * HANLP 情感分析
+	 */
+	private static void emotionAnalysisDemo() throws IOException {
+
+		String folderPathComment = "/Users/wangjie/Development/ELK/hanlp/语料库/ChnSentiCorp情感分析酒店评论";
+		NaiveBayesClassifier naiveBayesClassifier = new NaiveBayesClassifier();
+		naiveBayesClassifier.train(folderPathComment);
+
+		LinearSVMClassifier linearSVMClassifier = new LinearSVMClassifier();
+		linearSVMClassifier.train(folderPathComment);
+
+		String text1 = "热水器不热";
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text1, naiveBayesClassifier.classify(text1)));
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text1, linearSVMClassifier.classify(text1)));
+
+		String text2 = "结果大失所望，灯光昏暗，空间极其狭小，床垫质量恶劣，房间还伴着一股霉味。";
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text2, naiveBayesClassifier.classify(text2)));
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text2, linearSVMClassifier.classify(text2)));
+
+		String text3 = "可利用文本分类实现情感分析，效果还行";
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text3, naiveBayesClassifier.classify(text3)));
+		System.out.println(String.format("当前需要分类的模板：%s，模板类型为：%s", text3, linearSVMClassifier.classify(text3)));
+
+	}
+
 
 	/**
 	 * CKM 自动分类
@@ -131,7 +202,9 @@ public class HanLPDemo {
 
 
 	public static void main(String[] args) throws Exception {
-		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
+//		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
+//		textClassificationDemo();
+		emotionAnalysisDemo();
 //		ckmDemo();
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
 
