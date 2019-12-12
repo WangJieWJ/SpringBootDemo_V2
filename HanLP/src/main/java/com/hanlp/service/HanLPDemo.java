@@ -82,27 +82,30 @@ public class HanLPDemo {
 	 */
 	private static void textClassificationDemo() throws IOException {
 		String folderPath = "/Users/wangjie/Development/ELK/hanlp/语料库/搜狗文本分类语料库迷你版";
-		textClassificationDemo1(folderPath, new NaiveBayesClassifier(), new HanLPTokenizer());
-		textClassificationDemo1(folderPath, new NaiveBayesClassifier(), new BigramTokenizer());
-		textClassificationDemo1(folderPath, new LinearSVMClassifier(), new HanLPTokenizer());
-		textClassificationDemo1(folderPath, new LinearSVMClassifier(), new BigramTokenizer());
+		folderPath = "/Users/wangjie/Development/iso/share/ckm/autoCat";
+		String charsetName = "GBK";
+		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new HanLPTokenizer());
+		textClassificationDemo1(folderPath, charsetName, new NaiveBayesClassifier(), new BigramTokenizer());
+		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new HanLPTokenizer());
+		textClassificationDemo1(folderPath, charsetName, new LinearSVMClassifier(), new BigramTokenizer());
 	}
 
 	/**
 	 * HANLP 文本分类
 	 * @param folderPath 待分类的文件路径
+	 * @param charsetName 编码类型
 	 * @param classifier 分类器
 	 * @param tokenizer 分词器
 	 */
-	private static void textClassificationDemo1(String folderPath, IClassifier classifier, ITokenizer tokenizer) throws IOException {
+	private static void textClassificationDemo1(String folderPath, String charsetName, IClassifier classifier, ITokenizer tokenizer) throws IOException {
 		// 前90%作为训练集
 		IDataSet trainingCorpus = new FileDataSet()
 				.setTokenizer(tokenizer)
-				.load(folderPath, "UTF-8", 0.9);
+				.load(folderPath, charsetName, 0.9);
 		classifier.train(trainingCorpus);
 		// 后10%作为测试集
 		IDataSet testingCorpus = new MemoryDataSet(classifier.getModel()).
-				load(folderPath, "UTF-8", -0.1);
+				load(folderPath, charsetName, -0.1);
 		// 计算准确率
 		FMeasure result = Evaluator.evaluate(classifier, testingCorpus);
 		System.out.println(classifier.getClass().getSimpleName() + "+" + tokenizer.getClass().getSimpleName());
@@ -203,10 +206,9 @@ public class HanLPDemo {
 
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
-//		textClassificationDemo();
+		textClassificationDemo();
 //		emotionAnalysisDemo();
-		createAutoCatFile();
+//		createAutoCatFile();
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
-
 	}
 }
