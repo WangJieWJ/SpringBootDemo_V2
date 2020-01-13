@@ -9,6 +9,7 @@ import com.shiro.shiro.credential.UserPassWordCredentialMatcher;
 import com.shiro.shiro.filter.LoginCheckFilter;
 import com.shiro.shiro.manager.RedisCacheManager;
 import com.shiro.shiro.manager.RedisCacheSessionDAO;
+import com.shiro.shiro.permission.AdminPermissionResolver;
 import com.shiro.shiro.realm.UserRealm;
 import com.shiro.shiro.utils.HashUtils;
 import org.apache.shiro.mgt.SecurityManager;
@@ -49,7 +50,8 @@ public class ShiroConfig {
 		// 未授权跳转地址
 		shiroFilterFactoryBean.setUnauthorizedUrl("");
 
-		// 配置自定义的Filter
+		// 配置自定义的Filter  这样才会保证所有的Filter都在AbstractShiroFilter之后执行，
+		// 保证其他Filter中获取到的HttpServletRequest是shiroHttpServletRequest
 		Map<String, Filter> selfFilter = new HashMap<>(2);
 		selfFilter.put("loginCheck", loginCheckFilter());
 		shiroFilterFactoryBean.setFilters(selfFilter);
@@ -101,7 +103,16 @@ public class ShiroConfig {
 		userRealm.setAuthenticationCachingEnabled(false);
 		// AuthorizationInfo(用户的授权信息)是否需要缓存
 		userRealm.setAuthorizationCachingEnabled(true);
+		// 设置自定义的Permission解析器
+		userRealm.setPermissionResolver(adminPermissionResolver());
 		return userRealm;
+	}
+
+	/**
+	 * 自定义Permission解析器
+	 */
+	public AdminPermissionResolver adminPermissionResolver() {
+		return new AdminPermissionResolver();
 	}
 
 	@Bean
@@ -122,7 +133,6 @@ public class ShiroConfig {
 		return userPassWordCredentialMatcher;
 	}
 
-	@Bean
 	public LoginCheckFilter loginCheckFilter() {
 		LoginCheckFilter loginCheckFilter = new LoginCheckFilter("未登录跳转地址");
 		return loginCheckFilter;

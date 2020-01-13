@@ -36,6 +36,7 @@
         <module>RedisDemo</module>
 		<module>HanLP</module>
 		<module>ShiroDemo</module>
+		<module>SearchUtils</module>
 	</modules>
 
     <dependencies>

@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.regex.Pattern;
 
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.fastjson.JSON;
@@ -19,11 +20,19 @@ import com.hankcs.hanlp.classification.statistics.evaluations.FMeasure;
 import com.hankcs.hanlp.classification.tokenizers.BigramTokenizer;
 import com.hankcs.hanlp.classification.tokenizers.HanLPTokenizer;
 import com.hankcs.hanlp.classification.tokenizers.ITokenizer;
+import com.hankcs.hanlp.corpus.dependency.CoNll.CoNLLSentence;
+import com.hankcs.hanlp.corpus.document.sentence.word.IWord;
 import com.hankcs.hanlp.corpus.io.IOUtil;
+import com.hankcs.hanlp.dependency.IDependencyParser;
+import com.hankcs.hanlp.dependency.perceptron.parser.KBeamArcEagerDependencyParser;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
 import com.hankcs.hanlp.model.crf.CRFLexicalAnalyzer;
+import com.hankcs.hanlp.model.perceptron.PerceptronLexicalAnalyzer;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
+import com.hankcs.hanlp.tokenizer.pipe.LexicalAnalyzerPipeline;
+import com.hankcs.hanlp.tokenizer.pipe.Pipe;
+import com.hankcs.hanlp.tokenizer.pipe.RegexRecognizePipe;
 import com.hanlp.classifiers.LinearSVMClassifier;
 import com.hanlp.dto.AutoCatData;
 import com.hanlp.listener.AutoCatDataListener;
@@ -32,6 +41,8 @@ import com.trs.ckm.soap.CATModelInfo;
 import com.trs.ckm.soap.CATRevDetail;
 import com.trs.ckm.soap.CkmSoapException;
 import com.trs.ckm.soap.Constants;
+import com.trs.ckm.soap.RevDetail;
+import com.trs.ckm.soap.RevHold;
 import com.trs.ckm.soap.TrsCkmSoapClient;
 
 import org.springframework.stereotype.Service;
@@ -169,6 +180,46 @@ public class HanLPDemo {
 
 	}
 
+	/**
+	 * 依存句法分析
+	 */
+	private static void dependencyParser() throws IOException, ClassNotFoundException {
+		IDependencyParser parser = new KBeamArcEagerDependencyParser();
+		CoNLLSentence tree = parser.parse("电池非常棒，机身不长，长的是待机，但是屏幕分辨率不高。");
+		System.out.println(tree);
+		tree = parser.parse("2019年10月22日，呼和浩特海关所属乌拉特海关监管二科在进境卡口物流监控验环节，对车号为3922的蒙古籍运煤车辆进行机检检查，发现其车厢前部煤层下方位置疑似夹藏。经人工检查查获夹藏于该车辆车厢前部的中药材防风682.5千克。目前该情事已移交缉私部门做进一步处理");
+		System.out.println(tree);
+	}
+
+	private static final Pattern WEB_URL = Pattern.compile("((?:(http|https|Http|Https|rtsp|Rtsp):\\/\\/(?:(?:[a-zA-Z0-9\\$\\-\\_\\.\\+\\!\\*\\'\\(\\)\\,\\;\\?\\&\\=]|(?:\\%[a-fA-F0-9]{2})){1,64}(?:\\:(?:[a-zA-Z0-9\\$\\-\\_\\.\\+\\!\\*\\'\\(\\)\\,\\;\\?\\&\\=]|(?:\\%[a-fA-F0-9]{2})){1,25})?\\@)?)?(?:(((([a-zA-Z0-9][a-zA-Z0-9\\-]*)*[a-zA-Z0-9]\\.)+((aero|arpa|asia|a[cdefgilmnoqrstuwxz])|(biz|b[abdefghijmnorstvwyz])|(cat|com|coop|c[acdfghiklmnoruvxyz])|d[ejkmoz]|(edu|e[cegrstu])|f[ijkmor]|(gov|g[abdefghilmnpqrstuwy])|h[kmnrtu]|(info|int|i[delmnoqrst])|(jobs|j[emop])|k[eghimnprwyz]|l[abcikrstuvy]|(mil|mobi|museum|m[acdeghklmnopqrstuvwxyz])|(name|net|n[acefgilopruz])|(org|om)|(pro|p[aefghklmnrstwy])|qa|r[eosuw]|s[abcdeghijklmnortuvyz]|(tel|travel|t[cdfghjklmnoprtvwz])|u[agksyz]|v[aceginu]|w[fs]|(δοκιμή|испытание|рф|срб|טעסט|آزمایشی|إختبار|الاردن|الجزائر|السعودية|المغرب|امارات|بھارت|تونس|سورية|فلسطين|قطر|مصر|परीक्षा|भारत|ভারত|ਭਾਰਤ|ભારત|இந்தியா|இலங்கை|சிங்கப்பூர்|பரிட்சை|భారత్|ලංකා|ไทย|テスト|中国|中國|台湾|台灣|新加坡|测试|測試|香港|테스트|한국|xn\\-\\-0zwm56d|xn\\-\\-11b5bs3a9aj6g|xn\\-\\-3e0b707e|xn\\-\\-45brj9c|xn\\-\\-80akhbyknj4f|xn\\-\\-90a3ac|xn\\-\\-9t4b11yi5a|xn\\-\\-clchc0ea0b2g2a9gcd|xn\\-\\-deba0ad|xn\\-\\-fiqs8s|xn\\-\\-fiqz9s|xn\\-\\-fpcrj9c3d|xn\\-\\-fzc2c9e2c|xn\\-\\-g6w251d|xn\\-\\-gecrj9c|xn\\-\\-h2brj9c|xn\\-\\-hgbk6aj7f53bba|xn\\-\\-hlcj6aya9esc7a|xn\\-\\-j6w193g|xn\\-\\-jxalpdlp|xn\\-\\-kgbechtv|xn\\-\\-kprw13d|xn\\-\\-kpry57d|xn\\-\\-lgbbat1ad8j|xn\\-\\-mgbaam7a8h|xn\\-\\-mgbayh7gpa|xn\\-\\-mgbbh1a71e|xn\\-\\-mgbc0a9azcg|xn\\-\\-mgberp4a5d4ar|xn\\-\\-o3cw4h|xn\\-\\-ogbpf8fl|xn\\-\\-p1ai|xn\\-\\-pgbs0dh|xn\\-\\-s9brj9c|xn\\-\\-wgbh1c|xn\\-\\-wgbl6a|xn\\-\\-xkc2al3hye2a|xn\\-\\-xkc2dl3a5ee0h|xn\\-\\-yfro4i67o|xn\\-\\-ygbi2ammx|xn\\-\\-zckzah|xxx)|y[et]|z[amw]))|((25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9]))))(?:\\:\\d{1,5})?)(\\/(?:(?:[a-zA-Z0-9\\;\\/\\?\\:\\@\\&\\=\\#\\~\\-\\.\\+\\!\\*\\'\\(\\)\\,\\_])|(?:\\%[a-fA-F0-9]{2}))*)?");
+
+	private static final Pattern EMAIL = Pattern.compile("(\\w+(?:[-+.]\\w+)*)@(\\w+(?:[-.]\\w+)*\\.\\w+(?:[-.]\\w+)*)");
+
+	/**
+	 * 分词之前对内容进行正则匹配避免 邮箱、url地址这种特殊字符被拆分
+	 */
+	private static void regexBeforeSegment() throws IOException {
+		LexicalAnalyzerPipeline analyzer = new LexicalAnalyzerPipeline(new PerceptronLexicalAnalyzer());
+		// 管道顺序=优先级，自行调整管道顺序以控制优先级
+		analyzer.addFirst(new RegexRecognizePipe(WEB_URL, "【网址】"));
+		analyzer.addFirst(new RegexRecognizePipe(EMAIL, "【邮件】"));
+		// 自己写个管道也并非难事
+		analyzer.addLast(new Pipe<List<IWord>, List<IWord>>() {
+			@Override
+			public List<IWord> flow(List<IWord> input) {
+				for (IWord word : input) {
+					if ("nx".equals(word.getLabel())) {
+						word.setLabel("字母");
+					}
+				}
+				return input;
+			}
+		});
+		String text = "HanLP的项目地址是https://github.com/hankcs/HanLP，联系邮箱abc@def.com";
+		System.out.println(analyzer.analyze(text));
+	}
+
+
 
 	/**
 	 * CKM 自动分类
@@ -234,13 +285,76 @@ public class HanLPDemo {
 		}
 	}
 
+	/**
+	 * CKM相似性检测
+	 */
+	public static void ckmSimModel() throws CkmSoapException {
+		TrsCkmSoapClient trsCkmSoapClient = new TrsCkmSoapClient("http://127.0.0.1:8000", "admin", "trsadmin");
+
+		String simModelName = "contentSimModel";
+
+//		 创建相似性模板
+//		createCkmSimModel(simModelName, trsCkmSoapClient);
+
+		// 添加相似记录
+		updateSimUpdateIndex("1", "空调//@海尔空调:#海尔空调牵手中国女排#今天是海尔空调的大日子，本空调终于和@中国女排 “锁”了！这么激动的事儿得让大家和我一起分享，送空调必须安排上！！转+评本微博，说说你理解的“女排精神”，12.13抽一个宝宝送我家新品【海尔多风感系列】挂机一台！#与风同行，再创新高# 抽奖详情", simModelName, trsCkmSoapClient);
+		updateSimUpdateIndex("2", "锦鲤手抄报 空调//@海尔空调:#海尔空调牵手中国女排#今天是海尔空调的大日子，本空调终于和@中国女排 “锁”了！这么激动的事儿得让大家和我一起分享，送空调必须安排上！！转+评本微博，说说你理解的“女排精神”，12.13抽一个宝宝送我家新品【海尔多风感系列】挂机一台！#与风同行，再创新高# 抽奖详情", simModelName, trsCkmSoapClient);
+		updateSimUpdateIndex("3", "超级无敌普_通人 空调//@海尔空调:#海尔空调牵手中国女排#今天是海尔空调的大日子，本空调终于和@中国女排 “锁”了！这么激动的事儿得让大家和我一起分享，送空调必须安排上！！转+评本微博，说说你理解的“女排精神”，12.13抽一个宝宝送我家新品【海尔多风感系列】挂机一台！#与风同行，再创新高# 抽奖详情", simModelName, trsCkmSoapClient);
+		updateSimUpdateIndex("4", "转发微博 //@海尔智家:#智家小科普#冷柜结霜存在各种隐患，清霜工作却又堪比战场。。。交给我们吧～2019.12.1-2020.1.24，海尔智家35周年感恩节推出回馈老用户活动，免费上门为你提供家电保养；更有感恩新品礼，购新家电享各种惊喜好礼～想趁#双十二#换新的，赶紧看过来！", simModelName, trsCkmSoapClient);
+
+		// 根据文章内容查询相似度
+		querySimRetrieveByText("空调//@海尔空调:#海尔空调牵手中国女排#今天是海尔空调的大日子，本空调终于和@中国女排 “锁”了！这么激动的事儿得让大家和我一起分享，送空调必须安排上！！转+评本微博，说说你理解的“女排精神”，12.13抽一个宝宝送我家新品【海尔多风感系列】挂机一台！#与风同行，再创新高# 抽奖详情", simModelName, trsCkmSoapClient);
+		querySimRetrieveByText("海尔空调牵手中国女排#说说你理解的“女排精神”，12.13抽一个宝宝送我家新品【海尔多风感系列】挂机一台！#与风同行，再创新高# 抽奖详情", simModelName, trsCkmSoapClient);
+	}
+
+	/**
+	 * 创建相似性模板
+	 * @param simModelName 相似性模板名称
+	 * @param trsCkmSoapClient ckm连接
+	 * @throws CkmSoapException
+	 */
+	private static void createCkmSimModel(String simModelName, TrsCkmSoapClient trsCkmSoapClient) throws CkmSoapException {
+		System.out.println(String.format("相似性模板创建结果:%s", trsCkmSoapClient.SimCreateModel(simModelName)));
+	}
+
+	/**
+	 * 添加相似记录模板
+	 * @param contentId 内容ID
+	 * @param contentDetail 内容
+	 * @param simModelName 模板名称
+	 * @param trsCkmSoapClient ckm连接
+	 * @throws CkmSoapException
+	 */
+	private static void updateSimUpdateIndex(String contentId, String contentDetail, String simModelName, TrsCkmSoapClient trsCkmSoapClient) throws CkmSoapException {
+		System.out.println(String.format("添加相似性记录结果:%s", trsCkmSoapClient.SimUpdateIndex(simModelName, contentId, contentDetail)));
+	}
+
+	/**
+	 * 根据文章内容查询相似度
+	 * @param contentDetail 内容
+	 * @param simModelName 模型名称
+	 * @param trsCkmSoapClient ckm连接
+	 * @throws CkmSoapException
+	 */
+	private static void querySimRetrieveByText(String contentDetail, String simModelName, TrsCkmSoapClient trsCkmSoapClient) throws CkmSoapException {
+		RevHold revHold = new RevHold();
+		RevDetail[] revDetails = trsCkmSoapClient.SimRetrieveByText(simModelName, revHold, contentDetail);
+		if (revDetails != null) {
+			for (RevDetail revDetail : revDetails) {
+				System.out.println(String.format("相似文章Id:%s,相似度:%s", revDetail.getid(), revDetail.getsimv()));
+			}
+		}
+	}
 
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
 //		textClassificationDemo();
-		testSelfTokenizer();
+//		testSelfTokenizer();
+//		dependencyParser();
+		regexBeforeSegment();
 //		emotionAnalysisDemo();
 //		createAutoCatFile();
+//		ckmSimModel();
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
 	}
 }

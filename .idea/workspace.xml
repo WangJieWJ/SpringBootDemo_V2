@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/tokenizers/SelfTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPRecognition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/ReadMe.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/cglib/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/cglib/MyMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/NormalUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/UserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchUtils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/SearchApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/condition/SearchCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/enums/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/enums/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermissionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/RedisGeoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/RedisGeoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisDemo/src/test/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/test/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +77,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -120,19 +145,19 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hanlp" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.druid.config" />
+      <recent name="com.kafka.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HanLP/src/main/resources" />
       <recent name="$PROJECT_DIR$/RedisDemo/src/test/resources" />
       <recent name="$PROJECT_DIR$/RedisDemo/src/main/resources" />
       <recent name="$PROJECT_DIR$/MachineLearningDemo/src/test/resources/weka" />
       <recent name="$PROJECT_DIR$/MachineLearningDemo/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.druid.config" />
-      <recent name="com.kafka.config" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,42 +172,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HanLPDemo">
-    <configuration name="DataTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.config.DataTransform" />
-      <module name="Java8Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FutureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.service.FutureService" />
-      <module name="Java8Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HanLPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.HanLPDemo" />
+  <component name="RunManager" selected="Application.AutoCatDataListener">
+    <configuration name="AutoCatDataListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.listener.AutoCatDataListener" />
       <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hanlp.service.*" />
+          <option name="PATTERN" value="com.hanlp.listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.proxy.ProxyTest" />
+      <module name="Java8Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.search.condition.SearchCondition" />
+      <module name="SearchUtils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.search.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisGeoServiceTest.redisScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
+      <option name="METHOD_NAME" value="redisScan" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,19 +252,6 @@
     <configuration name="ESApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ESDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.es.ESApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HanLPAPP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="HanLP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hanlp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanlp.HanLPAPP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,9 +312,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FutureService" />
-      <item itemvalue="Application.DataTransform" />
-      <item itemvalue="Application.HanLPDemo" />
+      <item itemvalue="Application.AutoCatDataListener" />
+      <item itemvalue="Application.SearchCondition" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="JUnit.RedisGeoServiceTest.redisScan" />
       <item itemvalue="Spring Boot.ESApp" />
       <item itemvalue="Spring Boot.DruidApp" />
       <item itemvalue="Spring Boot.MachineLearningApp" />
@@ -297,16 +326,15 @@
       <item itemvalue="Spring Boot.ConcurrentApp" />
       <item itemvalue="Spring Boot.RedisDemoApp" />
       <item itemvalue="Spring Boot.DesignPatternApp" />
-      <item itemvalue="Spring Boot.HanLPAPP" />
       <item itemvalue="Spring Boot.ShiroDemoApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HanLPDemo" />
+        <item itemvalue="Application.AutoCatDataListener" />
+        <item itemvalue="JUnit.RedisGeoServiceTest.redisScan" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.SearchCondition" />
         <item itemvalue="Spring Boot.ShiroDemoApp" />
-        <item itemvalue="Spring Boot.HanLPAPP" />
-        <item itemvalue="Application.DataTransform" />
-        <item itemvalue="Application.FutureService" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +489,24 @@
       <workItem from="1575461975086" duration="348000" />
       <workItem from="1575527817896" duration="1687000" />
       <workItem from="1575957773813" duration="15685000" />
-      <workItem from="1575983336390" duration="24784000" />
+      <workItem from="1575983336390" duration="24809000" />
+      <workItem from="1576200867085" duration="3496000" />
+      <workItem from="1576413887420" duration="20243000" />
+      <workItem from="1576562156884" duration="208000" />
+      <workItem from="1576562595317" duration="101000" />
+      <workItem from="1576562912394" duration="20178000" />
+      <workItem from="1576634173908" duration="1822000" />
+      <workItem from="1576718622542" duration="54000" />
+      <workItem from="1576718743421" duration="6710000" />
+      <workItem from="1577252834473" duration="3214000" />
+      <workItem from="1577260320542" duration="589000" />
+      <workItem from="1577684776509" duration="4640000" />
+      <workItem from="1578446526388" duration="3064000" />
+      <workItem from="1578475067776" duration="42000" />
+      <workItem from="1578475189133" duration="608000" />
+      <workItem from="1578551393371" duration="562000" />
+      <workItem from="1578724173085" duration="3651000" />
+      <workItem from="1578883462687" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -645,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576137812596</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="基于CRF分词的自动分类">
+      <created>1576141699128</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576141699128</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +749,8 @@
     <MESSAGE value="基于海关数据生成自动分类数据" />
     <MESSAGE value="自动分类设置" />
     <MESSAGE value="HanLP自动分类测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="HanLP自动分类测试" />
+    <MESSAGE value="基于CRF分词的自动分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于CRF分词的自动分类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,14 +771,49 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/DataTransform.java</url>
           <line>24</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/mining/word2vec/DocVectorModel.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/DefaultStringRedisConnection.java</url>
+          <line>2833</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java</url>
+          <line>3779</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java</url>
+          <line>3800</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

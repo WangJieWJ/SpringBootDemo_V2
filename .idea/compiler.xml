@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ESDemo" />
-        <module name="KafkaDemo" />
         <module name="DesignPattern" />
-        <module name="Java8Demo" />
-        <module name="DruidDemo" />
-        <module name="HanLP" />
-        <module name="RabbitMQDemo" />
         <module name="PayDemo" />
+        <module name="ESDemo" />
         <module name="MachineLearningDemo" />
-        <module name="RedisDemo" />
+        <module name="Java8Demo" />
         <module name="ZookeeperDemo" />
         <module name="ShiroDemo" />
+        <module name="DruidDemo" />
+        <module name="HanLP" />
+        <module name="RedisDemo" />
+        <module name="RabbitMQDemo" />
+        <module name="SearchUtils" />
         <module name="ConcurrentDemo" />
+        <module name="KafkaDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
