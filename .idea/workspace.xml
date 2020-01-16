@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPRecognition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/ReadMe.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/cglib/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/cglib/MyMethodInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/NormalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/proxy/jdk/UserProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SearchUtils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/SearchApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/condition/SearchCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/enums/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SearchUtils/src/main/java/com/search/enums/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermissionResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/RedisGeoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/test/java/com/redis/service/RedisGeoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisDemo/src/test/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/test/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -507,6 +483,10 @@
       <workItem from="1578551393371" duration="562000" />
       <workItem from="1578724173085" duration="3651000" />
       <workItem from="1578883462687" duration="2990000" />
+      <workItem from="1578924214306" duration="955000" />
+      <workItem from="1578992516786" duration="15000" />
+      <workItem from="1578998018844" duration="1638000" />
+      <workItem from="1579158442670" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -697,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576141699128</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="提交">
+      <created>1578924439881</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578924439881</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +737,8 @@
     <MESSAGE value="自动分类设置" />
     <MESSAGE value="HanLP自动分类测试" />
     <MESSAGE value="基于CRF分词的自动分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于CRF分词的自动分类" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,6 +802,26 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>138</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

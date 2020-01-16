@@ -7,11 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.lang3.StringUtils;
-import redis.clients.jedis.MultiKeyCommands;
-import redis.clients.jedis.ScanParams;
-import redis.clients.jedis.ScanResult;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.geo.Circle;
 import org.springframework.data.geo.Distance;
@@ -109,21 +104,21 @@ public class RedisGeoService {
 	public Object redisScan(String pattem) {
 		return redisTemplate.execute((RedisCallback<Set<String>>) connection -> {
 
-			MultiKeyCommands multiKeyCommands = (MultiKeyCommands) connection.getNativeConnection();
-			ScanParams scanParams = new ScanParams();
-			scanParams.match(pattem);
-			scanParams.count(1000);
-			Set<String> deleteKey = new HashSet<>();
-			ScanResult<String> scan = multiKeyCommands.scan("0", scanParams);
-			while (null != scan.getStringCursor()) {
-				System.out.println("执行完一次" + scan.getResult().size());
-				deleteKey.addAll(scan.getResult());
-				if (!StringUtils.equals("0", scan.getStringCursor())) {
-					scan = multiKeyCommands.scan(scan.getStringCursor(), scanParams);
-				} else {
-					break;
-				}
-			}
+//			MultiKeyCommands multiKeyCommands = (MultiKeyCommands) connection.getNativeConnection();
+//			ScanParams scanParams = new ScanParams();
+//			scanParams.match(pattem);
+//			scanParams.count(1000);
+//			Set<String> deleteKey = new HashSet<>();
+//			ScanResult<String> scan = multiKeyCommands.scan("0", scanParams);
+//			while (null != scan.getStringCursor()) {
+//				System.out.println("执行完一次" + scan.getResult().size());
+//				deleteKey.addAll(scan.getResult());
+//				if (!StringUtils.equals("0", scan.getStringCursor())) {
+//					scan = multiKeyCommands.scan(scan.getStringCursor(), scanParams);
+//				} else {
+//					break;
+//				}
+//			}
 //			return deleteKey;
 
 			Set<String> binaryKeys = new HashSet<>();
