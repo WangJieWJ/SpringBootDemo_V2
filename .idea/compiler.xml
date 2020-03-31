@@ -7,23 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DesignPattern" />
+        <module name="KafkaDemo" />
         <module name="PayDemo" />
         <module name="ESDemo" />
-        <module name="MachineLearningDemo" />
         <module name="Java8Demo" />
         <module name="ZookeeperDemo" />
         <module name="ShiroDemo" />
         <module name="DruidDemo" />
         <module name="HanLP" />
         <module name="RedisDemo" />
+        <module name="JavaBeans" />
         <module name="RabbitMQDemo" />
         <module name="SearchUtils" />
         <module name="ConcurrentDemo" />
-        <module name="KafkaDemo" />
+        <module name="MachineLearningDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="druidDemo" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

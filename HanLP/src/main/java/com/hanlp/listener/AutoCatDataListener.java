@@ -88,8 +88,8 @@ public class AutoCatDataListener extends AnalysisEventListener<AutoCatData> {
 		totalMap.put("政治安全", catMap);
 
 		Map<String, String> catMap2 = new HashMap<>();
-		catMap2.put("规格(品牌)异常", "申报规格&海关,申报品牌&海关");
-		catMap2.put("数量(重量)异常", "申报数量&海关,申报重量&海关,申报数重量&海关");
+		catMap2.put("规格品牌异常", "申报规格&海关,申报品牌&海关");
+		catMap2.put("数重量异常", "申报数量&海关,申报重量&海关,申报数重量&海关");
 		catMap2.put("归类异常", "HS编码&海关&归类异常,HS编码&进出口&归类异常,归类异常&海关,归类异常&海关");
 		catMap2.put("价格异常", "价格异常&进出口,价格异常&海关,高价出口&低价进口,High Price&Export,(Low priced)&imports,收汇核销,Receipt of foreign exchange,专利费,patent fee,商标费,trademark fee,杂费&低报,incidental&low report,特许权使用费,royalties,royalty fee,royalty,运费&低报,freight& low report");
 		catMap2.put("产终地异常", "伪报原产地,伪报原产国,伪报原产地&进口,伪报原产国&海关,false country of origin");
@@ -102,17 +102,17 @@ public class AutoCatDataListener extends AnalysisEventListener<AutoCatData> {
 		catMap3.put("侵权风险", "知识产权&走私,知识产权&海关,property right,Intellectual Property Rights,Intellectual Property Rights&customs,侵权,Intellectual Property Rights/IPR infringement,Intellectual Property Rights/IPR violation,侵权商品,IPR infringing goods,假冒,counterfeit,fake,知识产权执法合作,Intellectual Property Rights/IPR enforcement,海关知识产权保护,知识产权&查获,Intellectual Property Rights/IPR seizure");
 		catMap3.put("散发性宗教物品风险", "散发性宗教物品,宗教印刷品,宗教印刷品&进境,religious print");
 		catMap3.put("淫秽物品风险", "黄色期刊,黄色刊物,暴力,porn,pornographic,eroticism,sexy,salacity,carnal desire violence,黄色,下流,淫秽,不良文化,精神污染");
-		catMap3.put("其他禁限类印刷品及音像制品风险", "问题地图,problem map");
+		catMap3.put("禁限类印刷音像制品风险", "问题地图,problem map");
 		totalMap.put("文化安全", catMap3);
 
 		Map<String, String> catMap4 = new HashMap<>();
-		catMap4.put("毒品(含麻醉品、精神药品、非药用麻醉品、新精神活性物质、易制毒化学品和吸毒工具)风险", "毒品,drug,海洛因,可卡因,冰毒,heroin,cocaine,芬太尼,fentanyl,麻醉品,精神药品,非药用麻醉品,新精神活性物质,易制毒化学品,吸毒工具,大麻,氯胺酮,K他命,医用大麻油,曲马多,普瑞巴林,大麻&食品,大麻&按摩油,大麻油,hempseed oil,大麻酚,CBN,四氢大麻酚,THC,大麻二酚,CBD,cannabis,蓝精灵&氟硝西泮,地西泮,Diazepam,三唑仑&“迷魂药”,氟硝西泮,Flunitrazepam,三唑仑,新精神活性物质&催眠药, 新精神活性物质&抗焦虑药,新精神活性物质&麻醉药,新精神活性物质&酒类,新精神活性物质&烟草,新精神活性物质&阿片类,兴奋剂,致幻剂,镇静剂,合成大麻素,卡西酮,cathinone,苯乙胺,Phenethylamine,PEA,苯丙胺衍生物,二甲氧基苯乙胺衍生物,甲基苯丙胺,苯基哌嗪,苄基哌嗪,MDMA,氯胺酮,Ketamine,K粉,摇头丸，Ketamine,恰特草,Catha edulis,阿拉伯茶,埃塞俄比亚茶,色胺,氨基茚,苯环己基胺,小树枝&毒品,大麻叶,迷幻蘑菇,红五,一粒眠,跳跳糖,彩虹烟,神仙水,0号胶囊,红冰,开心果,开心冰,邮票&LSD,麻古,笑气，鸦片,吗啡,苯丙胺,Amphetamine,麻黄碱,ephedrine,卡西酮,Cathinone,甲卡西酮,2C B,聪明药,阿莫达非尼,сильнодействующее ,вещество,наркотик,кокаин,конопля,фентанил,трамадол,опийный мак");
+		catMap4.put("毒品风险", "毒品,drug,海洛因,可卡因,冰毒,heroin,cocaine,芬太尼,fentanyl,麻醉品,精神药品,非药用麻醉品,新精神活性物质,易制毒化学品,吸毒工具,大麻,氯胺酮,K他命,医用大麻油,曲马多,普瑞巴林,大麻&食品,大麻&按摩油,大麻油,hempseed oil,大麻酚,CBN,四氢大麻酚,THC,大麻二酚,CBD,cannabis,蓝精灵&氟硝西泮,地西泮,Diazepam,三唑仑&“迷魂药”,氟硝西泮,Flunitrazepam,三唑仑,新精神活性物质&催眠药, 新精神活性物质&抗焦虑药,新精神活性物质&麻醉药,新精神活性物质&酒类,新精神活性物质&烟草,新精神活性物质&阿片类,兴奋剂,致幻剂,镇静剂,合成大麻素,卡西酮,cathinone,苯乙胺,Phenethylamine,PEA,苯丙胺衍生物,二甲氧基苯乙胺衍生物,甲基苯丙胺,苯基哌嗪,苄基哌嗪,MDMA,氯胺酮,Ketamine,K粉,摇头丸，Ketamine,恰特草,Catha edulis,阿拉伯茶,埃塞俄比亚茶,色胺,氨基茚,苯环己基胺,小树枝&毒品,大麻叶,迷幻蘑菇,红五,一粒眠,跳跳糖,彩虹烟,神仙水,0号胶囊,红冰,开心果,开心冰,邮票&LSD,麻古,笑气，鸦片,吗啡,苯丙胺,Amphetamine,麻黄碱,ephedrine,卡西酮,Cathinone,甲卡西酮,2C B,聪明药,阿莫达非尼,сильнодействующее ,вещество,наркотик,кокаин,конопля,фентанил,трамадол,опийный мак");
 		catMap4.put("毒药及毒性物质风险", "氰化物&进口,有毒化学品&进口,进口氰化物,进口有毒化学品,氰化物&海关,有毒化学品&海关,汞&进境,汞&进口,进口汞,四甲基铅&进境,四甲基铅&进口,四乙基铅&进境,四乙基铅&进口,三丁基锡化合物&进境,三丁基锡化合物&进口,poisonous chemicals");
 		catMap4.put("药品", "medicine&illicit，pharmaceutical&illicit,印度药,兴奋剂,精神药物,麻醉药物");
 		catMap4.put("进出口食品安全风险", "食品&安全&走私,食品&安全&入境,食品&安全&出境,食品&超标&进境,食品&超标&出境,食品&超标&入境,食品安全,冻品,food safety,frozen meat,冻肉&进口,冻肉&进境,食品&准入&进境,植物源性食品&准入,植物源性食品&进境,植物源性食品&入境,植物源性食品&进口,酒,婴幼儿配方&奶粉,大米,食用&植物油,冻&海鲜,鲜&海鲜,水产,seafood,大豆,Japan,cold chain,农产品&安全,produce&safety,agricultural products&safety,农药残留,pesticide residue,兽药残留,veterinary drug residue,添加剂&安全,additive&safety,粮食&安全,grain&safety,微生物&水果,microorganisms&fruit,乳品&不合格,dairy&safety,核辐射&食品,nuclear radiation&food,致癌性&食品,carcinogenicity&food,草甘膦&超标,glyphosate&excessive,肉&检疫,meat&quarantine,沙门氏菌&检出,salmonellae&detection,二噁英&食品&检出,dioxine&food&detection,浆果&残留,berry&residue,婴儿食品,infant food,养殖业&食品,aquaculture&food,细菌&肉制品,bacterium&meat,腐败&食品,perishable&food,rotted&food,啤酒&不合格,beer&unqualified,红酒&残留,wine&residue,牛肉&欧洲&安全,beef&Europe&safety");
 		catMap4.put("危险化学及易燃易爆物品风险", "化学,化工,危险品,化学品,hazardous&chemical,货物事故通知系统,CINS,Cargo Incident Notification System,美国海关及边境保护局,US Customs and Border Protection,澳洲海关及边境保护局,Australian Customs and Border Protection,爆炸物,explosives,易燃&化学, flammable&chemical,气溶胶,aerosol,有机过氧化物,organic peroxides,自燃&化学,pyrophoric&chemical,致癌性&化学品,carcinogenicity&chemical,生殖毒性&化学品,reproductive toxicity&chemical,环境危害&化学品,environmental hazards&chemical,剧毒&化学品,hypertoxic&chemical,自反应物质,self reactive substances,自热&化学,(self heating)&chemical,腐蚀&化学,corrosive&chemical,氧化性&化学,oxidability&chemical,冷冻液化气体,freeze&liquefied gas,压缩气体,compressed gas,危害&环境&化学,harm&environment&chemical,助燃&化学,(combustion supporting)&chemical,爆炸物&海关,易燃物&海关,易燃物&进口,爆炸物&进口");
 		catMap4.put("新旧异常", "以旧充新&海关,以旧充新&进口,旧机电&进口,旧机电&海关,装运前检验,进口旧机电,old kinescope,旧显像管,再生显像管,regenerative kinescope,旧监视器, old monitors,旧复印件, old copies,旧玻壳, old glass shell,旧印刷机,old printing press,旧通用显示,old Universal Display,旧发电机组,old generators,");
-		catMap4.put("进出口商品安全", "商品&安全&出境,商品&安全&入境,商品&安全&进境,商品&安全&进口,商品&安全&出口,动植物检疫,疫病疫情,quarantine of animals and plants,epidemic disease,猪瘟,swine fever,hog cholera,recall,召回,植物产品&准入,植物产品&进境, 植物产品&入境,植物产品&进口,中药材&准入,中药材&进境,中药材&进口,中药材&入境,次氯酸钙&伪报,次氯酸钙&瞒报,次氯酸钙&伪瞒报,漂粉精&出口,漂白粉&出口,chloros,sodium hypochlorite,bleaching powder,进境货物木质包装,辣椒干&加工贸易,辣椒干&进口,辣椒干&出口,recall&Injury&hazard,recall&hazard,recall&injury,recall&safety,consumer&product&safety,召回&伤害,product&safety,玩具&伤害,toys&injury");
+		catMap4.put("进出口商品安全风险", "商品&安全&出境,商品&安全&入境,商品&安全&进境,商品&安全&进口,商品&安全&出口,动植物检疫,疫病疫情,quarantine of animals and plants,epidemic disease,猪瘟,swine fever,hog cholera,recall,召回,植物产品&准入,植物产品&进境, 植物产品&入境,植物产品&进口,中药材&准入,中药材&进境,中药材&进口,中药材&入境,次氯酸钙&伪报,次氯酸钙&瞒报,次氯酸钙&伪瞒报,漂粉精&出口,漂白粉&出口,chloros,sodium hypochlorite,bleaching powder,进境货物木质包装,辣椒干&加工贸易,辣椒干&进口,辣椒干&出口,recall&Injury&hazard,recall&hazard,recall&injury,recall&safety,consumer&product&safety,召回&伤害,product&safety,玩具&伤害,toys&injury");
 		totalMap.put("社会安全", catMap4);
 
 		Map<String, String> catMap5 = new HashMap<>();

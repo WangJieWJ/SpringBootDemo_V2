@@ -2,11 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6328782a-770a-4dd1-85d1-8cf2663f4dc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/constants/CustomsStructuredDataConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/controller/NERController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/dto/ExportExcelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForDeclareGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForEndCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForInvolveCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForInvolveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForRealGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForSeizedLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForSeizedOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsNERInstanceForStartCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/instance/CustomsPOSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/ExportExcelDtoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/models/BratAnnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/models/CustomsPerceptronLexicalAnalyzerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/models/CustomsStructuredData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/nerecognizer/CustomsPerceptronNERecognizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/AsposeWordsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/BertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/Brat2PKUPipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsCRFLexicalAnalyzerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsPerceptronLexicalAnalyzerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/DBStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPAccuracyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/JFoolNLTKDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/JieBaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/NerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/main/resources/HanLP-logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HanLP/src/test/java/com/hanlp/models/CustomsPerceptronLexicalAnalyzerFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/builder/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/builder/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/builder/BuilderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/data/structure/CycleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/data/structure/LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/data/structure/SortAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/data/structure/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/ConcurrencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/service/RestTemplateWithCookieDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBeans/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBeans/src/main/java/com/beans/BeanInfoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBeans/src/main/java/com/beans/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/listener/AutoCatDataListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/HanLPRecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/src/main/resources/ReadMe.MD" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/resources/ReadMe.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanLP/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/HanLP/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,10 +102,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -81,6 +131,11 @@
   </component>
   <component name="ProjectId" id="1P32bhPTdxKhVIeVlR6nX6kWIoY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -88,6 +143,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="DefaultPartit&#9;PSI&#9;JAVA://org.apache.kafka.clients.producer.internals.DefaultPartitioner&#10;AbstractConfig&#9;FILE&#9;jar:///Users/wangjie/.m2/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/config/AbstractConfig.java&#10;commitSync&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.Consumer#commitSync&#10;SmartApplicationListener&#9;PSI&#9;JAVA://org.springframework.context.event.SmartApplicationListener&#10;ApplicationEventPublisherAware&#9;FILE&#9;jar:///Users/wangjie/.m2/repository/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisherAware.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
@@ -106,13 +162,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hanlp.models" />
       <recent name="com.redis.service" />
       <recent name="com.machineLearning" />
       <recent name="com.zookeeper" />
@@ -125,6 +182,8 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hanlp.config" />
+      <recent name="com.hanlp.instance" />
       <recent name="com.druid.config" />
       <recent name="com.kafka.config" />
     </key>
@@ -136,25 +195,13 @@
       <recent name="$PROJECT_DIR$/MachineLearningDemo/src/main/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AutoCatDataListener">
-    <configuration name="AutoCatDataListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hanlp.listener.AutoCatDataListener" />
+  <component name="RunManager" selected="Application.HanLPAccuracyService">
+    <configuration name="BertService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.BertService" />
       <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hanlp.listener.*" />
+          <option name="PATTERN" value="com.hanlp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.proxy.ProxyTest" />
-      <module name="Java8Demo" />
+    <configuration name="Brat2PKUPipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.Brat2PKUPipe" />
+      <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8.proxy.jdk.*" />
+          <option name="PATTERN" value="com.hanlp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.search.condition.SearchCondition" />
-      <module name="SearchUtils" />
+    <configuration name="DBStoreService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.DBStoreService" />
+      <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.search.condition.*" />
+          <option name="PATTERN" value="com.hanlp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,18 +235,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisGeoServiceTest.redisScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RedisDemo" />
+    <configuration name="HanLPAccuracyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.HanLPAccuracyService" />
+      <module name="HanLP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.redis.service.*" />
+          <option name="PATTERN" value="com.hanlp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.redis.service" />
-      <option name="MAIN_CLASS_NAME" value="com.redis.service.RedisGeoServiceTest" />
-      <option name="METHOD_NAME" value="redisScan" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hanlp.service.NerService" />
+      <module name="HanLP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hanlp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +285,13 @@
     <configuration name="ESApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ESDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.es.ESApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HanLPAPP" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HanLP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanlp.HanLPAPP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,14 +331,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiroDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SearchUtils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.search.SearchApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ShiroDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shiro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shiro.ShiroDemoApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,10 +353,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AutoCatDataListener" />
-      <item itemvalue="Application.SearchCondition" />
-      <item itemvalue="Application.ProxyTest" />
-      <item itemvalue="JUnit.RedisGeoServiceTest.redisScan" />
+      <item itemvalue="Application.Brat2PKUPipe" />
+      <item itemvalue="Application.NerService" />
       <item itemvalue="Spring Boot.ESApp" />
       <item itemvalue="Spring Boot.DruidApp" />
       <item itemvalue="Spring Boot.MachineLearningApp" />
@@ -303,14 +366,19 @@
       <item itemvalue="Spring Boot.RedisDemoApp" />
       <item itemvalue="Spring Boot.DesignPatternApp" />
       <item itemvalue="Spring Boot.ShiroDemoApp" />
+      <item itemvalue="Spring Boot.SearchApp" />
+      <item itemvalue="Spring Boot.HanLPAPP" />
+      <item itemvalue="Application.BertService" />
+      <item itemvalue="Application.HanLPAccuracyService" />
+      <item itemvalue="Application.DBStoreService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoCatDataListener" />
-        <item itemvalue="JUnit.RedisGeoServiceTest.redisScan" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.SearchCondition" />
-        <item itemvalue="Spring Boot.ShiroDemoApp" />
+        <item itemvalue="Application.HanLPAccuracyService" />
+        <item itemvalue="Application.DBStoreService" />
+        <item itemvalue="Application.BertService" />
+        <item itemvalue="Application.Brat2PKUPipe" />
+        <item itemvalue="Application.NerService" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +554,47 @@
       <workItem from="1578924214306" duration="955000" />
       <workItem from="1578992516786" duration="15000" />
       <workItem from="1578998018844" duration="1638000" />
-      <workItem from="1579158442670" duration="2463000" />
+      <workItem from="1579158442670" duration="2643000" />
+      <workItem from="1579166266918" duration="6559000" />
+      <workItem from="1579413258195" duration="223000" />
+      <workItem from="1580015872816" duration="635000" />
+      <workItem from="1580090283145" duration="1083000" />
+      <workItem from="1580734896794" duration="4876000" />
+      <workItem from="1580782153886" duration="42000" />
+      <workItem from="1580782247150" duration="6797000" />
+      <workItem from="1580805317458" duration="1044000" />
+      <workItem from="1580820691757" duration="3827000" />
+      <workItem from="1580869556494" duration="137000" />
+      <workItem from="1580869704747" duration="24000" />
+      <workItem from="1580875165510" duration="1561000" />
+      <workItem from="1581345460867" duration="1434000" />
+      <workItem from="1581393111186" duration="758000" />
+      <workItem from="1581393878447" duration="28000" />
+      <workItem from="1581393929287" duration="2888000" />
+      <workItem from="1581400984868" duration="2780000" />
+      <workItem from="1581990186822" duration="3677000" />
+      <workItem from="1581998969008" duration="9000" />
+      <workItem from="1582000328561" duration="23068000" />
+      <workItem from="1582271220967" duration="4182000" />
+      <workItem from="1582598160513" duration="46224000" />
+      <workItem from="1582853008838" duration="17749000" />
+      <workItem from="1582944736796" duration="6040000" />
+      <workItem from="1583111551216" duration="47621000" />
+      <workItem from="1583284489214" duration="26465000" />
+      <workItem from="1583716342976" duration="29192000" />
+      <workItem from="1583838215243" duration="2368000" />
+      <workItem from="1583925845869" duration="8000" />
+      <workItem from="1583980722153" duration="28291000" />
+      <workItem from="1584266347061" duration="4000" />
+      <workItem from="1584510825662" duration="4433000" />
+      <workItem from="1584593314609" duration="1311000" />
+      <workItem from="1584596248389" duration="9000" />
+      <workItem from="1584598107948" duration="9528000" />
+      <workItem from="1584682288048" duration="3393000" />
+      <workItem from="1584698304466" duration="2254000" />
+      <workItem from="1585013791691" duration="429000" />
+      <workItem from="1585195423568" duration="21000" />
+      <workItem from="1585556891421" duration="19405000" />
     </task>
     <task id="LOCAL-00001" summary="集成Swagger文档&#10;访问地址http://localhost:8081/rabbitMQDemo/swagger-ui.html">
       <created>1544953634440</created>
@@ -684,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578924439881</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="关键词修改">
+      <created>1579161086244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579161086244</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,90 +853,645 @@
     <MESSAGE value="HanLP自动分类测试" />
     <MESSAGE value="基于CRF分词的自动分类" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="关键词修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="关键词修改" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="202" key="#Project_Structure" timestamp="1585645153649">
+      <screen x="41" y="23" width="1639" height="1027" />
+    </state>
+    <state x="463" y="202" key="#Project_Structure/41.23.1639.1027@41.23.1639.1027" timestamp="1585645153649" />
+    <state x="690" y="309" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583221798821">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="690" y="309" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1583221798821" />
+    <state x="568" y="433" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580869683126">
+      <screen x="41" y="23" width="1639" height="1027" />
+    </state>
+    <state x="568" y="433" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/41.23.1639.1027@41.23.1639.1027" timestamp="1580869683126" />
+    <state x="674" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1583981229107">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="648" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1583067588745" />
+    <state x="673" y="253" key="#com.intellij.ide.util.MemberChooser/41.23.1639.1027@41.23.1639.1027" timestamp="1583217534017" />
+    <state x="674" y="253" key="#com.intellij.ide.util.MemberChooser/42.23.1638.1027@42.23.1638.1027" timestamp="1583981229107" />
+    <state x="676" y="253" key="#com.intellij.ide.util.MemberChooser/45.23.1635.1027@45.23.1635.1027" timestamp="1583459132609" />
+    <state x="677" y="253" key="#com.intellij.ide.util.MemberChooser/47.23.1633.1027@47.23.1633.1027" timestamp="1583804748601" />
+    <state x="677" y="253" key="#com.intellij.ide.util.MemberChooser/48.23.1632.1027@48.23.1632.1027" timestamp="1583818977206" />
+    <state x="578" y="279" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583066022410">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583066022410" />
+    <state x="765" y="471" key="#xdebugger.evaluate" timestamp="1585644527411">
+      <screen x="41" y="23" width="1639" height="1027" />
+    </state>
+    <state x="765" y="471" key="#xdebugger.evaluate/41.23.1639.1027@41.23.1639.1027" timestamp="1585644527411" />
+    <state x="640" y="471" key="#xdebugger.evaluate/42.23.1638.1027@42.23.1638.1027" timestamp="1583305072744" />
+    <state x="1039" y="339" key="#xdebugger.evaluate/47.23.1633.1027@47.23.1633.1027" timestamp="1583483997388" />
+    <state x="768" y="158" key="#xdebugger.evaluate/48.23.1632.1027@48.23.1632.1027" timestamp="1583461142215" />
+    <state width="713" height="456" key="DebuggerActiveHint" timestamp="1584512829431">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state width="482" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1582870262782" />
+    <state width="714" height="456" key="DebuggerActiveHint/41.23.1639.1027@41.23.1639.1027" timestamp="1583311951052" />
+    <state width="714" height="653" key="DebuggerActiveHint/42.23.1638.1027@42.23.1638.1027" timestamp="1583311023820" />
+    <state width="713" height="456" key="DebuggerActiveHint/43.23.1637.1027@43.23.1637.1027" timestamp="1584512829431" />
+    <state width="611" height="466" key="DebuggerActiveHint/45.23.1635.1027@45.23.1635.1027" timestamp="1582008255680" />
+    <state width="712" height="456" key="DebuggerActiveHint/47.23.1633.1027@47.23.1633.1027" timestamp="1583480348486" />
+    <state width="448" height="456" key="DebuggerActiveHint/48.23.1632.1027@48.23.1632.1027" timestamp="1582782195470" />
+    <state width="213" height="573" key="Git.Branch.Popup" timestamp="1582874708523">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="213" height="573" key="Git.Branch.Popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582874708523" />
+    <state width="207" height="560" key="Git.Branch.Popup/41.23.1639.1027@41.23.1639.1027" timestamp="1580881486009" />
+    <state width="1599" height="74" key="GridCell.Tab.0.bottom" timestamp="1585650388302">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712189" />
+    <state width="1204" height="296" key="GridCell.Tab.0.bottom/34.23.1246.777@34.23.1246.777" timestamp="1585013832783" />
+    <state width="1599" height="74" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388302" />
+    <state width="1599" height="238" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938288" />
+    <state width="1598" height="330" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1585644089453" />
+    <state width="1597" height="253" key="GridCell.Tab.0.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497356" />
+    <state width="1594" height="194" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1584511997956" />
+    <state width="1594" height="201" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068126" />
+    <state width="1598" height="292" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691716" />
+    <state width="1204" height="296" key="GridCell.Tab.0.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402348" />
+    <state width="1591" height="419" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292866" />
+    <state width="1590" height="300" key="GridCell.Tab.0.bottom/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892755" />
+    <state width="1599" height="74" key="GridCell.Tab.0.center" timestamp="1585650388301">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712187" />
+    <state width="1204" height="296" key="GridCell.Tab.0.center/34.23.1246.777@34.23.1246.777" timestamp="1585013832782" />
+    <state width="1599" height="74" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388301" />
+    <state width="1599" height="238" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938287" />
+    <state width="1598" height="330" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1585644089452" />
+    <state width="1597" height="253" key="GridCell.Tab.0.center/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497355" />
+    <state width="1594" height="194" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1584511997956" />
+    <state width="1594" height="201" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068125" />
+    <state width="1598" height="292" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691716" />
+    <state width="1204" height="296" key="GridCell.Tab.0.center/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402348" />
+    <state width="1591" height="419" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292865" />
+    <state width="1590" height="300" key="GridCell.Tab.0.center/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892753" />
+    <state width="1599" height="74" key="GridCell.Tab.0.left" timestamp="1585650388300">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712187" />
+    <state width="1204" height="296" key="GridCell.Tab.0.left/34.23.1246.777@34.23.1246.777" timestamp="1585013832782" />
+    <state width="1599" height="74" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388300" />
+    <state width="1599" height="238" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938287" />
+    <state width="1598" height="330" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1585644089451" />
+    <state width="1597" height="253" key="GridCell.Tab.0.left/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497354" />
+    <state width="1594" height="194" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1584511997955" />
+    <state width="1594" height="201" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068124" />
+    <state width="1598" height="292" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691716" />
+    <state width="1204" height="296" key="GridCell.Tab.0.left/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402347" />
+    <state width="1591" height="419" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292865" />
+    <state width="1590" height="300" key="GridCell.Tab.0.left/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892753" />
+    <state width="1599" height="74" key="GridCell.Tab.0.right" timestamp="1585650388301">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712188" />
+    <state width="1204" height="296" key="GridCell.Tab.0.right/34.23.1246.777@34.23.1246.777" timestamp="1585013832783" />
+    <state width="1599" height="74" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388301" />
+    <state width="1599" height="238" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938288" />
+    <state width="1598" height="330" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1585644089453" />
+    <state width="1597" height="253" key="GridCell.Tab.0.right/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497356" />
+    <state width="1594" height="194" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1584511997956" />
+    <state width="1594" height="201" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068125" />
+    <state width="1598" height="292" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691716" />
+    <state width="1204" height="296" key="GridCell.Tab.0.right/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402348" />
+    <state width="1591" height="419" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292866" />
+    <state width="1590" height="300" key="GridCell.Tab.0.right/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892754" />
+    <state width="1599" height="74" key="GridCell.Tab.1.bottom" timestamp="1585650388303">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712107" />
+    <state width="1599" height="74" key="GridCell.Tab.1.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388303" />
+    <state width="1599" height="238" key="GridCell.Tab.1.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938229" />
+    <state width="1598" height="330" key="GridCell.Tab.1.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1585644063827" />
+    <state width="1597" height="253" key="GridCell.Tab.1.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497248" />
+    <state width="1594" height="194" key="GridCell.Tab.1.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1584511991480" />
+    <state width="1594" height="201" key="GridCell.Tab.1.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068127" />
+    <state width="1598" height="292" key="GridCell.Tab.1.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691717" />
+    <state width="1204" height="296" key="GridCell.Tab.1.bottom/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402349" />
+    <state width="1591" height="419" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292784" />
+    <state width="1590" height="300" key="GridCell.Tab.1.bottom/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892629" />
+    <state width="1599" height="74" key="GridCell.Tab.1.center" timestamp="1585650388302">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712106" />
+    <state width="1599" height="74" key="GridCell.Tab.1.center/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388302" />
+    <state width="1599" height="238" key="GridCell.Tab.1.center/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938229" />
+    <state width="1598" height="330" key="GridCell.Tab.1.center/40.23.1640.1027@40.23.1640.1027" timestamp="1585644063826" />
+    <state width="1597" height="253" key="GridCell.Tab.1.center/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497247" />
+    <state width="1594" height="194" key="GridCell.Tab.1.center/42.23.1638.1027@42.23.1638.1027" timestamp="1584511991480" />
+    <state width="1594" height="201" key="GridCell.Tab.1.center/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068126" />
+    <state width="1598" height="292" key="GridCell.Tab.1.center/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691717" />
+    <state width="1204" height="296" key="GridCell.Tab.1.center/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402349" />
+    <state width="1591" height="419" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292783" />
+    <state width="1590" height="300" key="GridCell.Tab.1.center/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892629" />
+    <state width="1599" height="74" key="GridCell.Tab.1.left" timestamp="1585650388302">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712105" />
+    <state width="1599" height="74" key="GridCell.Tab.1.left/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388302" />
+    <state width="1599" height="238" key="GridCell.Tab.1.left/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938228" />
+    <state width="1598" height="330" key="GridCell.Tab.1.left/40.23.1640.1027@40.23.1640.1027" timestamp="1585644063825" />
+    <state width="1597" height="253" key="GridCell.Tab.1.left/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497247" />
+    <state width="1594" height="194" key="GridCell.Tab.1.left/42.23.1638.1027@42.23.1638.1027" timestamp="1584511991480" />
+    <state width="1594" height="201" key="GridCell.Tab.1.left/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068126" />
+    <state width="1598" height="292" key="GridCell.Tab.1.left/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691717" />
+    <state width="1204" height="296" key="GridCell.Tab.1.left/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402349" />
+    <state width="1591" height="419" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292782" />
+    <state width="1590" height="300" key="GridCell.Tab.1.left/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892628" />
+    <state width="1599" height="74" key="GridCell.Tab.1.right" timestamp="1585650388302">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583119712106" />
+    <state width="1599" height="74" key="GridCell.Tab.1.right/38.23.1642.1027@38.23.1642.1027" timestamp="1585650388302" />
+    <state width="1599" height="238" key="GridCell.Tab.1.right/39.23.1641.1027@39.23.1641.1027" timestamp="1585641938229" />
+    <state width="1598" height="330" key="GridCell.Tab.1.right/40.23.1640.1027@40.23.1640.1027" timestamp="1585644063826" />
+    <state width="1597" height="253" key="GridCell.Tab.1.right/41.23.1639.1027@41.23.1639.1027" timestamp="1585646497248" />
+    <state width="1594" height="194" key="GridCell.Tab.1.right/42.23.1638.1027@42.23.1638.1027" timestamp="1584511991480" />
+    <state width="1594" height="201" key="GridCell.Tab.1.right/43.23.1637.1027@43.23.1637.1027" timestamp="1584515068127" />
+    <state width="1598" height="292" key="GridCell.Tab.1.right/44.23.1636.1027@44.23.1636.1027" timestamp="1584689691717" />
+    <state width="1204" height="296" key="GridCell.Tab.1.right/45.23.1635.1027@45.23.1635.1027" timestamp="1585195402349" />
+    <state width="1591" height="419" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1584709292783" />
+    <state width="1590" height="300" key="GridCell.Tab.1.right/48.23.1632.1027@48.23.1632.1027" timestamp="1583843892629" />
+    <state width="1590" height="159" key="GridCell.Tab.2.bottom" timestamp="1583837647954">
+      <screen x="48" y="23" width="1632" height="1027" />
+    </state>
+    <state width="1590" height="159" key="GridCell.Tab.2.bottom/48.23.1632.1027@48.23.1632.1027" timestamp="1583837647954" />
+    <state width="1590" height="159" key="GridCell.Tab.2.center" timestamp="1583837647953">
+      <screen x="48" y="23" width="1632" height="1027" />
+    </state>
+    <state width="1590" height="159" key="GridCell.Tab.2.center/48.23.1632.1027@48.23.1632.1027" timestamp="1583837647953" />
+    <state width="1590" height="159" key="GridCell.Tab.2.left" timestamp="1583837647953">
+      <screen x="48" y="23" width="1632" height="1027" />
+    </state>
+    <state width="1590" height="159" key="GridCell.Tab.2.left/48.23.1632.1027@48.23.1632.1027" timestamp="1583837647953" />
+    <state width="1590" height="159" key="GridCell.Tab.2.right" timestamp="1583837647953">
+      <screen x="48" y="23" width="1632" height="1027" />
+    </state>
+    <state width="1590" height="159" key="GridCell.Tab.2.right/48.23.1632.1027@48.23.1632.1027" timestamp="1583837647953" />
+    <state x="361" y="175" key="SettingsEditor" timestamp="1585558214418">
+      <screen x="40" y="23" width="1640" height="1027" />
+    </state>
+    <state x="328" y="155" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583066061355" />
+    <state x="361" y="175" key="SettingsEditor/40.23.1640.1027@40.23.1640.1027" timestamp="1585558214418" />
+    <state x="361" y="175" key="SettingsEditor/41.23.1639.1027@41.23.1639.1027" timestamp="1580882252825" />
+    <state x="362" y="175" key="SettingsEditor/42.23.1638.1027@42.23.1638.1027" timestamp="1580875228130" />
+    <state x="363" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1582020465249" />
+    <state x="366" y="175" key="SettingsEditor/47.23.1633.1027@47.23.1633.1027" timestamp="1581396603447" />
+    <state x="367" y="175" key="SettingsEditor/48.23.1632.1027@48.23.1632.1027" timestamp="1583474084032" />
+    <state x="498" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1585556891379">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state x="469" y="374" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582000327663" />
+    <state x="498" y="389" key="com.intellij.ide.util.TipDialog/39.23.1641.1027@39.23.1641.1027" timestamp="1585556891379" />
+    <state x="499" y="389" key="com.intellij.ide.util.TipDialog/41.23.1639.1027@41.23.1639.1027" timestamp="1584593314695" />
+    <state x="502" y="389" key="com.intellij.ide.util.TipDialog/45.23.1635.1027@45.23.1635.1027" timestamp="1585195422970" />
+    <state x="503" y="389" key="com.intellij.ide.util.TipDialog/47.23.1633.1027@47.23.1633.1027" timestamp="1581393929017" />
+    <state x="587" y="286" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583718158623">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state x="587" y="286" key="com.intellij.testIntegration.createTest.CreateTestDialog/47.23.1633.1027@47.23.1633.1027" timestamp="1583718158623" />
+    <state x="375" y="279" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583717595638">
+      <screen x="47" y="23" width="1633" height="1027" />
+    </state>
+    <state x="370" y="279" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/41.23.1639.1027@41.23.1639.1027" timestamp="1583312981018" />
+    <state x="372" y="279" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/44.23.1636.1027@44.23.1636.1027" timestamp="1582015175936" />
+    <state x="375" y="279" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/47.23.1633.1027@47.23.1633.1027" timestamp="1583717595638" />
+    <state x="606" y="312" key="extract.method.dialog" timestamp="1583200087347">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="578" y="295" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583067816686" />
+    <state x="606" y="312" key="extract.method.dialog/43.23.1637.1027@43.23.1637.1027" timestamp="1583200087347" />
+    <state x="483" y="276" width="707" height="497" key="find.popup" timestamp="1584613688665">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state x="490" y="276" width="702" height="497" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582876163492" />
+    <state x="483" y="276" width="707" height="497" key="find.popup/39.23.1641.1027@39.23.1641.1027" timestamp="1584613688665" />
+    <state x="519" y="293" width="683" height="486" key="find.popup/41.23.1639.1027@41.23.1639.1027" timestamp="1583205323243" />
+    <state x="486" y="276" width="705" height="497" key="find.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1584083901457" />
+    <state x="487" y="276" width="704" height="497" key="find.popup/44.23.1636.1027@44.23.1636.1027" timestamp="1584085805897" />
+    <state x="522" y="293" width="683" height="486" key="find.popup/45.23.1635.1027@45.23.1635.1027" timestamp="1581397811940" />
+    <state x="489" y="276" width="703" height="497" key="find.popup/47.23.1633.1027@47.23.1633.1027" timestamp="1583719473902" />
+    <state x="490" y="276" width="702" height="497" key="find.popup/48.23.1632.1027@48.23.1632.1027" timestamp="1582878373284" />
+    <state x="634" y="166" width="672" height="662" key="search.everywhere.popup" timestamp="1585645107450">
+      <screen x="41" y="23" width="1639" height="1027" />
+    </state>
+    <state x="609" y="146" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583068209921" />
+    <state x="633" y="166" width="672" height="662" key="search.everywhere.popup/39.23.1641.1027@39.23.1641.1027" timestamp="1585639849288" />
+    <state x="634" y="166" width="672" height="662" key="search.everywhere.popup/40.23.1640.1027@40.23.1640.1027" timestamp="1585635311339" />
+    <state x="634" y="166" width="672" height="662" key="search.everywhere.popup/41.23.1639.1027@41.23.1639.1027" timestamp="1585645107450" />
+    <state x="635" y="166" width="671" height="662" key="search.everywhere.popup/42.23.1638.1027@42.23.1638.1027" timestamp="1583981871379" />
+    <state x="636" y="166" width="670" height="662" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1584515044772" />
+    <state x="637" y="166" width="670" height="662" key="search.everywhere.popup/44.23.1636.1027@44.23.1636.1027" timestamp="1584086353875" />
+    <state x="639" y="166" width="670" height="662" key="search.everywhere.popup/48.23.1632.1027@48.23.1632.1027" timestamp="1583846084845" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>713</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>721</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.3/weka-stable-3.8.3-sources.jar!/weka/classifiers/meta/Bagging.java</url>
           <line>705</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/Java8Demo/src/main/java/com/java8/config/DataTransform.java</url>
           <line>24</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/mining/word2vec/DocVectorModel.java</url>
           <line>61</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java</url>
           <line>40</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/ShiroDemo/src/main/java/com/shiro/shiro/permission/AdminPermission.java</url>
           <line>43</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/DefaultStringRedisConnection.java</url>
           <line>2833</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java</url>
           <line>3779</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java</url>
           <line>3800</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>139</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>138</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>109</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>86</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.18.RELEASE/spring-data-redis-1.8.18.RELEASE-sources.jar!/org/springframework/data/redis/core/ScanCursor.java</url>
           <line>132</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/RedisDemo/src/main/java/com/redis/service/RedisGeoService.java</url>
           <line>130</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/common/WordNet.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/WordBasedSegment.java</url>
+          <line>390</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/WordBasedSegment.java</url>
+          <line>396</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/WordBasedSegment.java</url>
+          <line>408</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/Viterbi/ViterbiSegment.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsCRFLexicalAnalyzerService.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsCRFLexicalAnalyzerService.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/SegmentPipeline.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/seg/SegmentPipeline.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsPerceptronLexicalAnalyzerService.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/HanLP/src/main/java/com/hanlp/service/CustomsPerceptronLexicalAnalyzerService.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/dictionary/CustomDictionary.java</url>
+          <line>609</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/instance/CWSInstance.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronSegmenter.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/model/LinearModel.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/model/LinearModel.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/model/LinearModel.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/model/LinearModel.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronSegmenter.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronPOSTagger.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronPOSTagger.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronPOSTagger.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>595</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>605</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/tokenizer/lexical/AbstractLexicalAnalyzer.java</url>
+          <line>542</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/PerceptronSegmenter.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/instance/CWSInstance.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/instance/CWSInstance.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/instance/CWSInstance.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/instance/Instance.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/feature/ImmutableFeatureMDatMap.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/MutableDoubleArrayTrieInteger.java</url>
+          <line>794</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/Utf8CharacterMapping.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/Utf8CharacterMapping.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/Utf8CharacterMapping.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/MutableDoubleArrayTrieInteger.java</url>
+          <line>729</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/IntArrayList.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/tagset/TagSet.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/perceptron/feature/FeatureMap.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/CRFTagger.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/CRFTagger.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/crfpp/EncoderFeatureIndex.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/crfpp/Encoder.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/crfpp/Encoder.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/crfpp/Encoder.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/crfpp/TaggerImpl.java</url>
+          <line>411</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/CRFTagger.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/CRFNERecognizer.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.6/hanlp-portable-1.7.6-sources.jar!/com/hankcs/hanlp/model/crf/CRFSegmenter.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/me/midday/JFoolNLTK/1.0/JFoolNLTK-1.0.jar!/me/midday/lexical/LexicalAnalyzer.class</url>
+          <line>10</line>
+          <properties class="me.midday.lexical.LexicalAnalyzer" method="cut">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -829,6 +1499,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringBootDemo$com_hanlp_instance_in_HanLP.ic" NAME="com.hanlp.instance in HanLP Coverage Results" MODIFIED="1583825714718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hanlp.instance.*</FILTER>
+    </SUITE>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />

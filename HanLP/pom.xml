@@ -8,6 +8,7 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
+	<packaging>war</packaging>
 
 	<artifactId>HanLP</artifactId>
 
@@ -16,7 +17,7 @@
 		<dependency>
 			<groupId>com.hankcs</groupId>
 			<artifactId>hanlp</artifactId>
-			<version>portable-1.7.5</version>
+			<version>portable-1.7.6</version>
 		</dependency>
 		<!-- hanlp 自然语言处理 end -->
 
@@ -27,6 +28,24 @@
 			<version>1.95</version>
 		</dependency>
 		<!-- 引入支持向量机(SVM)来是实现分词 end -->
+
+		<!-- FoolNLTK 分词工具包 start-->
+		<dependency>
+			<groupId>me.midday</groupId>
+			<artifactId>JFoolNLTK</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- FoolNLTK 分词工具包 end-->
+
+		<!-- jieba 分词工具包 start -->
+		<!-- https://mvnrepository.com/artifact/com.huaban/jieba-analysis -->
+		<dependency>
+			<groupId>com.huaban</groupId>
+			<artifactId>jieba-analysis</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<!-- jieba 分词工具包 end -->
+
 
 		<!--easyexcel start-->
 		<dependency>
@@ -39,6 +58,15 @@
 		<!---->
 		<!-- ckm通过jar依赖包 -->
 		<!---->
+
+		<!-- JDBC start -->
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.16</version>
+		</dependency>
+		<!-- JDBC end -->
 	</dependencies>
 
 </project>

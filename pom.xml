@@ -37,6 +37,7 @@
 		<module>HanLP</module>
 		<module>ShiroDemo</module>
 		<module>SearchUtils</module>
+		<module>JavaBeans</module>
 	</modules>
 
     <dependencies>
@@ -46,12 +47,12 @@
         </dependency>
 
         <!--fastJson start-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
-        </dependency>
-        <!--fastJson end-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.66</version>
+		</dependency>
+		<!--fastJson end-->
 
         <!--swagger2 start-->
         <dependency>

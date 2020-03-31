@@ -148,10 +148,11 @@ public class HanLPDemo {
 		LinearSVMClassifier linearSVMClassifier = new LinearSVMClassifier();
 		linearSVMClassifier.train(trainingCorpus);
 
-		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("虽说冯小刚的奔驰车性能特别好,但他从不超速开车。“按规定速度行车,遇到突然的情况,就能够及时处理。否则,就没把握了。“开车上路不要随意超车，尽量少变更车道。超速、超车其实快不了哪儿去，就是你玩儿命超，也就是早个十分钟。前几天在五环路上，唰的一声，一辆车从我车旁飞过，他是从望京的出口出来，在路上正赶上红灯。我跟在他前后脚停住了，但他冒的风险很大。这就是年轻气盛，安全意识不强。要知道，生命是爹妈给的，而生命是非常脆弱的，要保护好。对自己负责，也要对亲人负责。要想想，你还有那么多事要做，还有那么多好日子要过，只是为了把车开快一点，而什么都没有了，太不值了吧！”说起上路感受，冯小刚滔滔不绝。　　几乎每年都要推出一部贺岁片的冯小刚，前几年每年也要“推出”一部汽车。")));
-		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("先是拉达吉普，后又换了一辆夏利、富康、大宇、三凌轿车。现在，他开的是一辆红色奔驰轿车，原因是听别人说红颜色的车发生事故的机率特别低。")));
-		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("汽车之家为汽车消费者提供选车、买车、用车、换车等所有环节的全面、准确、快捷的一站式服务。汽车之家致力于通过产品服务、数据技术、生态规则和资源为用户和")));
-		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("我认为，在开车时与前车保持必要的距离也是至关重要的。我曾经吃过一次亏。那天，在北京双安桥上，我紧跟着前车顺行，忽然前车来了一个急刹车，我来不及停就撞在他后面了。当时车速是30迈，可我觉得震动是很大的。试想，如果是高速行车追尾，那后果一定不堪设想。有人想从中间加进来，我也绝不跟他们斗气，避免事故才是最重要的。”　　")));
+//		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("虽说冯小刚的奔驰车性能特别好,但他从不超速开车。“按规定速度行车,遇到突然的情况,就能够及时处理。否则,就没把握了。“开车上路不要随意超车，尽量少变更车道。超速、超车其实快不了哪儿去，就是你玩儿命超，也就是早个十分钟。前几天在五环路上，唰的一声，一辆车从我车旁飞过，他是从望京的出口出来，在路上正赶上红灯。我跟在他前后脚停住了，但他冒的风险很大。这就是年轻气盛，安全意识不强。要知道，生命是爹妈给的，而生命是非常脆弱的，要保护好。对自己负责，也要对亲人负责。要想想，你还有那么多事要做，还有那么多好日子要过，只是为了把车开快一点，而什么都没有了，太不值了吧！”说起上路感受，冯小刚滔滔不绝。　　几乎每年都要推出一部贺岁片的冯小刚，前几年每年也要“推出”一部汽车。")));
+//		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("先是拉达吉普，后又换了一辆夏利、富康、大宇、三凌轿车。现在，他开的是一辆红色奔驰轿车，原因是听别人说红颜色的车发生事故的机率特别低。")));
+//		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("汽车之家为汽车消费者提供选车、买车、用车、换车等所有环节的全面、准确、快捷的一站式服务。汽车之家致力于通过产品服务、数据技术、生态规则和资源为用户和")));
+//		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("我认为，在开车时与前车保持必要的距离也是至关重要的。我曾经吃过一次亏。那天，在北京双安桥上，我紧跟着前车顺行，忽然前车来了一个急刹车，我来不及停就撞在他后面了。当时车速是30迈，可我觉得震动是很大的。试想，如果是高速行车追尾，那后果一定不堪设想。有人想从中间加进来，我也绝不跟他们斗气，避免事故才是最重要的。”　　")));
+		System.out.println(JSON.toJSONString(linearSVMClassifier.predict("12月20日—26日各海关连续查获大量毒品")));
 	}
 
 	/**
@@ -235,7 +236,7 @@ public class HanLPDemo {
 	 */
 	public static void ckmDemo() throws CkmSoapException {
 		TrsCkmSoapClient trsCkmSoapClient = new TrsCkmSoapClient("http://127.0.0.1:8000", "admin", "trsadmin");
-		String autoCatModelName = "haiGuanModel";
+		String autoCatModelName = "demo";
 		// 读取自动分类模板
 		CATModelInfo catModelInfo = trsCkmSoapClient.CATGetModelInfo(autoCatModelName,
 				Constants.MODEL_TYPE_AUTO_CURRENT);
@@ -349,9 +350,10 @@ public class HanLPDemo {
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
 //		textClassificationDemo();
-//		testSelfTokenizer();
+		testSelfTokenizer();
 //		dependencyParser();
-		regexBeforeSegment();
+//		ckmDemo();
+//		regexBeforeSegment();
 //		emotionAnalysisDemo();
 //		createAutoCatFile();
 //		ckmSimModel();
