@@ -251,7 +251,11 @@ public class Brat2PKUPipe implements Pipe<List<IWord>, List<IWord>> {
 
 	public static void main(String[] args) throws IOException {
 		// 生成结构化感知器的语料库
-		AbstractLexicalAnalyzer abstractLexicalAnalyzer = new PerceptronLexicalAnalyzer(HanLP.Config.PerceptronCWSModelPath, HanLP.Config.PerceptronPOSModelPath);
+		AbstractLexicalAnalyzer abstractLexicalAnalyzer = null;
+
+		abstractLexicalAnalyzer = new PerceptronLexicalAnalyzer(HanLP.Config.PerceptronCWSModelPath, HanLP.Config.PerceptronPOSModelPath);
+		abstractLexicalAnalyzer = new CRFLexicalAnalyzer();
+
 		abstractLexicalAnalyzer.enableAllNamedEntityRecognize(false);
 		createCorpusByAnalyzer(abstractLexicalAnalyzer);
 		// 生成CRF的语料库

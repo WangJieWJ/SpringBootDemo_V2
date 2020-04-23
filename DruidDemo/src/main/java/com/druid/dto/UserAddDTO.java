@@ -1,9 +1,9 @@
 package com.druid.dto;
 
+import java.io.Serializable;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
-import java.io.Serializable;
 
 /**
  * Title:
@@ -14,47 +14,50 @@ import java.io.Serializable;
  * Author: 王杰
  * Create Time:2019/1/22 17:41
  */
-@ApiModel(value = "userAddDTO", description = "用户新增模型")
+@ApiModel(description = "用户新增模型")
 public class UserAddDTO implements Serializable {
 
-    @ApiModelProperty(notes = "用户名", example = "王杰")
-    private String userName;
-    @ApiModelProperty(notes = "年龄", example = "22")
-    private Integer age;
-    @ApiModelProperty(notes = "手机号", example = "18363997627")
-    private String phone;
-    @ApiModelProperty(notes = "用户地址", example = "山东省青岛市市南区")
-    private String address;
+	@ApiModelProperty(notes = "用户名", example = "王杰")
+	private String userName;
 
-    public String getUserName() {
-        return userName;
-    }
+	@ApiModelProperty(notes = "年龄", example = "22")
+	private Integer age;
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
+	@ApiModelProperty(notes = "手机号", example = "18363997627")
+	private String phone;
 
-    public Integer getAge() {
-        return age;
-    }
+	@ApiModelProperty(notes = "用户地址", example = "山东省青岛市市南区")
+	private String address;
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
+	public String getUserName() {
+		return userName;
+	}
 
-    public String getPhone() {
-        return phone;
-    }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+	public Integer getAge() {
+		return age;
+	}
 
-    public String getAddress() {
-        return address;
-    }
+	public void setAge(Integer age) {
+		this.age = age;
+	}
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 }

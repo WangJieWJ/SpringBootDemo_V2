@@ -2,8 +2,10 @@ package com.druid.service;
 
 import com.druid.dao.UserDao;
 import com.druid.dto.UserAddDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Title:
@@ -17,10 +19,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-    @Autowired
-    private UserDao userDao;
+	@Autowired
+	private UserDao userDao;
 
-    public void saveUserInfo(UserAddDTO userAddDTO) {
-        userDao.saveUserInfo(userAddDTO);
-    }
+	@Transactional(rollbackFor = ArithmeticException.class, noRollbackFor = ArithmeticException.class)
+	public void saveUserInfo(UserAddDTO userAddDTO) {
+		userDao.saveUserInfo(userAddDTO);
+		int a = 1 / 0;
+		try {
+			Thread.sleep(10000L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }

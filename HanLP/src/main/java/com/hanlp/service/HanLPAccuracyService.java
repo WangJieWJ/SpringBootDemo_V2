@@ -43,14 +43,19 @@ public class HanLPAccuracyService {
 		List<String> corpusDataList = FileUtils.readLines(new File(corpusDataPath), "UTF-8");
 		int startIndex = 0;
 		int endIndex = 0;
+		List<String> tempList = new ArrayList<>();
 		for (String corpusData : corpusDataList) {
+			tempList.clear();
 			StringJoiner joiner = new StringJoiner(";");
 			endIndex = startIndex + corpusData.length();
 			int finalStartIndex = startIndex;
 			int finalEndIndex = endIndex;
 			bratAnnInfoList.forEach(bratAnnInfo -> {
 				if (bratAnnInfo.getStartIndex() > finalStartIndex && bratAnnInfo.getEndIndex() < finalEndIndex) {
-					joiner.add(bratAnnInfo.getOriginName());
+					if (!tempList.contains(bratAnnInfo.getOriginName())) {
+						joiner.add(bratAnnInfo.getOriginName());
+						tempList.add(bratAnnInfo.getOriginName());
+					}
 				}
 			});
 			if (joiner.length() > 0) {

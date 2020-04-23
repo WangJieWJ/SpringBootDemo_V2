@@ -1,14 +1,11 @@
 package com.druid.controller.api;
 
 import com.druid.dto.UserAddDTO;
-import com.druid.vo.UserVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 
-import java.util.List;
-import java.util.Map;
+import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * Title:
@@ -23,8 +20,8 @@ import java.util.Map;
 public interface DruidApi {
 
 
-    @ApiOperation(value = "新增用户")
-    @ApiImplicitParam(name = "userAddDTO", value = "用户信息", dataTypeClass = UserAddDTO.class, required = true)
-    void saveUserInfo(UserAddDTO userAddDTO);
+	@ApiOperation(value = "新增用户")
+	@ApiImplicitParam(name = "userAddDTO", value = "用户信息", dataType = "UserAddDTO", required = true)
+	void saveUserInfo(@RequestBody UserAddDTO userAddDTO);
 
 }
