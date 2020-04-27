@@ -1,7 +1,12 @@
 package com.java8;
 
+import com.java8.aspect.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.annotation.Bean;
 
 /**
  * Title:
@@ -15,7 +20,22 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class Java8APP {
 
-    public static void main(String[] args) {
-        new SpringApplicationBuilder(Java8APP.class).web(true).run(args);
-    }
+	public static void main(String[] args) {
+		new SpringApplicationBuilder(Java8APP.class).web(true).run(args);
+	}
+
+	@Autowired
+	private UserService userService;
+
+	@Bean
+	public CommandLineRunner aspectRunner() {
+		return args -> {
+			userService.saveUser();
+			System.out.println("----------------------------------");
+			userService.updateUserInfo();
+			System.out.println("----------------------------------");
+			userService.deleteUser();
+			System.out.println("----------------------------------");
+		};
+	}
 }

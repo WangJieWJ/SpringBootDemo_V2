@@ -49,6 +49,17 @@ public class DBStoreService {
 		System.out.println(String.format("数据保存结果:%b", statement.execute(insertSql))); ;
 	}
 
+	/**
+	 * 查询数据
+	 * @param querySql
+	 * @return
+	 * @throws SQLException
+	 */
+	public static ResultSet findData(String querySql) throws SQLException {
+		Statement statement = connection.createStatement();
+		return statement.executeQuery(querySql);
+	}
+
 	public static void updateUnique(String nerTag) throws SQLException {
 		Statement statement = connection.createStatement();
 		ResultSet resultSet = statement.executeQuery(String.format("SELECT * FROM hanlp_accuracy WHERE ner_tag = '%s'", nerTag));

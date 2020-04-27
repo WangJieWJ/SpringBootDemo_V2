@@ -39,15 +39,15 @@ public class LockSupportDemo {
 				LockSupport.park();
 			}
 		});
-		t1.start();
 
 		t2 = new Thread(() -> {
 			for (char c : c2) {
+				LockSupport.park();
 				System.out.print(c);
 				LockSupport.unpark(t1);
-				LockSupport.park();
 			}
 		});
+		t1.start();
 		t2.start();
 	}
 }

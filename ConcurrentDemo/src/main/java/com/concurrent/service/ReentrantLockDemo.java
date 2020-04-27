@@ -26,8 +26,8 @@ public class ReentrantLockDemo {
 
 	public static void main(String[] args) {
 		new Thread(() -> {
+			reentrantLock.lock();
 			for (char c : c1) {
-				reentrantLock.lock();
 				System.out.print(c);
 				condition2.signal();
 				try {
@@ -35,24 +35,22 @@ public class ReentrantLockDemo {
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-
 				reentrantLock.unlock();
 			}
 		}).start();
 
 		new Thread(() -> {
+			reentrantLock.lock();
 			for (char c : c2) {
-				reentrantLock.lock();
-				System.out.print(c);
-				condition1.signal();
 				try {
 					condition2.await();
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				reentrantLock.unlock();
+				System.out.print(c);
+				condition1.signal();
 			}
-
+			reentrantLock.unlock();
 		}).start();
 
 	}

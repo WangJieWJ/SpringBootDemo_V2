@@ -24,8 +24,8 @@ public class SynchronizedDemo {
 
 	public static void main(String[] args) {
 		new Thread(() -> {
-			for (char c : c1) {
-				synchronized (lockObject) {
+			synchronized (lockObject) {
+				for (char c : c1) {
 					System.out.print(c);
 					lockObject.notify();
 					try {
@@ -35,13 +35,13 @@ public class SynchronizedDemo {
 						Thread.currentThread().interrupt();
 					}
 				}
+				lockObject.notify();
 			}
 		}).start();
-
 
 		new Thread(() -> {
-			for (char c : c2) {
-				synchronized (lockObject) {
+			synchronized (lockObject) {
+				for (char c : c2) {
 					System.out.print(c);
 					lockObject.notify();
 					try {
@@ -53,7 +53,6 @@ public class SynchronizedDemo {
 				}
 			}
 		}).start();
-
 
 	}
 
