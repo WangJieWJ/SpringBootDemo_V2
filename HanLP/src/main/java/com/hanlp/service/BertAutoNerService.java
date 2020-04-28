@@ -54,7 +54,7 @@ public class BertAutoNerService {
 	private static StringJoiner joiner = new StringJoiner("\n");
 
 	public static void queryAndFormatCustomsData() throws SQLException {
-		String querySql = String.format("SELECT content FROM customs_corpus LIMIT %d,200", (fileIndex - 1) * 200);
+		String querySql = String.format("SELECT content FROM customs_corpus_v3 LIMIT %d,200", (fileIndex - 1) * 200);
 		ResultSet resultSet = DBStoreService.findData(querySql);
 		while (resultSet.next()) {
 			formatCorpusDataList.addAll(Lists.newArrayList(resultSet.getString("content").split("\n")));
@@ -135,15 +135,15 @@ public class BertAutoNerService {
 	}
 
 	public static void saveAnnDataToFile() throws IOException {
-		File file = new File(String.format("/Users/wangjie/Development/nlp/brat-1.3p1/data/customs-v2/customs-data-%d.txt", fileIndex));
+		File file = new File(String.format("/Users/wangjie/Development/nlp/brat-1.3p1/data/customs-v3/customs-data-%d.txt", fileIndex));
 		FileUtils.writeLines(file, formatCorpusDataList, "\n", true);
 
-		File annFile = new File(String.format("/Users/wangjie/Development/nlp/brat-1.3p1/data/customs-v2/customs-data-%d.ann", fileIndex));
+		File annFile = new File(String.format("/Users/wangjie/Development/nlp/brat-1.3p1/data/customs-v3/customs-data-%d.ann", fileIndex));
 		FileUtils.write(annFile, joiner.toString(), "UTF-8");
 	}
 
 	public static void main(String[] args) throws SQLException, IOException {
-		for (int i = 0; i < 22; i++) {
+		for (int i = 0; i < 4; i++) {
 			fileIndex = (i + 1);
 			queryAndFormatCustomsData();
 			nerCustomsData();
