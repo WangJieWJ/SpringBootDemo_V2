@@ -168,15 +168,18 @@ public class CustomsBertService {
 	}
 
 	public static void main(String[] args) throws IOException {
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/internal-2019.txt");
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/internal-2020.txt");
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/nationwide-2019-2.txt");
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/nationwide-2019.txt");
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/nationwide-2020.txt");
-		createCustomsBertCorpus("/Users/wangjie/Downloads/corpus_30/external-2020.txt");
-		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/corpus_30/bert/train.txt"), trainCorpusBuilder.toString(), "UTF-8");
-		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/corpus_30/bert/dev.txt"), devCorpusBuilder.toString(), "UTF-8");
-		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/corpus_30/bert/test.txt"), testCorpusBuilder.toString(), "UTF-8");
+		String[] filePathName = new String[] { "customs", "customs-v2", "customs-v3" };
+		for (String fileName : filePathName) {
+			String parentPath = "/Users/wangjie/Downloads/data/" + fileName;
+			File file = new File(parentPath);
+			String[] fileNameArray = file.list((File dir, String name) -> name.endsWith(".txt"));
+			for (String name : fileNameArray) {
+				createCustomsBertCorpus(parentPath + "/" + name);
+			}
+		}
+		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/data/train.txt"), trainCorpusBuilder.toString(), "UTF-8");
+		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/data/dev.txt"), devCorpusBuilder.toString(), "UTF-8");
+		FileUtils.writeStringToFile(new File("/Users/wangjie/Downloads/data/test.txt"), testCorpusBuilder.toString(), "UTF-8");
 		System.out.println(segmentCount.get());
 
 		System.out.println(String.format("起运国：%s%n运抵国：%s%n涉及个人：%s%n涉及企业：%s%n查获组织：%s%n查获地点：%s%n申报货物：%s%n实际货物：%s",

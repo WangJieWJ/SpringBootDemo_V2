@@ -2,7 +2,8 @@ package com.hanlp.models;
 
 import java.util.List;
 
-import com.sun.tools.javac.util.Pair;
+import javafx.util.Pair;
+
 
 /**
  * Title: 

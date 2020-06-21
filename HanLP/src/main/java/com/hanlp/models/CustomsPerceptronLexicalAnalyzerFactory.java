@@ -20,7 +20,7 @@ import com.hanlp.constants.CustomsStructuredDataConstant;
 import com.hanlp.instance.CustomsNERInstanceFactory;
 import com.hanlp.instance.CustomsPOSFactory;
 import com.hanlp.nerecognizer.CustomsPerceptronNERecognizer;
-import com.sun.tools.javac.util.Pair;
+import javafx.util.Pair;
 import org.apache.commons.lang3.StringUtils;
 
 /**

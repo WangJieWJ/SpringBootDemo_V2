@@ -34,6 +34,7 @@ public class ShiroDemoController {
 	@PostMapping(value = "/check")
 	@ApiOperation(value = "check", notes = "shiro权限校验")
 	public void checkRights() {
+		int a = 1 / 0;
 		Subject subject = SecurityUtils.getSubject();
 
 		subject.login(new UserAuthenticationToken("WangJie", "123456"));
@@ -50,5 +51,18 @@ public class ShiroDemoController {
 		Session session = subject.getSession();
 		LOGGER.info("session Id:{}", session.getId());
 
+	}
+
+	public static void main(String[] args) {
+		Thread t1 = new Thread(() -> {
+			System.out.println("Enter Sleep!!!!");
+			try {
+				Thread.sleep(1000000L);
+			} catch (InterruptedException e) {
+				System.out.println("线程被打断!!!!");
+			}
+		});
+		System.out.println("准备打断线程！！");
+		t1.start();
 	}
 }

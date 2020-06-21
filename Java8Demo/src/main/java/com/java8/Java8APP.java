@@ -30,9 +30,9 @@ public class Java8APP {
 	@Bean
 	public CommandLineRunner aspectRunner() {
 		return args -> {
-			userService.saveUser();
-			System.out.println("----------------------------------");
-			userService.updateUserInfo();
+//			userService.saveUser();
+//			System.out.println("----------------------------------");
+//			userService.updateUserInfo();
 			System.out.println("----------------------------------");
 			userService.deleteUser();
 			System.out.println("----------------------------------");

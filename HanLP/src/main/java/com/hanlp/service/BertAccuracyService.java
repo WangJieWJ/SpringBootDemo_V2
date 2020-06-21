@@ -149,7 +149,7 @@ public class BertAccuracyService {
 
 	public static void saveBertResult() throws SQLException {
 		StringJoiner joiner = new StringJoiner(",",
-				"INSERT INTO bert_accuracy(`ner_label`,`corpus`,`mark_result`,`ner_result`) VALUES",
+				"INSERT INTO bert_RoBERTa_accuracy(`ner_label`,`corpus`,`mark_result`,`ner_result`) VALUES",
 				"");
 
 		resultList.forEach(itemMap -> {

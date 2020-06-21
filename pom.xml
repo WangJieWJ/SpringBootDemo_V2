@@ -38,6 +38,7 @@
 		<module>ShiroDemo</module>
 		<module>SearchUtils</module>
 		<module>JavaBeans</module>
+		<module>TransactionDemo</module>
 	</modules>
 
     <dependencies>

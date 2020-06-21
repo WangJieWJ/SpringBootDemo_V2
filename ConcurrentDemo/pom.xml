@@ -12,4 +12,37 @@
     <artifactId>ConcurrentDemo</artifactId>
 
 
+	<dependencies>
+		<dependency>
+			<groupId>com.trs</groupId>
+			<artifactId>trsckmsoap</artifactId>
+			<version>V6</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>haier-maven-plugin-repository</id>
+			<url>http://test.haier.com/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>

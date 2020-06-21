@@ -1,5 +1,8 @@
 package com.pay;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * Title:
  * Description:
@@ -9,5 +12,14 @@ package com.pay;
  * Author: 王杰
  * Create Time:2019/1/28 18:12
  */
+@SpringBootApplication
 public class PayApp {
+
+	public static void main(String[] args) {
+		new SpringApplication(PayApp.class).run(args);
+//		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+//		applicationContext.register(PayApp.class);
+//		applicationContext.refresh();
+//		applicationContext.close();
+	}
 }

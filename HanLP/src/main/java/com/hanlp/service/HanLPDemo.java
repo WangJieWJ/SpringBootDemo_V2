@@ -48,8 +48,8 @@ import com.trs.ckm.soap.TrsCkmSoapClient;
 import org.springframework.stereotype.Service;
 
 /**
- * Title: 
- * Description: 
+ * Title:
+ * Description:
  * Copyright: 2019 北京拓尔思信息技术股份有限公司 版权所有.保留所有权
  * Company:北京拓尔思信息技术股份有限公司(TRS)
  * Project: SpringBootDemo
@@ -350,13 +350,17 @@ public class HanLPDemo {
 	public static void main(String[] args) throws Exception {
 //		loadDictionaryDemo("/Users/wangjie/Development/ELK/hanlp/data/dictionary/CoreNatureDictionary.txt");
 //		textClassificationDemo();
-		testSelfTokenizer();
+//		testSelfTokenizer();
 //		dependencyParser();
 //		ckmDemo();
 //		regexBeforeSegment();
 //		emotionAnalysisDemo();
 //		createAutoCatFile();
 //		ckmSimModel();
+		PerceptronLexicalAnalyzer perceptronLexicalAnalyzer = new PerceptronLexicalAnalyzer();
+		System.out.println(perceptronLexicalAnalyzer.analyze("玻璃纤维网格布为玻璃纤维机织物经进一步涂胶处理的产品，从商品的基本特征看，仍属于玻璃纤维机织物的商品范畴，根据归类总规则一及六，经参考w-2-5100-2010-0102归类指导意见，“玻璃纤维网格布”应归入税则号列7019.5900"));
+		System.out.println(perceptronLexicalAnalyzer.analyze("青岛桑迪益科工贸有限公司于2019年5月14日以一般贸易方式申报出口太阳能热水器配件(集热管)等，报关单号425820190000436990。经查验并归类认定，第1项货物应归入税号7020009990（出口退税率为零，无出口监管证件）"));;
+
 //		segment("东莞海关查获一批进口医疗器械外包装标签违反“一个中国”原则的情事。2019年10月16日，东莞海关查验部门在对一批从中国台湾进口的61套、价值375546元人民币的医疗器械进行查验时，发现该批医疗器械的外包装标签上标注了“ROC”字样，违反了“一个中国”的原则。该关按照规定责令企业进行整改，并清除相关标签。");
 	}
 }

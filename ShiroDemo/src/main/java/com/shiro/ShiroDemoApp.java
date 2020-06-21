@@ -1,7 +1,7 @@
 package com.shiro;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 /**
  * Title: 
@@ -16,7 +16,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class ShiroDemoApp {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(ShiroDemoApp.class).web(true).run(args);
+		SpringApplication.run(ShiroDemoApp.class, args);
 	}
 
 }
