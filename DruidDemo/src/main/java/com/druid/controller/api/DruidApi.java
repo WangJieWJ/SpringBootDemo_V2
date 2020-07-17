@@ -24,4 +24,6 @@ public interface DruidApi {
 	@ApiImplicitParam(name = "userAddDTO", value = "用户信息", dataType = "UserAddDTO", required = true)
 	void saveUserInfo(@RequestBody UserAddDTO userAddDTO);
 
+	@ApiOperation(value = "事务管理")
+	void transaction();
 }

@@ -2,7 +2,9 @@ package com.druid.controller;
 
 import com.druid.controller.api.DruidApi;
 import com.druid.dto.UserAddDTO;
+import com.druid.service.TransactionDemoService;
 import com.druid.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,15 +21,24 @@ import org.springframework.web.bind.annotation.RestController;
  * Create Time:2019/1/22 11:04
  */
 @RestController
-@RequestMapping(value = "/druid")
+@RequestMapping(value = "/webApi")
 public class DruidController implements DruidApi {
 
-    @Autowired
-    private UserService userService;
+	@Autowired
+	private UserService userService;
 
-    @Override
-    @PostMapping(value = "/saveUserInfo")
-    public void saveUserInfo(@RequestBody UserAddDTO userAddDTO) {
-        userService.saveUserInfo(userAddDTO);
-    }
+	@Autowired
+	private TransactionDemoService transactionDemoService;
+
+	@Override
+	@PostMapping(value = "/saveUserInfo")
+	public void saveUserInfo(@RequestBody UserAddDTO userAddDTO) {
+		userService.saveUserInfo(userAddDTO);
+	}
+
+	@Override
+	@PostMapping(value = "/transaction")
+	public void transaction() {
+		transactionDemoService.transaction();
+	}
 }

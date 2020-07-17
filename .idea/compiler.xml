@@ -12,14 +12,15 @@
         <module name="ESDemo" />
         <module name="MachineLearningDemo" />
         <module name="Java8Demo" />
-        <module name="ZookeeperDemo" />
+        <module name="HanLP" />
+        <module name="Disruptor" />
         <module name="TransactionDemo" />
         <module name="DruidDemo" />
-        <module name="HanLP" />
         <module name="RedisDemo" />
         <module name="JavaBeans" />
         <module name="RabbitMQDemo" />
         <module name="SearchUtils" />
+        <module name="ZookeeperDemo" />
         <module name="ConcurrentDemo" />
         <module name="KafkaDemo" />
       </profile>

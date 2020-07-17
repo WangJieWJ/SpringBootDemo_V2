@@ -25,7 +25,6 @@ public class UserService {
 	@Transactional(rollbackFor = ArithmeticException.class, noRollbackFor = ArithmeticException.class)
 	public void saveUserInfo(UserAddDTO userAddDTO) {
 		userDao.saveUserInfo(userAddDTO);
-		int a = 1 / 0;
 		try {
 			Thread.sleep(10000L);
 		} catch (InterruptedException e) {

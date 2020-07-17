@@ -39,6 +39,7 @@
 		<module>SearchUtils</module>
 		<module>JavaBeans</module>
 		<module>TransactionDemo</module>
+		<module>Disruptor</module>
 	</modules>
 
     <dependencies>
